@@ -245,25 +245,25 @@ export async function fetchGithubCache(token: string, username: string): Promise
 	};
 }
 
-function semesterKey(dateString: string) {
+function quarterKey(dateString: string) {
 	const date = new Date(dateString);
-	const semester = date.getUTCMonth() < 6 ? 'H1' : 'H2';
-	return `${date.getUTCFullYear()} ${semester}`;
+	const quarter = Math.floor(date.getUTCMonth() / 3) + 1;
+	return `${date.getUTCFullYear()} Q${quarter}`;
 }
 
 function buildLanguageTimeline(
 	repos: { owner: { login: string }; name: string; created_at: string }[],
 	repoLanguagesByKey: Map<string, Set<string>>,
 ) {
-	const semesters = [...new Set(repos.map((repo) => semesterKey(repo.created_at)))].sort();
-	return semesters.map((semester) => {
+	const quarters = [...new Set(repos.map((repo) => quarterKey(repo.created_at)))].sort();
+	return quarters.map((quarter) => {
 		const languages: Record<string, number> = {};
 		for (const repo of repos) {
-			if (semesterKey(repo.created_at) > semester) continue;
+			if (quarterKey(repo.created_at) !== quarter) continue;
 			for (const language of repoLanguagesByKey.get(`${repo.owner.login}/${repo.name}`) ?? []) {
 				languages[language] = (languages[language] ?? 0) + 1;
 			}
 		}
-		return { semester, languages };
+		return { semester: quarter, languages };
 	});
 }
