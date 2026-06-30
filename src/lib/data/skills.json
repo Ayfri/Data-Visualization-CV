@@ -1,0 +1,8 @@
+[
+  { "name": "TypeScript", "category": "language", "level": 5 },
+  { "name": "Kotlin",     "category": "language", "level": 4 },
+  { "name": "Svelte",     "category": "framework", "level": 4 },
+  { "name": "Node.js",    "category": "framework", "level": 4 },
+  { "name": "Git",        "category": "tool", "level": 5 },
+  { "name": "Docker",     "category": "tool", "level": 3 }
+]

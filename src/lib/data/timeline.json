@@ -1,0 +1,9 @@
+[
+  {
+    "id": "placeholder",
+    "date": "2020-09",
+    "title": "Add career events",
+    "description": "Edit src/lib/data/timeline.json to populate the career timeline.",
+    "category": "work"
+  }
+]
