@@ -7,13 +7,13 @@ export interface GithubCache {
 	languageRepos?: Record<string, number>;
 	languageFiles?: Record<string, number>;
 	languageTimeline?: { semester: string; languages: Record<string, number> }[];
-	totalRepoCount?: number;
 	repos: {
 		name: string;
 		description: string | null;
 		stars: number;
 		topics: string[];
 		url: string;
+		isPrivate: boolean;
 	}[];
 	starHistories?: {
 		name: string;

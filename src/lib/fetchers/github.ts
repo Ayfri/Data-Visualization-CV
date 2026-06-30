@@ -217,6 +217,7 @@ export async function fetchGithubCache(token: string, username: string): Promise
 	);
 
 	const publicRepos = ownRepos.filter((r) => !r.private);
+	const privateRepos = ownRepos.filter((r) => r.private);
 
 	return {
 		fetchedAt: now.toISOString(),
@@ -225,14 +226,24 @@ export async function fetchGithubCache(token: string, username: string): Promise
 		languageRepos,
 		languageFiles,
 		languageTimeline,
-		totalRepoCount: ownRepos.length,
-		repos: publicRepos.map((r) => ({
-			name: r.name,
-			description: r.description,
-			stars: r.stargazers_count,
-			topics: r.topics,
-			url: r.html_url,
-		})),
+		repos: [
+			...publicRepos.map((r) => ({
+				name: r.name,
+				description: r.description,
+				stars: r.stargazers_count,
+				topics: r.topics,
+				url: r.html_url,
+				isPrivate: false as const,
+			})),
+			...privateRepos.map((_, i) => ({
+				name: `private-${i + 1}`,
+				description: null,
+				stars: 0,
+				topics: [] as string[],
+				url: '',
+				isPrivate: true as const,
+			})),
+		],
 		starHistories,
 	};
 }

@@ -27,7 +27,7 @@ export function toLanguageSlices(github: GithubCache): LanguageSlice[] {
 		...Object.keys(fileCounts),
 		...Object.keys(byteCounts),
 	]);
-	const repoTotal = Math.max(1, github.totalRepoCount ?? github.repos.length);
+	const repoTotal = Math.max(1, github.repos.length);
 	const fileTotal = Math.max(1, Object.values(fileCounts).reduce((sum, count) => sum + count, 0));
 	const byteTotal = Math.max(1, Object.values(byteCounts).reduce((sum, bytes) => sum + bytes, 0));
 
