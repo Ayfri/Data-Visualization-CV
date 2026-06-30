@@ -21,3 +21,10 @@ Thumbs.db
 # Vite
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Discord raw export
+src/lib/data/raw/
+
+# Editor
+.idea/
+.vscode/
