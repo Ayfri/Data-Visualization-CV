@@ -1,9 +1,79 @@
 [
   {
-    "id": "placeholder",
+    "id": "python-first-steps",
+    "date": "2014",
+    "title": "First programming steps with Python",
+    "description": "Started programming independently, with Python as an early entry point into building tools and experiments.",
+    "category": "personal"
+  },
+  {
+    "id": "minecraft-kotlin-focus",
+    "date": "2019",
+    "title": "Minecraft tooling and Kotlin focus",
+    "description": "Started converging personal projects around Minecraft data-driven tooling, Kotlin, and developer experience.",
+    "category": "project"
+  },
+  {
+    "id": "ynov-aix",
     "date": "2020-09",
-    "title": "Add career events",
-    "description": "Edit src/lib/data/timeline.json to populate the career timeline.",
+    "title": "IT studies at Ynov Aix",
+    "description": "Studied computer science in Aix-en-Provence while continuing to ship public projects and technical articles.",
+    "category": "education"
+  },
+  {
+    "id": "bluefrog-wordpress",
+    "date": "2021",
+    "title": "BlueFrog internship",
+    "description": "Worked on WordPress sites and gained professional experience delivering web projects for clients.",
     "category": "work"
+  },
+  {
+    "id": "advanced-command-handler",
+    "date": "2022",
+    "title": "Advanced Command Handler",
+    "description": "Built and maintained a TypeScript command framework using class-based command organization.",
+    "category": "project"
+  },
+  {
+    "id": "pixi-kotlin",
+    "date": "2023",
+    "title": "PIXI-Kotlin",
+    "description": "Created Kotlin/JS bindings for PIXI.js, combining Kotlin ergonomics with browser graphics tooling.",
+    "category": "project"
+  },
+  {
+    "id": "scriptgraf-ai",
+    "date": "2024",
+    "title": "ScriptGraf AI project at Ynov",
+    "description": "Worked on AI-oriented tooling through Ynov, expanding beyond web and game tooling into applied AI workflows.",
+    "category": "education"
+  },
+  {
+    "id": "kore-datapack-generator",
+    "date": "2024",
+    "title": "Kore becomes the flagship project",
+    "description": "Kore matured into a modern, type-safe Kotlin generator for Minecraft datapacks with documentation, examples, and community links.",
+    "category": "project"
+  },
+  {
+    "id": "atom-clicker-supabase",
+    "date": "2025-05",
+    "title": "Atom Clicker moves to Supabase",
+    "description": "Added authentication, cloud saves, leaderboard infrastructure, and social features to the Pixi.js/Svelte game.",
+    "category": "project"
+  },
+  {
+    "id": "svelte5-class-state",
+    "date": "2025",
+    "title": "Svelte 5 class-state article",
+    "description": "Published technical writing on using Svelte 5 $state in class fields, based on Atom Clicker architecture work.",
+    "category": "project"
+  },
+  {
+    "id": "kore-boss-fight-article",
+    "date": "2026",
+    "title": "Kore boss fight article",
+    "description": "Published a practical Kore article showing a Minecraft boss fight built with item components, VFX, boss bars, and state machines.",
+    "category": "project"
   }
 ]
