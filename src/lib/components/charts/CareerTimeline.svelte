@@ -19,24 +19,24 @@
 
 	const COLOR_CLASSES = {
 		emerald: {
-			dot: 'bg-emerald-500 shadow-emerald-500/50',
-			badge: 'bg-emerald-500/10 text-emerald-400 border-emerald-500/20',
-			line: 'from-emerald-500/40 to-transparent',
+			dot: 'bg-lime-200 shadow-lime-200/30',
+			badge: 'bg-lime-200/10 text-lime-100 border-lime-200/20',
+			line: 'from-lime-200/30 to-transparent',
 		},
 		violet: {
-			dot: 'bg-violet-500 shadow-violet-500/50',
-			badge: 'bg-violet-500/10 text-violet-400 border-violet-500/20',
-			line: 'from-violet-500/40 to-transparent',
+			dot: 'bg-zinc-300 shadow-zinc-300/30',
+			badge: 'bg-zinc-400/10 text-zinc-300 border-zinc-400/20',
+			line: 'from-zinc-300/30 to-transparent',
 		},
 		amber: {
-			dot: 'bg-amber-500 shadow-amber-500/50',
-			badge: 'bg-amber-500/10 text-amber-400 border-amber-500/20',
-			line: 'from-amber-500/40 to-transparent',
+			dot: 'bg-stone-300 shadow-stone-300/30',
+			badge: 'bg-stone-400/10 text-stone-300 border-stone-400/20',
+			line: 'from-stone-300/30 to-transparent',
 		},
 		blue: {
-			dot: 'bg-blue-500 shadow-blue-500/50',
-			badge: 'bg-blue-500/10 text-blue-400 border-blue-500/20',
-			line: 'from-blue-500/40 to-transparent',
+			dot: 'bg-neutral-300 shadow-neutral-300/30',
+			badge: 'bg-neutral-400/10 text-neutral-300 border-neutral-400/20',
+			line: 'from-neutral-300/30 to-transparent',
 		},
 	} as const;
 </script>
@@ -49,14 +49,14 @@
 			<!-- Timeline line -->
 			{#if i < sorted.length - 1}
 				<div
-					class="absolute left-[19px] top-10 h-full w-px bg-gradient-to-b from-slate-700 to-transparent"
+					class="absolute left-4.75 top-10 h-full w-px bg-linear-to-b from-zinc-700 to-transparent"
 				></div>
 			{/if}
 
 			<!-- Dot -->
-			<div class="relative z-10 flex-shrink-0">
+			<div class="relative z-10 shrink-0">
 				<div
-					class="flex h-10 w-10 items-center justify-center rounded-full border-2 border-slate-800 bg-slate-900 shadow-lg {colors.dot} shadow-sm"
+					class="flex h-10 w-10 items-center justify-center rounded-md border-2 border-zinc-800 bg-zinc-950 shadow-lg {colors.dot} shadow-sm"
 				>
 					<style.icon size={16} class="text-white" />
 				</div>
@@ -67,7 +67,7 @@
 				<div class="flex flex-wrap items-start justify-between gap-2">
 					<div>
 						<h3 class="font-semibold text-white">{entry.title}</h3>
-						<time class="block text-xs text-slate-500 mt-0.5">
+						<time class="mt-0.5 block text-xs text-zinc-600">
 							{entry.date}{entry.endDate ? ` - ${entry.endDate}` : ''}
 						</time>
 					</div>
@@ -78,7 +78,7 @@
 					</span>
 				</div>
 				{#if entry.description}
-					<p class="mt-2 text-sm leading-relaxed text-slate-400">{entry.description}</p>
+					<p class="mt-2 text-sm leading-relaxed text-zinc-500">{entry.description}</p>
 				{/if}
 			</div>
 		</div>

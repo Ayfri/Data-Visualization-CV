@@ -8,10 +8,10 @@
 	let { skills }: Props = $props();
 
 	const CATEGORY_COLOR: Record<string, string> = {
-		language: '#10b981',
-		framework: '#8b5cf6',
-		tool: '#f59e0b',
-		'soft-skill': '#3b82f6',
+		language: '#c8d08a',
+		framework: '#a8a29e',
+		tool: '#b8926a',
+		'soft-skill': '#8aa1a8',
 	};
 
 	const SIZE = 300;
@@ -71,7 +71,7 @@
 			<!-- Category label -->
 			<div class="flex items-center gap-2">
 				<div class="h-2 w-2 rounded-full" style="background-color: {color}"></div>
-				<span class="text-xs font-medium capitalize text-slate-400">{category.replace('-', ' ')}</span>
+				<span class="text-xs font-medium capitalize text-zinc-500">{category.replace('-', ' ')}</span>
 			</div>
 
 			<svg width={SIZE} height={SIZE} viewBox="0 0 {SIZE} {SIZE}" class="overflow-visible">
@@ -80,7 +80,7 @@
 					<polygon
 						points={gridPoints(catSkills, l + 1)}
 						fill="none"
-						stroke="#1e293b"
+						stroke="#27272a"
 						stroke-width="1"
 					/>
 				{/each}
@@ -89,7 +89,7 @@
 				{#each catSkills as _, i (i)}
 					{@const angle = (360 / catSkills.length) * i}
 					{@const [x, y] = polarToCart(angle, R)}
-					<line x1={CX} y1={CY} x2={x} y2={y} stroke="#1e293b" stroke-width="1" />
+					<line x1={CX} y1={CY} x2={x} y2={y} stroke="#27272a" stroke-width="1" />
 				{/each}
 
 				<!-- Data polygon -->
@@ -105,7 +105,7 @@
 				{#each catSkills as skill, i (skill.name)}
 					{@const angle = (360 / catSkills.length) * i}
 					{@const [x, y] = polarToCart(angle, (skill.level / 5) * R)}
-					<circle cx={x} cy={y} r="4" fill={color} stroke="#0f172a" stroke-width="2" />
+					<circle cx={x} cy={y} r="4" fill={color} stroke="#09090b" stroke-width="2" />
 				{/each}
 
 				<!-- Labels -->
@@ -118,7 +118,7 @@
 						text-anchor="middle"
 						dominant-baseline="middle"
 						font-size="11"
-						fill="#94a3b8"
+						fill="#a1a1aa"
 						font-family="system-ui, sans-serif"
 					>
 						{skill.name}
@@ -130,10 +130,10 @@
 </div>
 
 <!-- Level indicator -->
-<div class="mt-4 flex items-center justify-center gap-4 text-xs text-slate-500">
+<div class="mt-4 flex items-center justify-center gap-4 text-xs text-zinc-600">
 	{#each [1, 2, 3, 4, 5] as level (level)}
 		<div class="flex items-center gap-1.5">
-			<div class="h-1.5 w-1.5 rounded-full bg-slate-600"></div>
+			<div class="h-1.5 w-1.5 rounded-full bg-zinc-600"></div>
 			<span>{level}/5</span>
 		</div>
 	{/each}
