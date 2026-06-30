@@ -11,7 +11,7 @@
 	const maxCount = $derived(Math.max(1, ...cells.map((c) => c.count)));
 
 	// Group cells by week column
-	const weeks = $derived(() => {
+	const weeks = $derived.by(() => {
 		const map = new Map<number, HeatmapCell[]>();
 		for (const cell of cells) {
 			const arr = map.get(cell.week) ?? [];
@@ -24,10 +24,10 @@
 	});
 
 	// Month label positions
-	const monthLabels = $derived(() => {
+	const monthLabels = $derived.by(() => {
 		const seen = new Set<string>();
 		const labels: { weekIndex: number; label: string }[] = [];
-		weeks().forEach((days, weekIndex) => {
+		weeks.forEach((days, weekIndex) => {
 			const first = days[0];
 			if (!first) return;
 			const month = first.date.slice(0, 7);
@@ -68,7 +68,7 @@
 	<div class="inline-block min-w-full">
 		<!-- Month labels -->
 		<div class="mb-1 flex" style="padding-left: 2rem;">
-			{#each monthLabels() as { weekIndex, label } (weekIndex)}
+			{#each monthLabels as { weekIndex, label } (weekIndex)}
 				<div
 					class="text-xs text-slate-500"
 					style="position: relative; left: {weekIndex * 14}px; min-width: 0;"
@@ -90,7 +90,7 @@
 
 			<!-- Grid -->
 			<div class="flex gap-px" role="img" aria-label="GitHub contribution heatmap for the past year">
-				{#each weeks() as week, wi (wi)}
+				{#each weeks as week, wi (wi)}
 					<div class="flex flex-col gap-px">
 						{#each Array(7) as _, day (day)}
 							{@const cell = week.find((c) => c.dayOfWeek === day)}

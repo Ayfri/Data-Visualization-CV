@@ -14,7 +14,7 @@
 	const LEVEL_LABEL = ['', 'Familiar', 'Competent', 'Proficient', 'Advanced', 'Expert'];
 	const CATEGORY_ORDER = ['language', 'framework', 'tool', 'soft-skill'] as const;
 
-	const byCategory = $derived(() => {
+	const byCategory = $derived.by(() => {
 		return CATEGORY_ORDER.map((cat) => ({
 			category: cat,
 			skills: skills.filter((s) => s.category === cat).sort((a, b) => b.level - a.level),
@@ -40,7 +40,7 @@
 
 	<!-- Skill bars by category -->
 	<div class="mb-12 grid gap-8 sm:grid-cols-2">
-		{#each byCategory() as group (group.category)}
+		{#each byCategory as group (group.category)}
 			<div>
 				<h3 class="mb-4 text-xs font-semibold uppercase tracking-widest text-slate-500">
 					{group.category.replace('-', ' ')}

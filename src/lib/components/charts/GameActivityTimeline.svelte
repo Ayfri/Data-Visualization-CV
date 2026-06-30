@@ -11,7 +11,7 @@
 	const totalMinutes = $derived(days.reduce((s, d) => s + d.minutesPlayed, 0));
 
 	// Top games by total minutes
-	const topGames = $derived(() => {
+	const topGames = $derived.by(() => {
 		const map = new Map<string, number>();
 		for (const d of days) {
 			map.set(d.gameName, (map.get(d.gameName) ?? 0) + d.minutesPlayed);
@@ -47,17 +47,17 @@
 				<p class="text-xs text-slate-500">active days</p>
 			</div>
 			<div class="rounded-xl border border-slate-800 bg-slate-900/60 p-4 text-center">
-				<p class="text-2xl font-bold text-white">{topGames().length}</p>
+				<p class="text-2xl font-bold text-white">{topGames.length}</p>
 				<p class="text-xs text-slate-500">games played</p>
 			</div>
 		</div>
 
-		{#if topGames().length > 0}
+		{#if topGames.length > 0}
 			<div>
 				<p class="mb-3 text-xs font-medium uppercase tracking-wide text-slate-500">Top games via Discord</p>
 				<div class="space-y-2">
-					{#each topGames() as game (game.name)}
-						{@const maxH = topGames()[0].hours}
+					{#each topGames as game (game.name)}
+						{@const maxH = topGames[0].hours}
 						<div class="flex items-center gap-3">
 							<span class="w-32 truncate text-right text-sm text-slate-300">{game.name}</span>
 							<div class="h-2.5 flex-1 overflow-hidden rounded-full bg-slate-800">

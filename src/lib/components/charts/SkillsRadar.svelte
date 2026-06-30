@@ -21,7 +21,7 @@
 	const LEVELS = 5;
 
 	// Separate by category for grouped display
-	const categories = $derived(() => {
+	const categories = $derived.by(() => {
 		const map = new Map<string, Skill[]>();
 		for (const s of skills) {
 			const arr = map.get(s.category) ?? [];
@@ -37,7 +37,7 @@
 	}
 
 	// Radar per category, side by side
-	const catEntries = $derived(Array.from(categories().entries()));
+	const catEntries = $derived(Array.from(categories.entries()));
 
 	function radarPoints(catSkills: Skill[], radiusScale: number = 1): string {
 		const n = catSkills.length;
