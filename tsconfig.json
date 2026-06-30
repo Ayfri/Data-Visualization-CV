@@ -14,5 +14,10 @@
 		"types": [
 			"./worker-configuration.d.ts"
 		]
-	}
+	},
+	"exclude": [
+		".svelte-kit/**",
+		"dist/**",
+		"build/**"
+	]
 }
