@@ -10,13 +10,15 @@
 		"prepare": "svelte-kit sync || echo ''",
 		"check": "wrangler types --check && svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-		"gen": "wrangler types"
+		"gen": "wrangler types",
+		"fetch:data": "bun run scripts/fetch-data.ts"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-cloudflare": "^7.2.9",
 		"@sveltejs/kit": "^2.68.0",
 		"@sveltejs/vite-plugin-svelte": "^7.1.2",
 		"@tailwindcss/vite": "^4.3.2",
+		"@types/d3-scale": "^4.0.9",
 		"svelte": "^5.56.4",
 		"svelte-check": "^4.7.1",
 		"tailwindcss": "^4.3.2",
@@ -25,6 +27,9 @@
 		"wrangler": "^4.105.0"
 	},
 	"dependencies": {
-		"@lucide/svelte": "1.22.0"
+		"@lucide/svelte": "1.22.0",
+		"d3-scale": "^4.0.2",
+		"layercake": "^10.0.2",
+		"layerchart": "^2.0.0-next.65"
 	}
 }
