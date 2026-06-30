@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-06-30T12:32:27.539Z",
+  "fetchedAt": "2026-06-30T13:34:59.539Z",
   "contributionCalendar": [
     {
       "date": "2025-06-29",
@@ -1467,48 +1467,399 @@
     },
     {
       "date": "2026-06-30",
-      "count": 13
+      "count": 24
     }
   ],
   "languageBytes": {
-    "TypeScript": 1177541,
-    "Svelte": 1343316,
-    "HTML": 176654,
-    "CSS": 135539,
-    "Kotlin": 3843664,
-    "JavaScript": 363734,
-    "PHP": 33210,
-    "C++": 76347,
-    "CMake": 6437,
-    "C#": 50540,
-    "C": 143267,
-    "Objective-C": 1152,
-    "Jupyter Notebook": 7837216,
-    "Python": 626614,
-    "Java": 236863,
-    "Go": 87304,
-    "Dockerfile": 2234,
+    "TypeScript": 3201460,
+    "Svelte": 2608721,
+    "HTML": 84841,
+    "CSS": 132850,
+    "Kotlin": 3777752,
+    "JavaScript": 299084,
+    "Java": 71019,
+    "Python": 5457744,
+    "Batchfile": 12306,
+    "Jinja": 21060,
+    "Shell": 49194,
+    "Dockerfile": 22918,
+    "PowerShell": 42288,
+    "MDX": 3341,
     "Mako": 704,
-    "Shell": 251,
-    "GDScript": 65502,
-    "Groovy": 547,
-    "Batchfile": 958,
-    "Vue": 37242
+    "Jupyter Notebook": 22414089,
+    "Makefile": 2648,
+    "PLpgSQL": 2728,
+    "GDScript": 1277689,
+    "PHP": 1437,
+    "Astro": 89022,
+    "GDShader": 4025,
+    "Go": 50138,
+    "Vue": 1380484,
+    "EJS": 11035
   },
+  "languageRepos": {
+    "Markdown": 87,
+    "JSON": 48,
+    "TypeScript": 36,
+    "HTML": 27,
+    "Svelte": 20,
+    "CSS": 36,
+    "YAML": 51,
+    "Kotlin": 13,
+    "TOML": 33,
+    "JavaScript": 30,
+    "Java": 3,
+    "Python": 33,
+    "SQL": 8,
+    "Makefile": 2,
+    "Jupyter Notebook": 10,
+    "Dockerfile": 17,
+    "XML": 7,
+    "Shell": 9,
+    "Go": 1,
+    "Vue": 3
+  },
+  "languageFiles": {
+    "Markdown": 339,
+    "JSON": 239,
+    "TypeScript": 983,
+    "HTML": 48,
+    "Svelte": 482,
+    "CSS": 65,
+    "YAML": 102,
+    "Kotlin": 1798,
+    "TOML": 55,
+    "JavaScript": 151,
+    "Java": 41,
+    "Python": 944,
+    "SQL": 40,
+    "Makefile": 2,
+    "Jupyter Notebook": 26,
+    "Dockerfile": 34,
+    "XML": 21,
+    "Shell": 18,
+    "Go": 44,
+    "Vue": 170
+  },
+  "languageTimeline": [
+    {
+      "semester": "2019 H2",
+      "languages": {
+        "JSON": 1,
+        "YAML": 1,
+        "Markdown": 1,
+        "TypeScript": 1,
+        "Python": 1,
+        "JavaScript": 1
+      }
+    },
+    {
+      "semester": "2020 H1",
+      "languages": {
+        "YAML": 4,
+        "Markdown": 4,
+        "JavaScript": 3,
+        "JSON": 3,
+        "TypeScript": 2,
+        "Java": 1,
+        "Python": 1
+      }
+    },
+    {
+      "semester": "2020 H2",
+      "languages": {
+        "YAML": 7,
+        "Markdown": 9,
+        "JSON": 5,
+        "TypeScript": 4,
+        "Java": 2,
+        "Dockerfile": 2,
+        "Shell": 1,
+        "JavaScript": 4,
+        "Kotlin": 1,
+        "SQL": 1,
+        "TOML": 1,
+        "XML": 1,
+        "Python": 1
+      }
+    },
+    {
+      "semester": "2021 H1",
+      "languages": {
+        "YAML": 8,
+        "Markdown": 12,
+        "JSON": 7,
+        "TypeScript": 6,
+        "Java": 2,
+        "JavaScript": 6,
+        "HTML": 3,
+        "CSS": 3,
+        "Dockerfile": 2,
+        "Shell": 1,
+        "Kotlin": 2,
+        "SQL": 1,
+        "TOML": 1,
+        "XML": 1,
+        "Python": 1
+      }
+    },
+    {
+      "semester": "2021 H2",
+      "languages": {
+        "YAML": 8,
+        "Markdown": 13,
+        "JSON": 7,
+        "TypeScript": 6,
+        "Java": 2,
+        "JavaScript": 6,
+        "HTML": 4,
+        "CSS": 4,
+        "Dockerfile": 2,
+        "Shell": 1,
+        "Kotlin": 2,
+        "SQL": 1,
+        "TOML": 1,
+        "XML": 1,
+        "Python": 1
+      }
+    },
+    {
+      "semester": "2022 H1",
+      "languages": {
+        "YAML": 9,
+        "Markdown": 14,
+        "Kotlin": 3,
+        "TOML": 2,
+        "CSS": 5,
+        "JavaScript": 7,
+        "JSON": 7,
+        "TypeScript": 6,
+        "Java": 2,
+        "HTML": 4,
+        "Dockerfile": 2,
+        "Shell": 1,
+        "SQL": 1,
+        "XML": 1,
+        "Python": 1
+      }
+    },
+    {
+      "semester": "2022 H2",
+      "languages": {
+        "YAML": 11,
+        "Markdown": 17,
+        "Kotlin": 5,
+        "TOML": 3,
+        "JSON": 9,
+        "CSS": 7,
+        "JavaScript": 9,
+        "TypeScript": 6,
+        "Java": 2,
+        "HTML": 4,
+        "Dockerfile": 2,
+        "Shell": 1,
+        "XML": 2,
+        "SQL": 2,
+        "Go": 1,
+        "Python": 1
+      }
+    },
+    {
+      "semester": "2023 H1",
+      "languages": {
+        "YAML": 12,
+        "Markdown": 21,
+        "Kotlin": 6,
+        "TOML": 4,
+        "JSON": 10,
+        "CSS": 7,
+        "JavaScript": 9,
+        "Dockerfile": 3,
+        "Python": 2,
+        "Shell": 2,
+        "SQL": 3,
+        "TypeScript": 6,
+        "Java": 2,
+        "XML": 3,
+        "HTML": 4,
+        "Go": 1
+      }
+    },
+    {
+      "semester": "2023 H2",
+      "languages": {
+        "YAML": 13,
+        "Markdown": 24,
+        "Kotlin": 7,
+        "TOML": 4,
+        "JSON": 12,
+        "CSS": 8,
+        "JavaScript": 10,
+        "Dockerfile": 3,
+        "Python": 2,
+        "Shell": 2,
+        "SQL": 3,
+        "TypeScript": 7,
+        "Java": 2,
+        "XML": 3,
+        "HTML": 6,
+        "Svelte": 1,
+        "Go": 1
+      }
+    },
+    {
+      "semester": "2024 H1",
+      "languages": {
+        "YAML": 17,
+        "Markdown": 33,
+        "Kotlin": 9,
+        "TOML": 6,
+        "JSON": 14,
+        "CSS": 9,
+        "JavaScript": 10,
+        "Dockerfile": 6,
+        "Python": 9,
+        "Shell": 2,
+        "SQL": 3,
+        "XML": 6,
+        "TypeScript": 7,
+        "Java": 2,
+        "HTML": 6,
+        "Svelte": 1,
+        "Go": 1,
+        "Jupyter Notebook": 3
+      }
+    },
+    {
+      "semester": "2024 H2",
+      "languages": {
+        "YAML": 23,
+        "Markdown": 41,
+        "Kotlin": 9,
+        "TOML": 9,
+        "JSON": 22,
+        "CSS": 15,
+        "JavaScript": 15,
+        "Dockerfile": 8,
+        "Python": 11,
+        "Shell": 3,
+        "SQL": 5,
+        "TypeScript": 14,
+        "Vue": 1,
+        "XML": 6,
+        "Java": 2,
+        "HTML": 9,
+        "Svelte": 6,
+        "Go": 1,
+        "Jupyter Notebook": 4
+      }
+    },
+    {
+      "semester": "2025 H1",
+      "languages": {
+        "YAML": 34,
+        "Markdown": 56,
+        "Kotlin": 10,
+        "TOML": 15,
+        "JSON": 31,
+        "CSS": 22,
+        "JavaScript": 22,
+        "Python": 18,
+        "Dockerfile": 10,
+        "Shell": 5,
+        "SQL": 6,
+        "TypeScript": 23,
+        "Vue": 2,
+        "XML": 7,
+        "HTML": 16,
+        "Svelte": 11,
+        "Java": 2,
+        "Makefile": 2,
+        "Jupyter Notebook": 7,
+        "Go": 1
+      }
+    },
+    {
+      "semester": "2025 H2",
+      "languages": {
+        "YAML": 45,
+        "Markdown": 68,
+        "Kotlin": 10,
+        "TOML": 22,
+        "JSON": 39,
+        "CSS": 29,
+        "JavaScript": 26,
+        "Python": 25,
+        "Dockerfile": 13,
+        "TypeScript": 29,
+        "Shell": 7,
+        "SQL": 8,
+        "Vue": 2,
+        "XML": 7,
+        "HTML": 21,
+        "Svelte": 14,
+        "Java": 2,
+        "Makefile": 2,
+        "Jupyter Notebook": 7,
+        "Go": 1
+      }
+    },
+    {
+      "semester": "2026 H1",
+      "languages": {
+        "Markdown": 87,
+        "JSON": 48,
+        "TypeScript": 36,
+        "HTML": 27,
+        "Svelte": 20,
+        "CSS": 36,
+        "YAML": 51,
+        "Kotlin": 13,
+        "TOML": 33,
+        "JavaScript": 30,
+        "Python": 33,
+        "Dockerfile": 17,
+        "Shell": 9,
+        "Java": 3,
+        "Jupyter Notebook": 10,
+        "SQL": 8,
+        "Vue": 3,
+        "XML": 7,
+        "Makefile": 2,
+        "Go": 1
+      }
+    }
+  ],
   "repos": [
     {
       "name": "Data-Visualization-CV",
+      "owner": "Ayfri",
       "description": "A web-based CV that tells my professional and personal journey through data  visualizations instead of plain text.",
       "stars": 0,
+      "isPrivate": false,
       "createdAt": "2026-06-30T10:04:09Z",
+      "updatedAt": "2026-06-30T12:32:53Z",
+      "pushedAt": "2026-06-30T12:32:48Z",
+      "primaryLanguage": "TypeScript",
+      "sizeKb": 200,
+      "openIssues": 0,
+      "watchers": 0,
       "topics": [],
       "url": "https://github.com/Ayfri/Data-Visualization-CV"
     },
     {
       "name": "Kore",
+      "owner": "Ayfri",
       "description": "A Kotlin library to generate Datapacks for Minecraft Java.",
       "stars": 138,
+      "isPrivate": false,
       "createdAt": "2022-11-13T14:36:08Z",
+      "updatedAt": "2026-06-30T09:17:42Z",
+      "pushedAt": "2026-06-30T09:17:38Z",
+      "primaryLanguage": "Kotlin",
+      "sizeKb": 13598,
+      "openIssues": 10,
+      "watchers": 138,
       "topics": [
         "datapack",
         "functions",
@@ -1525,33 +1876,80 @@
     },
     {
       "name": "DeepSky-Classifier",
+      "owner": "Ayfri",
       "description": "DeepSky-Classifier is a high-performance astronomical data pipeline and inference engine.",
       "stars": 1,
+      "isPrivate": false,
       "createdAt": "2026-01-16T11:03:26Z",
+      "updatedAt": "2026-06-29T17:12:41Z",
+      "pushedAt": "2026-06-29T17:12:37Z",
+      "primaryLanguage": "Python",
+      "sizeKb": 835,
+      "openIssues": 2,
+      "watchers": 1,
       "topics": [],
       "url": "https://github.com/Ayfri/DeepSky-Classifier"
     },
     {
+      "name": "Private repository",
+      "description": null,
+      "stars": 0,
+      "isPrivate": true,
+      "createdAt": "2026-03-14T09:40:04Z",
+      "updatedAt": "2026-06-27T15:56:54Z",
+      "pushedAt": "2026-06-27T15:56:50Z",
+      "primaryLanguage": "Python",
+      "sizeKb": 25718,
+      "openIssues": 1,
+      "watchers": 0,
+      "topics": [],
+      "url": ""
+    },
+    {
       "name": "Minecraft-Images-Mobs-Generator",
+      "owner": "Ayfri",
       "description": "A small mod to generate thousand of images of in-game Minecraft mobs, to create a complete dataset of images.",
       "stars": 0,
+      "isPrivate": false,
       "createdAt": "2026-06-08T14:57:14Z",
+      "updatedAt": "2026-06-25T20:18:48Z",
+      "pushedAt": "2026-06-25T20:18:45Z",
+      "primaryLanguage": "Kotlin",
+      "sizeKb": 3409,
+      "openIssues": 1,
+      "watchers": 0,
       "topics": [],
       "url": "https://github.com/Ayfri/Minecraft-Images-Mobs-Generator"
     },
     {
       "name": "Minecraft-Mobs-Vision",
+      "owner": "Ayfri",
       "description": "A multi-task Computer Vision model that classifies Minecraft mobs and predicts their on-screen bounding boxes from game screenshots.",
       "stars": 0,
+      "isPrivate": false,
       "createdAt": "2026-06-09T08:55:05Z",
+      "updatedAt": "2026-06-25T16:30:39Z",
+      "pushedAt": "2026-06-25T16:30:32Z",
+      "primaryLanguage": "Jupyter Notebook",
+      "sizeKb": 41071,
+      "openIssues": 1,
+      "watchers": 0,
       "topics": [],
       "url": "https://github.com/Ayfri/Minecraft-Mobs-Vision"
     },
     {
       "name": "MCUS",
+      "owner": "Ayfri",
       "description": "A minecraft username sniper tool.",
       "stars": 7,
+      "isPrivate": false,
       "createdAt": "2025-01-31T13:30:30Z",
+      "updatedAt": "2026-06-24T06:21:24Z",
+      "pushedAt": "2026-05-19T22:09:00Z",
+      "primaryLanguage": "Python",
+      "sizeKb": 46,
+      "openIssues": 1,
+      "watchers": 7,
       "topics": [
         "check",
         "minecraft",
@@ -1561,10 +1959,39 @@
       "url": "https://github.com/Ayfri/MCUS"
     },
     {
+      "name": "Examples",
+      "owner": "Kore-Minecraft",
+      "description": "Examples of datapacks made or recreated using Kore.",
+      "stars": 0,
+      "isPrivate": false,
+      "createdAt": "2026-02-13T19:58:58Z",
+      "updatedAt": "2026-06-23T09:47:11Z",
+      "pushedAt": "2026-06-23T09:47:07Z",
+      "primaryLanguage": "Batchfile",
+      "sizeKb": 61,
+      "openIssues": 0,
+      "watchers": 0,
+      "topics": [
+        "datapacks",
+        "examples",
+        "kore",
+        "minecraft"
+      ],
+      "url": "https://github.com/Kore-Minecraft/Examples"
+    },
+    {
       "name": "Portfolio",
+      "owner": "Ayfri",
       "description": "My online portfolio.",
       "stars": 14,
+      "isPrivate": false,
       "createdAt": "2022-06-23T22:24:00Z",
+      "updatedAt": "2026-06-22T23:46:01Z",
+      "pushedAt": "2026-06-22T23:45:56Z",
+      "primaryLanguage": "Kotlin",
+      "sizeKb": 11187,
+      "openIssues": 0,
+      "watchers": 14,
       "topics": [
         "kobweb",
         "kotlin-website",
@@ -1574,26 +2001,231 @@
       "url": "https://github.com/Ayfri/Portfolio"
     },
     {
+      "name": "Private repository",
+      "description": null,
+      "stars": 0,
+      "isPrivate": true,
+      "createdAt": "2025-09-28T20:26:40Z",
+      "updatedAt": "2026-06-20T11:03:38Z",
+      "pushedAt": "2026-06-20T11:03:34Z",
+      "primaryLanguage": "MDX",
+      "sizeKb": 606,
+      "openIssues": 0,
+      "watchers": 0,
+      "topics": [],
+      "url": ""
+    },
+    {
+      "name": "Private repository",
+      "description": null,
+      "stars": 0,
+      "isPrivate": true,
+      "createdAt": "2026-06-16T22:48:53Z",
+      "updatedAt": "2026-06-16T22:48:59Z",
+      "pushedAt": "2026-06-16T22:48:54Z",
+      "primaryLanguage": null,
+      "sizeKb": 14,
+      "openIssues": 0,
+      "watchers": 0,
+      "topics": [],
+      "url": ""
+    },
+    {
+      "name": "Private repository",
+      "description": null,
+      "stars": 3,
+      "isPrivate": true,
+      "createdAt": "2023-06-26T08:39:23Z",
+      "updatedAt": "2026-06-06T14:55:39Z",
+      "pushedAt": "2026-06-27T15:56:33Z",
+      "primaryLanguage": "Python",
+      "sizeKb": 20031,
+      "openIssues": 69,
+      "watchers": 3,
+      "topics": [],
+      "url": ""
+    },
+    {
+      "name": "Private repository",
+      "description": null,
+      "stars": 0,
+      "isPrivate": true,
+      "createdAt": "2024-11-25T16:51:05Z",
+      "updatedAt": "2026-06-06T14:55:36Z",
+      "pushedAt": "2026-06-27T16:25:06Z",
+      "primaryLanguage": "Vue",
+      "sizeKb": 57722,
+      "openIssues": 1,
+      "watchers": 0,
+      "topics": [
+        "nuxt",
+        "vue"
+      ],
+      "url": ""
+    },
+    {
+      "name": "Private repository",
+      "description": null,
+      "stars": 0,
+      "isPrivate": true,
+      "createdAt": "2026-05-22T13:04:38Z",
+      "updatedAt": "2026-05-31T19:56:29Z",
+      "pushedAt": "2026-05-31T19:56:26Z",
+      "primaryLanguage": "Svelte",
+      "sizeKb": 232328,
+      "openIssues": 0,
+      "watchers": 0,
+      "topics": [],
+      "url": ""
+    },
+    {
+      "name": "Kore-Template",
+      "owner": "Kore-Minecraft",
+      "description": "A template repository for creating a Kore project. ",
+      "stars": 5,
+      "isPrivate": false,
+      "createdAt": "2024-05-11T22:48:05Z",
+      "updatedAt": "2026-05-29T10:07:18Z",
+      "pushedAt": "2026-04-28T12:51:39Z",
+      "primaryLanguage": "Kotlin",
+      "sizeKb": 125,
+      "openIssues": 0,
+      "watchers": 5,
+      "topics": [
+        "datapacks",
+        "kore",
+        "kore-minecraft",
+        "templates"
+      ],
+      "url": "https://github.com/Kore-Minecraft/Kore-Template"
+    },
+    {
+      "name": "Private repository",
+      "description": null,
+      "stars": 0,
+      "isPrivate": true,
+      "createdAt": "2025-09-27T21:43:15Z",
+      "updatedAt": "2026-05-27T09:42:06Z",
+      "pushedAt": "2026-05-27T09:42:02Z",
+      "primaryLanguage": "Shell",
+      "sizeKb": 153,
+      "openIssues": 0,
+      "watchers": 0,
+      "topics": [],
+      "url": ""
+    },
+    {
+      "name": "Private repository",
+      "description": null,
+      "stars": 0,
+      "isPrivate": true,
+      "createdAt": "2026-02-21T22:21:27Z",
+      "updatedAt": "2026-05-22T15:55:42Z",
+      "pushedAt": "2026-05-22T15:55:39Z",
+      "primaryLanguage": "PowerShell",
+      "sizeKb": 126,
+      "openIssues": 0,
+      "watchers": 0,
+      "topics": [],
+      "url": ""
+    },
+    {
       "name": "Neural-Jump",
+      "owner": "Ayfri",
       "description": "A platformer game where AI agents learn to play through reinforcement learning.",
       "stars": 2,
+      "isPrivate": false,
       "createdAt": "2024-06-30T22:39:10Z",
+      "updatedAt": "2026-05-21T14:23:20Z",
+      "pushedAt": "2026-05-21T14:15:32Z",
+      "primaryLanguage": "Python",
+      "sizeKb": 268,
+      "openIssues": 1,
+      "watchers": 2,
       "topics": [],
       "url": "https://github.com/Ayfri/Neural-Jump"
     },
     {
       "name": "Deep-Learning-Exercices",
+      "owner": "Ayfri",
       "description": "My exercices on Deep Learning course.",
       "stars": 0,
+      "isPrivate": false,
       "createdAt": "2026-04-27T13:55:05Z",
+      "updatedAt": "2026-05-19T23:22:40Z",
+      "pushedAt": "2026-05-19T23:24:56Z",
+      "primaryLanguage": "Jupyter Notebook",
+      "sizeKb": 1768,
+      "openIssues": 1,
+      "watchers": 0,
       "topics": [],
       "url": "https://github.com/Ayfri/Deep-Learning-Exercices"
     },
     {
+      "name": "Discord.js-Better-Embed",
+      "owner": "Advanced-Command-Handler",
+      "description": "A npm package that helps you create better discord.js Embeds.",
+      "stars": 3,
+      "isPrivate": false,
+      "createdAt": "2020-12-10T07:25:23Z",
+      "updatedAt": "2026-05-13T15:50:24Z",
+      "pushedAt": "2025-05-25T00:25:03Z",
+      "primaryLanguage": "TypeScript",
+      "sizeKb": 80,
+      "openIssues": 1,
+      "watchers": 3,
+      "topics": [
+        "discord-js",
+        "discord-js-embed",
+        "discordjs",
+        "embed",
+        "templates"
+      ],
+      "url": "https://github.com/Advanced-Command-Handler/Discord.js-Better-Embed"
+    },
+    {
+      "name": "Private repository",
+      "description": null,
+      "stars": 0,
+      "isPrivate": true,
+      "createdAt": "2026-05-11T00:31:57Z",
+      "updatedAt": "2026-05-11T21:56:52Z",
+      "pushedAt": "2026-05-11T21:56:48Z",
+      "primaryLanguage": "Python",
+      "sizeKb": 623,
+      "openIssues": 1,
+      "watchers": 0,
+      "topics": [],
+      "url": ""
+    },
+    {
+      "name": "Private repository",
+      "description": null,
+      "stars": 0,
+      "isPrivate": true,
+      "createdAt": "2026-05-03T10:44:11Z",
+      "updatedAt": "2026-05-07T22:45:25Z",
+      "pushedAt": "2026-05-07T22:45:21Z",
+      "primaryLanguage": "Svelte",
+      "sizeKb": 5147,
+      "openIssues": 0,
+      "watchers": 0,
+      "topics": [],
+      "url": ""
+    },
+    {
       "name": "Deep-Research",
+      "owner": "Ayfri",
       "description": "My own implementation of DeepResearch.",
       "stars": 11,
+      "isPrivate": false,
       "createdAt": "2025-02-24T16:01:04Z",
+      "updatedAt": "2026-05-05T17:54:39Z",
+      "pushedAt": "2026-05-14T23:59:29Z",
+      "primaryLanguage": "Svelte",
+      "sizeKb": 1031,
+      "openIssues": 1,
+      "watchers": 11,
       "topics": [
         "ai-chat",
         "deep-research",
@@ -1604,9 +2236,17 @@
     },
     {
       "name": "GPT-Images",
+      "owner": "Ayfri",
       "description": "A modern application for creating images or videos with GPT Images/Sora models.",
       "stars": 4,
+      "isPrivate": false,
       "createdAt": "2025-04-24T17:01:31Z",
+      "updatedAt": "2026-04-29T21:56:22Z",
+      "pushedAt": "2026-05-01T20:35:28Z",
+      "primaryLanguage": "Svelte",
+      "sizeKb": 725,
+      "openIssues": 0,
+      "watchers": 4,
       "topics": [
         "ai-images",
         "dalle",
@@ -1620,9 +2260,17 @@
     },
     {
       "name": "pokestore-2000",
+      "owner": "Ayfri",
       "description": "A nostalgic Pokémon card shop website straight from the year 2000! ",
       "stars": 1,
+      "isPrivate": false,
       "createdAt": "2025-03-29T22:59:50Z",
+      "updatedAt": "2026-04-29T21:41:18Z",
+      "pushedAt": "2026-04-29T21:41:14Z",
+      "primaryLanguage": "Vue",
+      "sizeKb": 342,
+      "openIssues": 0,
+      "watchers": 1,
       "topics": [
         "2000s",
         "pokemon",
@@ -1631,18 +2279,119 @@
       "url": "https://github.com/Ayfri/pokestore-2000"
     },
     {
+      "name": "Private repository",
+      "description": null,
+      "stars": 0,
+      "isPrivate": true,
+      "createdAt": "2026-04-27T22:47:15Z",
+      "updatedAt": "2026-04-28T19:37:32Z",
+      "pushedAt": "2026-04-28T19:37:27Z",
+      "primaryLanguage": "Python",
+      "sizeKb": 88,
+      "openIssues": 0,
+      "watchers": 0,
+      "topics": [],
+      "url": ""
+    },
+    {
+      "name": "Kore-Skill",
+      "owner": "Kore-Minecraft",
+      "description": "Teaches and guides use of Kore, the Kotlin library for generating Minecraft Java Edition datapacks.",
+      "stars": 0,
+      "isPrivate": false,
+      "createdAt": "2026-04-26T18:27:02Z",
+      "updatedAt": "2026-04-27T17:38:12Z",
+      "pushedAt": "2026-04-26T20:21:09Z",
+      "primaryLanguage": null,
+      "sizeKb": 20,
+      "openIssues": 0,
+      "watchers": 0,
+      "topics": [
+        "agent-skills",
+        "ai-skills",
+        "claude-skills",
+        "datapacks",
+        "kore",
+        "minecraft",
+        "skills"
+      ],
+      "url": "https://github.com/Kore-Minecraft/Kore-Skill"
+    },
+    {
       "name": "Doctor-Java",
+      "owner": "Ayfri",
       "description": "A Discord French bot made in Java.",
       "stars": 3,
+      "isPrivate": false,
       "createdAt": "2020-09-01T00:09:07Z",
+      "updatedAt": "2026-04-21T21:38:58Z",
+      "pushedAt": "2020-09-01T02:35:26Z",
+      "primaryLanguage": "Java",
+      "sizeKb": 75,
+      "openIssues": 0,
+      "watchers": 3,
       "topics": [],
       "url": "https://github.com/Ayfri/Doctor-Java"
     },
     {
+      "name": "documentation",
+      "owner": "Cat-aclsym",
+      "description": null,
+      "stars": 0,
+      "isPrivate": false,
+      "createdAt": "2024-10-11T15:58:51Z",
+      "updatedAt": "2026-04-12T14:01:04Z",
+      "pushedAt": "2026-04-12T14:00:59Z",
+      "primaryLanguage": "TypeScript",
+      "sizeKb": 1957,
+      "openIssues": 0,
+      "watchers": 0,
+      "topics": [],
+      "url": "https://github.com/Cat-aclsym/documentation"
+    },
+    {
+      "name": "Private repository",
+      "description": null,
+      "stars": 0,
+      "isPrivate": true,
+      "createdAt": "2026-03-27T15:10:16Z",
+      "updatedAt": "2026-04-10T14:08:38Z",
+      "pushedAt": "2026-04-10T14:08:34Z",
+      "primaryLanguage": "Svelte",
+      "sizeKb": 182,
+      "openIssues": 0,
+      "watchers": 0,
+      "topics": [],
+      "url": ""
+    },
+    {
+      "name": "Private repository",
+      "description": null,
+      "stars": 0,
+      "isPrivate": true,
+      "createdAt": "2025-12-01T11:58:33Z",
+      "updatedAt": "2026-03-28T12:17:27Z",
+      "pushedAt": "2026-03-28T12:17:24Z",
+      "primaryLanguage": "Python",
+      "sizeKb": 25352,
+      "openIssues": 0,
+      "watchers": 0,
+      "topics": [],
+      "url": ""
+    },
+    {
       "name": "shayders",
+      "owner": "Ayfri",
       "description": "Quick website for doing shaders tests.",
       "stars": 1,
+      "isPrivate": false,
       "createdAt": "2026-02-22T16:33:45Z",
+      "updatedAt": "2026-03-26T18:07:11Z",
+      "pushedAt": "2026-03-26T18:07:06Z",
+      "primaryLanguage": "TypeScript",
+      "sizeKb": 771,
+      "openIssues": 0,
+      "watchers": 1,
       "topics": [
         "glsl",
         "shader",
@@ -1654,25 +2403,95 @@
     },
     {
       "name": "voxel-game",
+      "owner": "Ayfri",
       "description": "Another voxel game, made with Kool in Kotlin.",
       "stars": 0,
+      "isPrivate": false,
       "createdAt": "2026-03-19T20:36:21Z",
+      "updatedAt": "2026-03-20T00:17:28Z",
+      "pushedAt": "2026-03-20T00:17:24Z",
+      "primaryLanguage": "Kotlin",
+      "sizeKb": 151,
+      "openIssues": 0,
+      "watchers": 0,
       "topics": [],
       "url": "https://github.com/Ayfri/voxel-game"
     },
     {
+      "name": "Private repository",
+      "description": null,
+      "stars": 0,
+      "isPrivate": true,
+      "createdAt": "2026-03-19T07:36:01Z",
+      "updatedAt": "2026-03-19T10:43:44Z",
+      "pushedAt": "2026-06-24T00:12:06Z",
+      "primaryLanguage": "Python",
+      "sizeKb": 1197,
+      "openIssues": 13,
+      "watchers": 0,
+      "topics": [],
+      "url": ""
+    },
+    {
+      "name": "Private repository",
+      "description": null,
+      "stars": 0,
+      "isPrivate": true,
+      "createdAt": "2026-03-15T19:43:10Z",
+      "updatedAt": "2026-03-19T09:10:38Z",
+      "pushedAt": "2026-03-19T09:10:34Z",
+      "primaryLanguage": "CSS",
+      "sizeKb": 101,
+      "openIssues": 0,
+      "watchers": 0,
+      "topics": [],
+      "url": ""
+    },
+    {
       "name": "Artificial-Infiltration",
+      "owner": "Ayfri",
       "description": "A game.",
       "stars": 1,
+      "isPrivate": false,
       "createdAt": "2023-05-23T08:17:14Z",
+      "updatedAt": "2026-03-16T16:33:46Z",
+      "pushedAt": "2023-06-21T09:46:54Z",
+      "primaryLanguage": "Kotlin",
+      "sizeKb": 11092,
+      "openIssues": 11,
+      "watchers": 1,
       "topics": [],
       "url": "https://github.com/Ayfri/Artificial-Infiltration"
     },
     {
+      "name": "teaching_ml_bis_2025",
+      "owner": "HerySon",
+      "description": "Machine learning repository for Master 1 project ",
+      "stars": 1,
+      "isPrivate": false,
+      "createdAt": "2025-02-11T11:24:05Z",
+      "updatedAt": "2026-03-04T18:07:15Z",
+      "pushedAt": "2025-03-27T10:12:44Z",
+      "primaryLanguage": "Jupyter Notebook",
+      "sizeKb": 5380,
+      "openIssues": 61,
+      "watchers": 1,
+      "topics": [],
+      "url": "https://github.com/HerySon/teaching_ml_bis_2025"
+    },
+    {
       "name": "Atom-Clicker",
+      "owner": "Ayfri",
       "description": "A clicker game about atoms.",
       "stars": 15,
+      "isPrivate": false,
       "createdAt": "2024-10-31T01:25:45Z",
+      "updatedAt": "2026-02-26T01:08:36Z",
+      "pushedAt": "2026-05-25T11:30:13Z",
+      "primaryLanguage": "Svelte",
+      "sizeKb": 2520,
+      "openIssues": 1,
+      "watchers": 15,
       "topics": [
         "clicker",
         "game",
@@ -1684,9 +2503,17 @@
     },
     {
       "name": "Ayfri",
+      "owner": "Ayfri",
       "description": "Informations on me.",
       "stars": 2,
+      "isPrivate": false,
       "createdAt": "2020-07-23T14:44:52Z",
+      "updatedAt": "2026-02-24T19:04:21Z",
+      "pushedAt": "2026-02-24T19:04:18Z",
+      "primaryLanguage": null,
+      "sizeKb": 114,
+      "openIssues": 0,
+      "watchers": 2,
       "topics": [
         "ayfri",
         "discord-bots",
@@ -1696,41 +2523,150 @@
     },
     {
       "name": "portal-2d",
+      "owner": "Ayfri",
       "description": "A portal game made in TypeScript using PIXI.",
       "stars": 1,
+      "isPrivate": false,
       "createdAt": "2021-01-15T13:01:07Z",
+      "updatedAt": "2026-02-21T23:32:37Z",
+      "pushedAt": "2025-01-20T04:16:09Z",
+      "primaryLanguage": "TypeScript",
+      "sizeKb": 2948,
+      "openIssues": 0,
+      "watchers": 1,
       "topics": [],
       "url": "https://github.com/Ayfri/portal-2d"
     },
     {
       "name": "Cacayfri",
+      "owner": "Ayfri",
       "description": "Cacayfri, find the url.",
       "stars": 1,
+      "isPrivate": false,
       "createdAt": "2025-07-05T18:40:24Z",
+      "updatedAt": "2026-02-20T02:44:21Z",
+      "pushedAt": "2026-02-20T02:44:17Z",
+      "primaryLanguage": "HTML",
+      "sizeKb": 43,
+      "openIssues": 0,
+      "watchers": 1,
       "topics": [],
       "url": "https://github.com/Ayfri/Cacayfri"
     },
     {
+      "name": "Kore-Assistant-Intellij",
+      "owner": "Kore-Minecraft",
+      "description": "An Intellij IDEA extension to assist you developing things with Kore.",
+      "stars": 0,
+      "isPrivate": false,
+      "createdAt": "2025-04-08T13:59:14Z",
+      "updatedAt": "2026-02-13T20:10:50Z",
+      "pushedAt": "2026-01-27T16:53:57Z",
+      "primaryLanguage": "Kotlin",
+      "sizeKb": 243,
+      "openIssues": 0,
+      "watchers": 0,
+      "topics": [
+        "intellij-plugin",
+        "kore"
+      ],
+      "url": "https://github.com/Kore-Minecraft/Kore-Assistant-Intellij"
+    },
+    {
+      "name": "Kore-Assistant-VSCode",
+      "owner": "Kore-Minecraft",
+      "description": "A VSCode extension to assist you developing things with Kore.",
+      "stars": 0,
+      "isPrivate": false,
+      "createdAt": "2025-03-23T23:31:22Z",
+      "updatedAt": "2026-02-13T20:10:41Z",
+      "pushedAt": "2025-03-24T00:42:20Z",
+      "primaryLanguage": "TypeScript",
+      "sizeKb": 159,
+      "openIssues": 0,
+      "watchers": 0,
+      "topics": [
+        "kore",
+        "vscode-extension"
+      ],
+      "url": "https://github.com/Kore-Minecraft/Kore-Assistant-VSCode"
+    },
+    {
       "name": "ia-cloud-1",
+      "owner": "Ayfri",
       "description": "Cloud IA model.",
       "stars": 0,
+      "isPrivate": false,
       "createdAt": "2026-02-04T09:06:42Z",
+      "updatedAt": "2026-02-05T12:18:56Z",
+      "pushedAt": "2026-04-21T22:33:26Z",
+      "primaryLanguage": "Python",
+      "sizeKb": 758,
+      "openIssues": 4,
+      "watchers": 0,
       "topics": [],
       "url": "https://github.com/Ayfri/ia-cloud-1"
     },
     {
+      "name": "lab-tools",
+      "owner": "Les-Laboratoires",
+      "description": "The official bot of Les Laboratoires",
+      "stars": 5,
+      "isPrivate": false,
+      "createdAt": "2020-09-21T19:41:29Z",
+      "updatedAt": "2026-01-28T11:29:47Z",
+      "pushedAt": "2026-04-07T11:54:52Z",
+      "primaryLanguage": "TypeScript",
+      "sizeKb": 1508,
+      "openIssues": 0,
+      "watchers": 5,
+      "topics": [],
+      "url": "https://github.com/Les-Laboratoires/lab-tools"
+    },
+    {
       "name": "PCC-Worker",
+      "owner": "Ayfri",
       "description": "Cron.",
       "stars": 0,
+      "isPrivate": false,
       "createdAt": "2025-05-21T13:47:58Z",
+      "updatedAt": "2026-01-22T10:53:40Z",
+      "pushedAt": "2026-01-22T10:53:39Z",
+      "primaryLanguage": "TypeScript",
+      "sizeKb": 45,
+      "openIssues": 0,
+      "watchers": 0,
       "topics": [],
       "url": "https://github.com/Ayfri/PCC-Worker"
     },
     {
+      "name": "Private repository",
+      "description": null,
+      "stars": 0,
+      "isPrivate": true,
+      "createdAt": "2025-10-12T17:02:25Z",
+      "updatedAt": "2026-01-19T16:07:44Z",
+      "pushedAt": "2026-04-10T19:15:59Z",
+      "primaryLanguage": "Svelte",
+      "sizeKb": 455,
+      "openIssues": 3,
+      "watchers": 0,
+      "topics": [],
+      "url": ""
+    },
+    {
       "name": "PokeCards-Collector",
+      "owner": "Ayfri",
       "description": "PokeCards-Collector is a website that allows you to check Pokemon browse and manage your Pokémon Trading Card Game (TCG) collection.",
       "stars": 2,
+      "isPrivate": false,
       "createdAt": "2023-10-02T10:00:36Z",
+      "updatedAt": "2026-01-16T07:54:02Z",
+      "pushedAt": "2026-04-23T05:06:45Z",
+      "primaryLanguage": "Svelte",
+      "sizeKb": 27658,
+      "openIssues": 2,
+      "watchers": 2,
       "topics": [
         "pokemon",
         "pokemon-cards",
@@ -1743,10 +2679,48 @@
       "url": "https://github.com/Ayfri/PokeCards-Collector"
     },
     {
+      "name": "Private repository",
+      "description": null,
+      "stars": 0,
+      "isPrivate": true,
+      "createdAt": "2025-10-15T09:31:10Z",
+      "updatedAt": "2026-01-08T12:18:26Z",
+      "pushedAt": "2026-01-08T12:18:22Z",
+      "primaryLanguage": "Python",
+      "sizeKb": 14467,
+      "openIssues": 1,
+      "watchers": 0,
+      "topics": [],
+      "url": ""
+    },
+    {
+      "name": "Private repository",
+      "description": null,
+      "stars": 0,
+      "isPrivate": true,
+      "createdAt": "2025-12-28T01:27:41Z",
+      "updatedAt": "2025-12-29T08:37:47Z",
+      "pushedAt": "2026-04-21T22:56:34Z",
+      "primaryLanguage": "Python",
+      "sizeKb": 323,
+      "openIssues": 1,
+      "watchers": 0,
+      "topics": [],
+      "url": ""
+    },
+    {
       "name": "aternos-watcher",
+      "owner": "Ayfri",
       "description": "A Minecraft Aternos server watcher in python.",
       "stars": 0,
+      "isPrivate": false,
       "createdAt": "2025-12-27T21:13:12Z",
+      "updatedAt": "2025-12-28T00:44:38Z",
+      "pushedAt": "2025-12-27T22:11:35Z",
+      "primaryLanguage": "Python",
+      "sizeKb": 35,
+      "openIssues": 0,
+      "watchers": 0,
       "topics": [
         "aternos",
         "minecraft",
@@ -1758,9 +2732,17 @@
     },
     {
       "name": "atom-clicker-pixi",
+      "owner": "Ayfri",
       "description": "[DEPRECATED] A simple clicker game with the theme of atoms.",
       "stars": 4,
+      "isPrivate": false,
       "createdAt": "2021-02-12T23:13:57Z",
+      "updatedAt": "2025-12-23T13:53:32Z",
+      "pushedAt": "2025-12-23T13:53:16Z",
+      "primaryLanguage": "TypeScript",
+      "sizeKb": 282,
+      "openIssues": 0,
+      "watchers": 4,
       "topics": [
         "clicker-game",
         "game",
@@ -1771,26 +2753,132 @@
       "url": "https://github.com/Ayfri/atom-clicker-pixi"
     },
     {
+      "name": "Private repository",
+      "description": null,
+      "stars": 1,
+      "isPrivate": true,
+      "createdAt": "2025-11-17T09:27:03Z",
+      "updatedAt": "2025-12-11T13:00:12Z",
+      "pushedAt": "2026-01-12T00:26:15Z",
+      "primaryLanguage": "Python",
+      "sizeKb": 811,
+      "openIssues": 2,
+      "watchers": 1,
+      "topics": [],
+      "url": ""
+    },
+    {
+      "name": "Cat-aclsym_Claw_of_the_dead",
+      "owner": "Cat-aclsym",
+      "description": "A Tower Defense game in zombie apocalypse theme. You play with cats, and you have to defend your city from the zombie invasion using towers.",
+      "stars": 4,
+      "isPrivate": false,
+      "createdAt": "2023-10-25T04:31:39Z",
+      "updatedAt": "2025-12-10T12:40:48Z",
+      "pushedAt": "2026-06-04T12:31:51Z",
+      "primaryLanguage": "GDScript",
+      "sizeKb": 23435,
+      "openIssues": 22,
+      "watchers": 4,
+      "topics": [],
+      "url": "https://github.com/Cat-aclsym/Cat-aclsym_Claw_of_the_dead"
+    },
+    {
+      "name": "Private repository",
+      "description": null,
+      "stars": 0,
+      "isPrivate": true,
+      "createdAt": "2024-12-31T01:02:20Z",
+      "updatedAt": "2025-11-27T23:29:38Z",
+      "pushedAt": "2026-05-14T23:42:59Z",
+      "primaryLanguage": "Svelte",
+      "sizeKb": 205,
+      "openIssues": 2,
+      "watchers": 0,
+      "topics": [
+        "cursors",
+        "drawing",
+        "game",
+        "multiplayer",
+        "realtime"
+      ],
+      "url": ""
+    },
+    {
       "name": "ETL-1",
+      "owner": "Ayfri",
       "description": "Implementation of a data pipeline",
       "stars": 0,
+      "isPrivate": false,
       "createdAt": "2025-10-07T08:39:07Z",
+      "updatedAt": "2025-10-30T14:05:04Z",
+      "pushedAt": "2026-05-15T00:00:47Z",
+      "primaryLanguage": "Python",
+      "sizeKb": 7693,
+      "openIssues": 1,
+      "watchers": 0,
       "topics": [],
       "url": "https://github.com/Ayfri/ETL-1"
     },
     {
-      "name": "kotlin-js-esmodules-bug",
+      "name": "Private repository",
       "description": null,
       "stars": 0,
+      "isPrivate": true,
+      "createdAt": "2025-10-28T10:40:28Z",
+      "updatedAt": "2025-10-28T15:01:32Z",
+      "pushedAt": "2025-10-28T15:01:30Z",
+      "primaryLanguage": null,
+      "sizeKb": 7,
+      "openIssues": 0,
+      "watchers": 0,
+      "topics": [],
+      "url": ""
+    },
+    {
+      "name": "kotlin-js-esmodules-bug",
+      "owner": "Ayfri",
+      "description": null,
+      "stars": 0,
+      "isPrivate": false,
       "createdAt": "2023-07-05T09:56:20Z",
+      "updatedAt": "2025-09-30T13:10:50Z",
+      "pushedAt": "2023-07-05T12:27:53Z",
+      "primaryLanguage": "Kotlin",
+      "sizeKb": 113,
+      "openIssues": 0,
+      "watchers": 0,
       "topics": [],
       "url": "https://github.com/Ayfri/kotlin-js-esmodules-bug"
     },
     {
+      "name": "Private repository",
+      "description": null,
+      "stars": 1,
+      "isPrivate": true,
+      "createdAt": "2022-11-09T07:39:59Z",
+      "updatedAt": "2025-09-30T13:07:50Z",
+      "pushedAt": "2023-04-18T22:02:50Z",
+      "primaryLanguage": "Go",
+      "sizeKb": 28250,
+      "openIssues": 0,
+      "watchers": 1,
+      "topics": [],
+      "url": ""
+    },
+    {
       "name": "A-Follow",
+      "owner": "Ayfri",
       "description": "A p5.js + a* path algorithm small experiment.",
       "stars": 0,
+      "isPrivate": false,
       "createdAt": "2025-09-22T16:51:08Z",
+      "updatedAt": "2025-09-22T22:48:48Z",
+      "pushedAt": "2026-06-14T08:36:53Z",
+      "primaryLanguage": "TypeScript",
+      "sizeKb": 83,
+      "openIssues": 1,
+      "watchers": 0,
       "topics": [
         "a-star-algorithm",
         "game",
@@ -1801,41 +2889,205 @@
     },
     {
       "name": "Ai-Test",
+      "owner": "Ayfri",
       "description": "A first test about creating an AI using Deep Learning, will later change name when theme is found and AI is working.",
       "stars": 0,
+      "isPrivate": false,
       "createdAt": "2022-12-22T01:05:25Z",
+      "updatedAt": "2025-09-05T20:10:53Z",
+      "pushedAt": "2025-09-05T20:10:50Z",
+      "primaryLanguage": "Kotlin",
+      "sizeKb": 167,
+      "openIssues": 0,
+      "watchers": 0,
       "topics": [],
       "url": "https://github.com/Ayfri/Ai-Test"
     },
     {
       "name": "RAG",
+      "owner": "Ayfri",
       "description": "My own RAG implementation.",
       "stars": 1,
+      "isPrivate": false,
       "createdAt": "2025-07-22T21:26:51Z",
+      "updatedAt": "2025-08-18T13:29:38Z",
+      "pushedAt": "2026-04-22T18:50:00Z",
+      "primaryLanguage": "Svelte",
+      "sizeKb": 385,
+      "openIssues": 2,
+      "watchers": 1,
       "topics": [],
       "url": "https://github.com/Ayfri/RAG"
     },
     {
+      "name": "Rocket-Pub-Manager",
+      "owner": "Galileo-Bot",
+      "description": "Le bot pour surveiller les membres du serveur Rocket Pub.",
+      "stars": 1,
+      "isPrivate": false,
+      "createdAt": "2020-11-07T15:20:30Z",
+      "updatedAt": "2025-07-28T23:55:48Z",
+      "pushedAt": "2025-07-28T23:55:45Z",
+      "primaryLanguage": "Kotlin",
+      "sizeKb": 483,
+      "openIssues": 4,
+      "watchers": 1,
+      "topics": [
+        "discord",
+        "discord-bot",
+        "moderation"
+      ],
+      "url": "https://github.com/Galileo-Bot/Rocket-Pub-Manager"
+    },
+    {
+      "name": "Private repository",
+      "description": null,
+      "stars": 0,
+      "isPrivate": true,
+      "createdAt": "2024-12-02T13:39:16Z",
+      "updatedAt": "2025-07-25T08:30:40Z",
+      "pushedAt": "2025-07-25T08:30:36Z",
+      "primaryLanguage": "Svelte",
+      "sizeKb": 3148,
+      "openIssues": 0,
+      "watchers": 0,
+      "topics": [],
+      "url": ""
+    },
+    {
+      "name": "todo-list",
+      "owner": "antaww",
+      "description": "A modern, reactive todo list application with real-time updates, multiple lists support, and a beautiful glassmorphism design.",
+      "stars": 1,
+      "isPrivate": false,
+      "createdAt": "2025-01-17T11:13:54Z",
+      "updatedAt": "2025-07-17T12:54:40Z",
+      "pushedAt": "2025-07-17T12:54:36Z",
+      "primaryLanguage": "Svelte",
+      "sizeKb": 856,
+      "openIssues": 0,
+      "watchers": 1,
+      "topics": [],
+      "url": "https://github.com/antaww/todo-list"
+    },
+    {
       "name": "AI-GD",
+      "owner": "Ayfri",
       "description": "A Geometry Dash-like game but run by an IA using Deep Reinforcement Learning.",
       "stars": 0,
+      "isPrivate": false,
       "createdAt": "2023-05-28T16:40:28Z",
+      "updatedAt": "2025-07-07T14:45:23Z",
+      "pushedAt": "2025-07-07T14:45:20Z",
+      "primaryLanguage": "GDScript",
+      "sizeKb": 91,
+      "openIssues": 0,
+      "watchers": 0,
       "topics": [],
       "url": "https://github.com/Ayfri/AI-GD"
     },
     {
+      "name": "Private repository",
+      "description": null,
+      "stars": 0,
+      "isPrivate": true,
+      "createdAt": "2025-06-30T00:23:17Z",
+      "updatedAt": "2025-07-02T21:20:32Z",
+      "pushedAt": "2026-04-21T21:47:10Z",
+      "primaryLanguage": "Python",
+      "sizeKb": 119,
+      "openIssues": 1,
+      "watchers": 0,
+      "topics": [],
+      "url": ""
+    },
+    {
+      "name": "Planeas",
+      "owner": "Mkheir13",
+      "description": null,
+      "stars": 0,
+      "isPrivate": false,
+      "createdAt": "2025-06-18T09:45:42Z",
+      "updatedAt": "2025-07-01T12:57:11Z",
+      "pushedAt": "2025-07-01T12:57:07Z",
+      "primaryLanguage": "Jupyter Notebook",
+      "sizeKb": 7177,
+      "openIssues": 0,
+      "watchers": 0,
+      "topics": [],
+      "url": "https://github.com/Mkheir13/Planeas"
+    },
+    {
       "name": "NLP-1",
+      "owner": "Ayfri",
       "description": "NLP with discord messages.",
       "stars": 0,
+      "isPrivate": false,
       "createdAt": "2025-06-17T13:44:22Z",
+      "updatedAt": "2025-06-30T14:38:03Z",
+      "pushedAt": "2026-05-08T08:43:34Z",
+      "primaryLanguage": "Python",
+      "sizeKb": 126,
+      "openIssues": 1,
+      "watchers": 0,
       "topics": [],
       "url": "https://github.com/Ayfri/NLP-1"
     },
     {
+      "name": "Advanced-Command-Handler",
+      "owner": "Advanced-Command-Handler",
+      "description": "This is an Advanced Command Handler that uses classes for commands.",
+      "stars": 35,
+      "isPrivate": false,
+      "createdAt": "2020-01-18T01:17:40Z",
+      "updatedAt": "2025-06-20T10:24:41Z",
+      "pushedAt": "2025-03-21T13:43:29Z",
+      "primaryLanguage": "TypeScript",
+      "sizeKb": 1462,
+      "openIssues": 1,
+      "watchers": 35,
+      "topics": [
+        "bot",
+        "classes",
+        "command-handler",
+        "commandhandler-events",
+        "discord",
+        "discord-bot",
+        "discord-js",
+        "javascript",
+        "v12"
+      ],
+      "url": "https://github.com/Advanced-Command-Handler/Advanced-Command-Handler"
+    },
+    {
+      "name": "projet-hackathon",
+      "owner": "Trit0on",
+      "description": null,
+      "stars": 0,
+      "isPrivate": false,
+      "createdAt": "2025-06-18T07:10:14Z",
+      "updatedAt": "2025-06-18T10:16:27Z",
+      "pushedAt": "2025-06-18T10:16:24Z",
+      "primaryLanguage": "Svelte",
+      "sizeKb": 25992,
+      "openIssues": 0,
+      "watchers": 0,
+      "topics": [],
+      "url": "https://github.com/Trit0on/projet-hackathon"
+    },
+    {
       "name": "HTML-TP1",
+      "owner": "Ayfri",
       "description": "My first exercice in HTML/CSS.",
       "stars": 0,
+      "isPrivate": false,
       "createdAt": "2021-11-07T00:03:16Z",
+      "updatedAt": "2025-06-16T00:18:31Z",
+      "pushedAt": "2025-06-12T09:25:42Z",
+      "primaryLanguage": "HTML",
+      "sizeKb": 57711,
+      "openIssues": 0,
+      "watchers": 0,
       "topics": [
         "adventure",
         "game",
@@ -1845,10 +3097,109 @@
       "url": "https://github.com/Ayfri/HTML-TP1"
     },
     {
+      "name": "Private repository",
+      "description": null,
+      "stars": 0,
+      "isPrivate": true,
+      "createdAt": "2025-06-13T12:27:48Z",
+      "updatedAt": "2025-06-13T14:21:22Z",
+      "pushedAt": "2025-06-13T14:21:18Z",
+      "primaryLanguage": "Python",
+      "sizeKb": 1343,
+      "openIssues": 0,
+      "watchers": 0,
+      "topics": [],
+      "url": ""
+    },
+    {
+      "name": "Private repository",
+      "description": null,
+      "stars": 0,
+      "isPrivate": true,
+      "createdAt": "2025-05-13T10:24:52Z",
+      "updatedAt": "2025-05-22T10:53:14Z",
+      "pushedAt": "2025-05-22T10:53:11Z",
+      "primaryLanguage": "Python",
+      "sizeKb": 20,
+      "openIssues": 0,
+      "watchers": 0,
+      "topics": [],
+      "url": ""
+    },
+    {
+      "name": "Openfoodfacts",
+      "owner": "Mkheir13",
+      "description": null,
+      "stars": 1,
+      "isPrivate": false,
+      "createdAt": "2025-03-24T08:36:32Z",
+      "updatedAt": "2025-05-13T14:44:36Z",
+      "pushedAt": "2025-04-14T09:55:33Z",
+      "primaryLanguage": "Jupyter Notebook",
+      "sizeKb": 1756,
+      "openIssues": 0,
+      "watchers": 1,
+      "topics": [],
+      "url": "https://github.com/Mkheir13/Openfoodfacts"
+    },
+    {
+      "name": "Private repository",
+      "description": null,
+      "stars": 0,
+      "isPrivate": true,
+      "createdAt": "2024-05-14T20:04:24Z",
+      "updatedAt": "2025-02-20T08:40:08Z",
+      "pushedAt": "2026-04-01T20:41:23Z",
+      "primaryLanguage": "Python",
+      "sizeKb": 30,
+      "openIssues": 2,
+      "watchers": 0,
+      "topics": [],
+      "url": ""
+    },
+    {
+      "name": "Private repository",
+      "description": null,
+      "stars": 0,
+      "isPrivate": true,
+      "createdAt": "2024-12-23T09:55:08Z",
+      "updatedAt": "2025-02-18T14:00:31Z",
+      "pushedAt": "2025-02-18T14:00:27Z",
+      "primaryLanguage": "Svelte",
+      "sizeKb": 15187,
+      "openIssues": 0,
+      "watchers": 0,
+      "topics": [],
+      "url": ""
+    },
+    {
+      "name": "Private repository",
+      "description": null,
+      "stars": 0,
+      "isPrivate": true,
+      "createdAt": "2024-11-26T08:09:14Z",
+      "updatedAt": "2025-02-10T15:14:20Z",
+      "pushedAt": "2025-02-10T15:14:16Z",
+      "primaryLanguage": "Jupyter Notebook",
+      "sizeKb": 16256,
+      "openIssues": 0,
+      "watchers": 0,
+      "topics": [],
+      "url": ""
+    },
+    {
       "name": "Basic-CommandHandler",
+      "owner": "Ayfri",
       "description": "This is a simple Command Handler with modules.",
       "stars": 3,
+      "isPrivate": false,
       "createdAt": "2020-01-15T15:47:19Z",
+      "updatedAt": "2025-02-06T18:30:44Z",
+      "pushedAt": "2026-06-30T11:02:43Z",
+      "primaryLanguage": "JavaScript",
+      "sizeKb": 181,
+      "openIssues": 4,
+      "watchers": 3,
       "topics": [
         "bot",
         "command-handler",
@@ -1858,17 +3209,33 @@
     },
     {
       "name": "hackaton-m1",
+      "owner": "Ayfri",
       "description": "Le hackaton en m1.",
       "stars": 0,
+      "isPrivate": false,
       "createdAt": "2025-01-20T08:42:27Z",
+      "updatedAt": "2025-01-21T14:52:36Z",
+      "pushedAt": "2026-05-14T23:23:55Z",
+      "primaryLanguage": "TypeScript",
+      "sizeKb": 233,
+      "openIssues": 2,
+      "watchers": 0,
       "topics": [],
       "url": "https://github.com/Ayfri/hackaton-m1"
     },
     {
       "name": "Cat-aclysm-Claw-of-the-Dead",
+      "owner": "Ayfri",
       "description": "A Tower Defense game in zombie apocalypse theme. You play with cats, and you have to defend your city from the zombie invasion using towers.",
       "stars": 7,
+      "isPrivate": false,
       "createdAt": "2023-01-11T08:27:15Z",
+      "updatedAt": "2025-01-08T08:23:25Z",
+      "pushedAt": "2023-05-17T01:25:43Z",
+      "primaryLanguage": "GDScript",
+      "sizeKb": 69789,
+      "openIssues": 1,
+      "watchers": 7,
       "topics": [
         "game",
         "game-development",
@@ -1877,10 +3244,33 @@
       "url": "https://github.com/Ayfri/Cat-aclysm-Claw-of-the-Dead"
     },
     {
+      "name": "Private repository",
+      "description": null,
+      "stars": 0,
+      "isPrivate": true,
+      "createdAt": "2024-11-18T00:05:49Z",
+      "updatedAt": "2024-11-18T01:23:24Z",
+      "pushedAt": "2026-04-21T21:36:30Z",
+      "primaryLanguage": "Astro",
+      "sizeKb": 82,
+      "openIssues": 1,
+      "watchers": 0,
+      "topics": [],
+      "url": ""
+    },
+    {
       "name": "Image2Minecraft",
+      "owner": "Ayfri",
       "description": "A simple Processing program using PApplet to transform images to Minecraft Pixel Art",
       "stars": 8,
+      "isPrivate": false,
       "createdAt": "2020-04-28T17:20:44Z",
+      "updatedAt": "2024-11-10T16:06:26Z",
+      "pushedAt": "2026-06-25T11:02:36Z",
+      "primaryLanguage": "Java",
+      "sizeKb": 11598,
+      "openIssues": 4,
+      "watchers": 8,
       "topics": [
         "java",
         "minecraft",
@@ -1890,17 +3280,48 @@
     },
     {
       "name": "UF_Project_B3",
+      "owner": "Ayfri",
       "description": null,
       "stars": 0,
+      "isPrivate": false,
       "createdAt": "2024-03-05T09:54:27Z",
+      "updatedAt": "2024-10-30T22:08:15Z",
+      "pushedAt": "2026-04-21T18:47:14Z",
+      "primaryLanguage": "Jupyter Notebook",
+      "sizeKb": 55875,
+      "openIssues": 2,
+      "watchers": 0,
       "topics": [],
       "url": "https://github.com/Ayfri/UF_Project_B3"
     },
     {
+      "name": "Private repository",
+      "description": null,
+      "stars": 0,
+      "isPrivate": true,
+      "createdAt": "2024-10-23T23:40:48Z",
+      "updatedAt": "2024-10-23T23:40:49Z",
+      "pushedAt": "2024-10-23T23:40:48Z",
+      "primaryLanguage": null,
+      "sizeKb": 0,
+      "openIssues": 0,
+      "watchers": 0,
+      "topics": [],
+      "url": ""
+    },
+    {
       "name": "PIXI-Kotlin",
+      "owner": "Ayfri",
       "description": "Kotlin/JS bindings for PIXI.js library.",
       "stars": 15,
+      "isPrivate": false,
       "createdAt": "2021-05-09T15:49:32Z",
+      "updatedAt": "2024-09-16T04:43:45Z",
+      "pushedAt": "2022-10-30T15:06:09Z",
+      "primaryLanguage": "Kotlin",
+      "sizeKb": 532,
+      "openIssues": 1,
+      "watchers": 15,
       "topics": [
         "kotlin",
         "kotlinjs",
@@ -1909,471 +3330,148 @@
       "url": "https://github.com/Ayfri/PIXI-Kotlin"
     },
     {
+      "name": "galileo-legacy",
+      "owner": "Galileo-Bot",
+      "description": "Repo du projet Galileo Bot",
+      "stars": 2,
+      "isPrivate": false,
+      "createdAt": "2019-10-30T12:17:19Z",
+      "updatedAt": "2024-09-14T21:02:10Z",
+      "pushedAt": "2025-07-25T14:09:37Z",
+      "primaryLanguage": "JavaScript",
+      "sizeKb": 327,
+      "openIssues": 0,
+      "watchers": 2,
+      "topics": [
+        "disccord-bot",
+        "discordjs",
+        "galileo"
+      ],
+      "url": "https://github.com/Galileo-Bot/galileo-legacy"
+    },
+    {
+      "name": "Private repository",
+      "description": null,
+      "stars": 0,
+      "isPrivate": true,
+      "createdAt": "2024-09-14T19:51:50Z",
+      "updatedAt": "2024-09-14T19:51:53Z",
+      "pushedAt": "2024-09-14T19:51:51Z",
+      "primaryLanguage": null,
+      "sizeKb": 0,
+      "openIssues": 0,
+      "watchers": 0,
+      "topics": [],
+      "url": ""
+    },
+    {
       "name": "docker-tp",
+      "owner": "Ayfri",
       "description": "A docker tp.",
       "stars": 1,
+      "isPrivate": false,
       "createdAt": "2024-02-08T18:24:15Z",
+      "updatedAt": "2024-09-14T17:08:57Z",
+      "pushedAt": "2024-02-08T18:41:58Z",
+      "primaryLanguage": "Python",
+      "sizeKb": 26,
+      "openIssues": 0,
+      "watchers": 1,
       "topics": [],
       "url": "https://github.com/Ayfri/docker-tp"
     },
     {
+      "name": "Private repository",
+      "description": null,
+      "stars": 0,
+      "isPrivate": true,
+      "createdAt": "2024-06-17T07:14:28Z",
+      "updatedAt": "2024-07-19T13:43:23Z",
+      "pushedAt": "2024-07-19T13:43:19Z",
+      "primaryLanguage": "Python",
+      "sizeKb": 139,
+      "openIssues": 0,
+      "watchers": 0,
+      "topics": [],
+      "url": ""
+    },
+    {
+      "name": "Private repository",
+      "description": null,
+      "stars": 0,
+      "isPrivate": true,
+      "createdAt": "2024-06-12T16:27:41Z",
+      "updatedAt": "2024-06-17T12:16:44Z",
+      "pushedAt": "2024-06-17T12:16:41Z",
+      "primaryLanguage": "Jupyter Notebook",
+      "sizeKb": 2173,
+      "openIssues": 0,
+      "watchers": 0,
+      "topics": [],
+      "url": ""
+    },
+    {
       "name": "Redis-Cluster",
+      "owner": "Ayfri",
       "description": "A TP I have to do, must use a Redis Cluster, can use any language to add CRUD operations.",
       "stars": 0,
+      "isPrivate": false,
       "createdAt": "2024-05-11T21:34:24Z",
+      "updatedAt": "2024-05-11T21:38:04Z",
+      "pushedAt": "2024-05-11T21:38:01Z",
+      "primaryLanguage": "Python",
+      "sizeKb": 16,
+      "openIssues": 0,
+      "watchers": 0,
       "topics": [],
       "url": "https://github.com/Ayfri/Redis-Cluster"
     },
     {
       "name": "MongoDB-ReplicaSet",
+      "owner": "Ayfri",
       "description": "A TP I have to do, must use MongoDB ReplicaSet on docker, can use any language to add CRUD operations.",
       "stars": 0,
+      "isPrivate": false,
       "createdAt": "2024-04-14T21:48:42Z",
+      "updatedAt": "2024-04-15T18:28:53Z",
+      "pushedAt": "2024-04-15T18:34:22Z",
+      "primaryLanguage": "Kotlin",
+      "sizeKb": 64,
+      "openIssues": 0,
+      "watchers": 0,
       "topics": [],
       "url": "https://github.com/Ayfri/MongoDB-ReplicaSet"
     },
     {
-      "name": "AyBreak",
-      "description": "A breakout game made in Windows Forms and C#.",
-      "stars": 3,
-      "createdAt": "2022-10-10T07:00:18Z",
-      "topics": [
-        "breakout",
-        "csharp",
-        "windows-forms"
-      ],
-      "url": "https://github.com/Ayfri/AyBreak"
-    },
-    {
-      "name": "AyBot-2",
-      "description": "La deuxième version de mon bot discord.",
-      "stars": 0,
-      "createdAt": "2019-02-01T22:34:43Z",
-      "topics": [],
-      "url": "https://github.com/Ayfri/AyBot-2"
-    },
-    {
-      "name": "discord-fetch-messages",
-      "description": "A npm package to fetch all of the messages of a channel, channel list or a guild, using discord.js.",
-      "stars": 12,
-      "createdAt": "2020-10-20T20:55:40Z",
-      "topics": [
-        "discord",
-        "discord-bot",
-        "discord-js",
-        "discord-messages",
-        "fetch",
-        "fetching"
-      ],
-      "url": "https://github.com/Ayfri/discord-fetch-messages"
-    },
-    {
-      "name": "KordEx-Intellij-Plugin",
-      "description": "An intellij plugin to help you develop wih KordEx.",
-      "stars": 1,
-      "createdAt": "2022-05-15T21:28:40Z",
-      "topics": [
-        "intellij-plugin",
-        "kordex",
-        "kotlin"
-      ],
-      "url": "https://github.com/Ayfri/KordEx-Intellij-Plugin"
-    },
-    {
-      "name": "Infra-Doc",
-      "description": "The documentation of our second TP in infra.",
-      "stars": 0,
-      "createdAt": "2023-06-16T08:47:08Z",
-      "topics": [],
-      "url": "https://github.com/Ayfri/Infra-Doc"
-    },
-    {
-      "name": "Cyber-TP-1",
-      "description": "Cyber TP 1",
-      "stars": 0,
-      "createdAt": "2023-06-01T11:54:28Z",
-      "topics": [],
-      "url": "https://github.com/Ayfri/Cyber-TP-1"
-    },
-    {
-      "name": "GodEmbed",
-      "description": "Create a Discord RichEmbed from a GodEmbed text to use for \"embed say\" commands of your bots or stock his text to GodEmbed files.",
-      "stars": 1,
-      "createdAt": "2021-01-01T05:39:03Z",
-      "topics": [],
-      "url": "https://github.com/Ayfri/GodEmbed"
-    },
-    {
-      "name": "Challenge-Discovery",
-      "description": null,
-      "stars": 0,
-      "createdAt": "2022-02-02T16:04:31Z",
-      "topics": [],
-      "url": "https://github.com/Ayfri/Challenge-Discovery"
-    },
-    {
-      "name": "Hangman-Web",
-      "description": "A hangman on a website using a backend in Go for the logic.",
-      "stars": 1,
-      "createdAt": "2022-01-27T10:38:34Z",
-      "topics": [],
-      "url": "https://github.com/Ayfri/Hangman-Web"
-    },
-    {
-      "name": "Java-TP1",
-      "description": "My first set of exercices in Java for my school.",
-      "stars": 1,
-      "createdAt": "2022-09-16T16:14:41Z",
-      "topics": [],
-      "url": "https://github.com/Ayfri/Java-TP1"
-    },
-    {
-      "name": "jetbrains-plugin-copy-save",
-      "description": "A JetBrains plugin that lets you copy the contents of the current file when saving.",
-      "stars": 1,
-      "createdAt": "2023-03-02T21:54:53Z",
-      "topics": [],
-      "url": "https://github.com/Ayfri/jetbrains-plugin-copy-save"
-    },
-    {
-      "name": "challenge-48h",
-      "description": null,
-      "stars": 0,
-      "createdAt": "2023-02-06T08:19:48Z",
-      "topics": [],
-      "url": "https://github.com/Ayfri/challenge-48h"
-    },
-    {
-      "name": "mdn-bot-parser",
-      "description": "A discord bot for parsing the MDN documentation.",
-      "stars": 5,
-      "createdAt": "2020-07-16T22:24:27Z",
-      "topics": [
-        "discord-bot",
-        "documentation",
-        "javascript",
-        "mdn"
-      ],
-      "url": "https://github.com/Ayfri/mdn-bot-parser"
-    },
-    {
-      "name": "TypeCraft",
-      "description": "A Minecraft like made with p5.js in TypeScript.",
-      "stars": 1,
-      "createdAt": "2020-03-28T15:52:01Z",
-      "topics": [
-        "minecraft",
-        "typescript",
-        "webpack"
-      ],
-      "url": "https://github.com/Ayfri/TypeCraft"
-    },
-    {
-      "name": "2d-minecraft",
-      "description": "A TypeScript game made with the PIXI.js library and WebPack.",
-      "stars": 11,
-      "createdAt": "2020-06-28T20:46:17Z",
-      "topics": [
-        "2d-minecraft",
-        "game",
-        "minecraft",
-        "pixi-library",
-        "pixijs",
-        "typescript",
-        "webpack"
-      ],
-      "url": "https://github.com/Ayfri/2d-minecraft"
-    },
-    {
-      "name": "Java-TP3",
-      "description": "My third set of exercices to do for school.",
-      "stars": 0,
-      "createdAt": "2022-11-05T06:37:11Z",
-      "topics": [],
-      "url": "https://github.com/Ayfri/Java-TP3"
-    },
-    {
-      "name": "Java-TP2",
-      "description": "My second set of exercices to do in Java for my school.",
+      "name": "Spotizer",
+      "owner": "antaww",
+      "description": "Spotify X Deezer",
       "stars": 2,
-      "createdAt": "2022-10-02T20:37:36Z",
+      "isPrivate": false,
+      "createdAt": "2023-12-08T14:49:51Z",
+      "updatedAt": "2024-04-13T19:18:32Z",
+      "pushedAt": "2023-12-08T15:15:28Z",
+      "primaryLanguage": null,
+      "sizeKb": 16,
+      "openIssues": 10,
+      "watchers": 2,
       "topics": [],
-      "url": "https://github.com/Ayfri/Java-TP2"
+      "url": "https://github.com/antaww/Spotizer"
     },
     {
-      "name": "Channel-Icons",
-      "description": "Gives some channels unique icons depending on their name.",
-      "stars": 0,
-      "createdAt": "2021-04-19T06:43:13Z",
-      "topics": [],
-      "url": "https://github.com/Ayfri/Channel-Icons"
-    },
-    {
-      "name": "Shooter",
-      "description": "An arcade shoot them up spaced-theme game.",
-      "stars": 0,
-      "createdAt": "2022-08-23T22:52:25Z",
-      "topics": [],
-      "url": "https://github.com/Ayfri/Shooter"
-    },
-    {
-      "name": "TP-JS",
-      "description": "My last set of exercices in JS of my first year at Ynov.",
-      "stars": 0,
-      "createdAt": "2022-06-08T09:10:35Z",
-      "topics": [],
-      "url": "https://github.com/Ayfri/TP-JS"
-    },
-    {
-      "name": "Cpp-TP5",
-      "description": "My last set of exercices to do in C++.",
-      "stars": 0,
-      "createdAt": "2022-05-14T14:07:52Z",
-      "topics": [],
-      "url": "https://github.com/Ayfri/Cpp-TP5"
-    },
-    {
-      "name": "Cpp-TP4",
-      "description": "My fourth set of exercices to do.",
-      "stars": 0,
-      "createdAt": "2022-04-28T07:30:03Z",
-      "topics": [],
-      "url": "https://github.com/Ayfri/Cpp-TP4"
-    },
-    {
-      "name": "Infra-Website",
-      "description": "The website for the infra project.",
-      "stars": 0,
-      "createdAt": "2022-04-20T12:48:49Z",
-      "topics": [],
-      "url": "https://github.com/Ayfri/Infra-Website"
-    },
-    {
-      "name": "Cpp-TP3",
-      "description": "My third set of exercices to do in C++.",
-      "stars": 0,
-      "createdAt": "2022-04-07T06:44:33Z",
-      "topics": [],
-      "url": "https://github.com/Ayfri/Cpp-TP3"
-    },
-    {
-      "name": "Cpp-TP2",
-      "description": "My second set of exercices to do in C++.",
-      "stars": 0,
-      "createdAt": "2022-04-05T10:44:34Z",
-      "topics": [],
-      "url": "https://github.com/Ayfri/Cpp-TP2"
-    },
-    {
-      "name": "Cpp-TP1",
-      "description": "My first exercices in C++ for my school.\"",
-      "stars": 0,
-      "createdAt": "2022-03-31T09:53:27Z",
-      "topics": [],
-      "url": "https://github.com/Ayfri/Cpp-TP1"
-    },
-    {
-      "name": "Cat-in-Space",
-      "description": "A website to show streamers analysis.",
-      "stars": 0,
-      "createdAt": "2022-02-02T14:42:50Z",
-      "topics": [
-        "api",
-        "go",
-        "twitch"
-      ],
-      "url": "https://github.com/Ayfri/Cat-in-Space"
-    },
-    {
-      "name": "Minekraft-2D",
-      "description": "A 2D game in Kotlin/JS using PIXI-Kotlin.",
-      "stars": 0,
-      "createdAt": "2022-02-27T14:31:21Z",
-      "topics": [],
-      "url": "https://github.com/Ayfri/Minekraft-2D"
-    },
-    {
-      "name": "Python-TP3",
-      "description": "The third exercice I have to do for my school.",
-      "stars": 0,
-      "createdAt": "2022-02-03T16:18:10Z",
-      "topics": [],
-      "url": "https://github.com/Ayfri/Python-TP3"
-    },
-    {
-      "name": "VersionCraft",
-      "description": "VersionCraft is a website listing all versions of minecraft.",
-      "stars": 0,
-      "createdAt": "2021-11-24T08:35:18Z",
-      "topics": [
-        "minecraft",
-        "snapshots",
-        "versions"
-      ],
-      "url": "https://github.com/Ayfri/VersionCraft"
-    },
-    {
-      "name": "Challenge-Go",
+      "name": "Private repository",
       "description": null,
-      "stars": 0,
-      "createdAt": "2022-02-02T15:56:20Z",
-      "topics": [],
-      "url": "https://github.com/Ayfri/Challenge-Go"
-    },
-    {
-      "name": "Python-TP2",
-      "description": "My second exercice in Python for my school.",
-      "stars": 0,
-      "createdAt": "2022-01-21T18:31:57Z",
-      "topics": [],
-      "url": "https://github.com/Ayfri/Python-TP2"
-    },
-    {
-      "name": "Python-TP1",
-      "description": "My first exercice in Python for my school.",
-      "stars": 0,
-      "createdAt": "2022-01-21T13:33:51Z",
-      "topics": [],
-      "url": "https://github.com/Ayfri/Python-TP1"
-    },
-    {
-      "name": "Minecraft-Jsons",
-      "description": "A tool to generate JSONs used for Minecraft like recipes or blockstates.",
       "stars": 1,
-      "createdAt": "2021-11-30T04:10:12Z",
+      "isPrivate": true,
+      "createdAt": "2024-03-04T08:34:00Z",
+      "updatedAt": "2024-03-04T09:23:12Z",
+      "pushedAt": "2024-03-04T09:54:54Z",
+      "primaryLanguage": "Jupyter Notebook",
+      "sizeKb": 48,
+      "openIssues": 0,
+      "watchers": 1,
       "topics": [],
-      "url": "https://github.com/Ayfri/Minecraft-Jsons"
-    },
-    {
-      "name": "minecraft-wiki-scrapper",
-      "description": "A scrapper to get data on all the versions of Minecraft using its fandom wiki.",
-      "stars": 0,
-      "createdAt": "2021-12-04T03:15:46Z",
-      "topics": [],
-      "url": "https://github.com/Ayfri/minecraft-wiki-scrapper"
-    },
-    {
-      "name": "advent-of-code-2021",
-      "description": "The advent of code 2021 made in Kotlin.",
-      "stars": 0,
-      "createdAt": "2021-12-05T14:07:42Z",
-      "topics": [],
-      "url": "https://github.com/Ayfri/advent-of-code-2021"
-    },
-    {
-      "name": "hangman-classic",
-      "description": "A hangman game made in go.",
-      "stars": 1,
-      "createdAt": "2021-11-24T13:01:47Z",
-      "topics": [],
-      "url": "https://github.com/Ayfri/hangman-classic"
-    },
-    {
-      "name": "HTML-Menu",
-      "description": "An HTML/CSS responsive menu I have to recreate from a video.",
-      "stars": 0,
-      "createdAt": "2021-11-14T14:07:35Z",
-      "topics": [],
-      "url": "https://github.com/Ayfri/HTML-Menu"
-    },
-    {
-      "name": "Tetris-Cpp",
-      "description": "A game of tetris made in C++ using SDL.",
-      "stars": 0,
-      "createdAt": "2021-10-28T13:10:48Z",
-      "topics": [],
-      "url": "https://github.com/Ayfri/Tetris-Cpp"
-    },
-    {
-      "name": "CommunAyBot",
-      "description": "My Discord bot for my Guild CommunAyfri, made in Kotlin !",
-      "stars": 0,
-      "createdAt": "2021-06-01T13:34:41Z",
-      "topics": [],
-      "url": "https://github.com/Ayfri/CommunAyBot"
-    },
-    {
-      "name": "Project-Red",
-      "description": "A project in Golang with Ynov.",
-      "stars": 0,
-      "createdAt": "2021-09-22T13:22:23Z",
-      "topics": [],
-      "url": "https://github.com/Ayfri/Project-Red"
-    },
-    {
-      "name": "Discord.js-v11-Like",
-      "description": "A node module that have the discord.js v11.6.4 fields but works in discord.js v12.x",
-      "stars": 1,
-      "createdAt": "2020-06-18T11:26:37Z",
-      "topics": [
-        "discord",
-        "discord-js",
-        "npm-package"
-      ],
-      "url": "https://github.com/Ayfri/Discord.js-v11-Like"
-    },
-    {
-      "name": "Kode",
-      "description": "A code editor made in Kotlin using Compose.",
-      "stars": 0,
-      "createdAt": "2021-09-06T13:47:39Z",
-      "topics": [],
-      "url": "https://github.com/Ayfri/Kode"
-    },
-    {
-      "name": "Better-Lists",
-      "description": "A package for using better lists.",
-      "stars": 0,
-      "createdAt": "2021-07-27T16:54:19Z",
-      "topics": [],
-      "url": "https://github.com/Ayfri/Better-Lists"
-    },
-    {
-      "name": "PIXI-Extended",
-      "description": "A framework to help you develop with PIXI 2d games.",
-      "stars": 1,
-      "createdAt": "2021-04-09T13:37:10Z",
-      "topics": [
-        "game-development",
-        "pixi",
-        "pixi-extended",
-        "pixi-game",
-        "pixi-utils",
-        "pixijs"
-      ],
-      "url": "https://github.com/Ayfri/PIXI-Extended"
-    },
-    {
-      "name": "minecraft-mod",
-      "description": "My minecraft mod that I'm making on twitch, better name will come later.",
-      "stars": 0,
-      "createdAt": "2021-06-23T13:35:11Z",
-      "topics": [],
-      "url": "https://github.com/Ayfri/minecraft-mod"
-    },
-    {
-      "name": "void-shooter",
-      "description": "A shooter game like the old arcade ones.",
-      "stars": 0,
-      "createdAt": "2021-06-05T12:30:05Z",
-      "topics": [],
-      "url": "https://github.com/Ayfri/void-shooter"
-    },
-    {
-      "name": "tsc",
-      "description": "A public Discord bot to test TypeScript on Discord.",
-      "stars": 2,
-      "createdAt": "2020-10-01T19:53:36Z",
-      "topics": [],
-      "url": "https://github.com/Ayfri/tsc"
-    },
-    {
-      "name": "God-Embot",
-      "description": "A simple bot to create Embeds with the godembed package.",
-      "stars": 1,
-      "createdAt": "2020-03-21T21:36:08Z",
-      "topics": [],
-      "url": "https://github.com/Ayfri/God-Embot"
+      "url": ""
     }
   ],
   "koreStarHistory": [
@@ -2676,6 +3774,854 @@
     },
     {
       "starredAt": "2025-07-08T07:24:27Z"
+    },
+    {
+      "starredAt": "2025-08-06T06:42:42Z"
+    },
+    {
+      "starredAt": "2025-08-21T09:51:17Z"
+    },
+    {
+      "starredAt": "2025-08-21T15:17:01Z"
+    },
+    {
+      "starredAt": "2025-08-29T12:47:34Z"
+    },
+    {
+      "starredAt": "2025-08-31T01:02:30Z"
+    },
+    {
+      "starredAt": "2025-09-14T01:15:48Z"
+    },
+    {
+      "starredAt": "2025-09-21T02:12:12Z"
+    },
+    {
+      "starredAt": "2025-10-12T20:27:38Z"
+    },
+    {
+      "starredAt": "2025-10-21T07:06:53Z"
+    },
+    {
+      "starredAt": "2025-10-26T00:02:58Z"
+    },
+    {
+      "starredAt": "2025-11-21T10:35:19Z"
+    },
+    {
+      "starredAt": "2025-11-29T18:19:45Z"
+    },
+    {
+      "starredAt": "2025-12-30T05:21:19Z"
+    },
+    {
+      "starredAt": "2025-12-30T22:28:05Z"
+    },
+    {
+      "starredAt": "2026-01-25T19:23:09Z"
+    },
+    {
+      "starredAt": "2026-01-27T16:39:07Z"
+    },
+    {
+      "starredAt": "2026-01-29T10:48:31Z"
+    },
+    {
+      "starredAt": "2026-02-14T10:30:30Z"
+    },
+    {
+      "starredAt": "2026-02-17T16:50:22Z"
+    },
+    {
+      "starredAt": "2026-02-22T13:05:04Z"
+    },
+    {
+      "starredAt": "2026-02-28T07:55:40Z"
+    },
+    {
+      "starredAt": "2026-03-01T02:59:31Z"
+    },
+    {
+      "starredAt": "2026-03-09T04:00:59Z"
+    },
+    {
+      "starredAt": "2026-03-09T12:47:36Z"
+    },
+    {
+      "starredAt": "2026-03-09T23:36:11Z"
+    },
+    {
+      "starredAt": "2026-03-21T05:44:10Z"
+    },
+    {
+      "starredAt": "2026-03-22T17:20:33Z"
+    },
+    {
+      "starredAt": "2026-04-03T13:56:19Z"
+    },
+    {
+      "starredAt": "2026-04-04T01:07:08Z"
+    },
+    {
+      "starredAt": "2026-04-04T09:03:28Z"
+    },
+    {
+      "starredAt": "2026-04-06T08:25:16Z"
+    },
+    {
+      "starredAt": "2026-04-08T03:21:41Z"
+    },
+    {
+      "starredAt": "2026-04-24T20:37:27Z"
+    },
+    {
+      "starredAt": "2026-05-02T03:47:09Z"
+    },
+    {
+      "starredAt": "2026-06-23T19:53:00Z"
+    },
+    {
+      "starredAt": "2026-06-29T20:19:10Z"
+    },
+    {
+      "starredAt": "2026-06-29T23:01:26Z"
+    },
+    {
+      "starredAt": "2026-06-30T05:42:41Z"
+    }
+  ],
+  "starHistories": [
+    {
+      "name": "Kore",
+      "owner": "Ayfri",
+      "url": "https://github.com/Ayfri/Kore",
+      "stars": 138,
+      "history": [
+        {
+          "starredAt": "2022-11-18T22:39:17Z"
+        },
+        {
+          "starredAt": "2022-11-26T05:32:35Z"
+        },
+        {
+          "starredAt": "2022-11-27T04:01:35Z"
+        },
+        {
+          "starredAt": "2023-03-04T15:04:27Z"
+        },
+        {
+          "starredAt": "2023-03-04T15:12:07Z"
+        },
+        {
+          "starredAt": "2023-03-20T13:50:13Z"
+        },
+        {
+          "starredAt": "2023-04-10T17:09:59Z"
+        },
+        {
+          "starredAt": "2023-04-17T17:55:58Z"
+        },
+        {
+          "starredAt": "2023-04-25T18:26:00Z"
+        },
+        {
+          "starredAt": "2023-09-22T15:09:31Z"
+        },
+        {
+          "starredAt": "2023-09-24T09:07:34Z"
+        },
+        {
+          "starredAt": "2023-09-24T11:54:11Z"
+        },
+        {
+          "starredAt": "2023-09-24T12:19:40Z"
+        },
+        {
+          "starredAt": "2023-09-24T12:50:29Z"
+        },
+        {
+          "starredAt": "2023-09-24T20:28:06Z"
+        },
+        {
+          "starredAt": "2023-09-24T20:51:34Z"
+        },
+        {
+          "starredAt": "2023-09-25T07:46:19Z"
+        },
+        {
+          "starredAt": "2023-09-25T08:16:38Z"
+        },
+        {
+          "starredAt": "2023-09-25T14:57:34Z"
+        },
+        {
+          "starredAt": "2023-09-26T04:53:16Z"
+        },
+        {
+          "starredAt": "2023-09-26T09:39:27Z"
+        },
+        {
+          "starredAt": "2023-10-07T19:41:01Z"
+        },
+        {
+          "starredAt": "2023-10-08T12:16:34Z"
+        },
+        {
+          "starredAt": "2023-10-15T20:12:22Z"
+        },
+        {
+          "starredAt": "2023-10-16T04:39:33Z"
+        },
+        {
+          "starredAt": "2023-10-17T08:16:53Z"
+        },
+        {
+          "starredAt": "2023-10-18T21:12:09Z"
+        },
+        {
+          "starredAt": "2023-11-02T16:56:04Z"
+        },
+        {
+          "starredAt": "2023-11-05T01:10:45Z"
+        },
+        {
+          "starredAt": "2023-11-15T18:00:59Z"
+        },
+        {
+          "starredAt": "2023-11-16T07:25:01Z"
+        },
+        {
+          "starredAt": "2023-11-16T22:37:55Z"
+        },
+        {
+          "starredAt": "2023-11-17T04:18:07Z"
+        },
+        {
+          "starredAt": "2023-11-17T10:04:46Z"
+        },
+        {
+          "starredAt": "2023-11-20T14:52:55Z"
+        },
+        {
+          "starredAt": "2023-11-21T00:44:58Z"
+        },
+        {
+          "starredAt": "2023-11-21T00:57:03Z"
+        },
+        {
+          "starredAt": "2023-11-21T08:52:17Z"
+        },
+        {
+          "starredAt": "2023-11-26T11:33:54Z"
+        },
+        {
+          "starredAt": "2023-11-26T12:07:28Z"
+        },
+        {
+          "starredAt": "2023-12-08T11:22:22Z"
+        },
+        {
+          "starredAt": "2023-12-10T11:00:10Z"
+        },
+        {
+          "starredAt": "2023-12-29T18:24:55Z"
+        },
+        {
+          "starredAt": "2024-01-29T18:33:29Z"
+        },
+        {
+          "starredAt": "2024-01-31T09:07:36Z"
+        },
+        {
+          "starredAt": "2024-02-12T05:54:34Z"
+        },
+        {
+          "starredAt": "2024-02-26T14:50:29Z"
+        },
+        {
+          "starredAt": "2024-02-26T16:53:16Z"
+        },
+        {
+          "starredAt": "2024-04-15T18:09:23Z"
+        },
+        {
+          "starredAt": "2024-04-18T11:23:31Z"
+        },
+        {
+          "starredAt": "2024-05-12T10:46:21Z"
+        },
+        {
+          "starredAt": "2024-05-12T16:29:38Z"
+        },
+        {
+          "starredAt": "2024-05-13T02:39:34Z"
+        },
+        {
+          "starredAt": "2024-05-13T09:24:08Z"
+        },
+        {
+          "starredAt": "2024-05-13T09:29:01Z"
+        },
+        {
+          "starredAt": "2024-05-13T11:01:41Z"
+        },
+        {
+          "starredAt": "2024-05-14T07:04:28Z"
+        },
+        {
+          "starredAt": "2024-05-14T07:24:08Z"
+        },
+        {
+          "starredAt": "2024-05-15T13:07:24Z"
+        },
+        {
+          "starredAt": "2024-05-24T12:09:26Z"
+        },
+        {
+          "starredAt": "2024-06-02T18:17:02Z"
+        },
+        {
+          "starredAt": "2024-06-05T18:35:06Z"
+        },
+        {
+          "starredAt": "2024-06-27T17:28:35Z"
+        },
+        {
+          "starredAt": "2024-07-10T18:08:42Z"
+        },
+        {
+          "starredAt": "2024-07-12T09:30:13Z"
+        },
+        {
+          "starredAt": "2024-08-08T14:51:54Z"
+        },
+        {
+          "starredAt": "2024-08-11T11:04:20Z"
+        },
+        {
+          "starredAt": "2024-09-06T08:00:01Z"
+        },
+        {
+          "starredAt": "2024-09-06T22:53:54Z"
+        },
+        {
+          "starredAt": "2024-09-15T20:33:56Z"
+        },
+        {
+          "starredAt": "2024-09-18T20:13:05Z"
+        },
+        {
+          "starredAt": "2024-10-22T10:28:39Z"
+        },
+        {
+          "starredAt": "2024-10-29T17:53:05Z"
+        },
+        {
+          "starredAt": "2024-11-12T15:21:00Z"
+        },
+        {
+          "starredAt": "2024-11-21T23:19:13Z"
+        },
+        {
+          "starredAt": "2024-11-22T13:39:26Z"
+        },
+        {
+          "starredAt": "2024-12-20T21:57:30Z"
+        },
+        {
+          "starredAt": "2024-12-22T16:46:54Z"
+        },
+        {
+          "starredAt": "2024-12-27T07:10:19Z"
+        },
+        {
+          "starredAt": "2025-01-03T06:16:14Z"
+        },
+        {
+          "starredAt": "2025-01-04T11:03:27Z"
+        },
+        {
+          "starredAt": "2025-01-07T12:18:05Z"
+        },
+        {
+          "starredAt": "2025-01-07T12:18:26Z"
+        },
+        {
+          "starredAt": "2025-01-08T05:01:47Z"
+        },
+        {
+          "starredAt": "2025-01-11T12:55:38Z"
+        },
+        {
+          "starredAt": "2025-01-25T06:54:42Z"
+        },
+        {
+          "starredAt": "2025-02-01T13:02:52Z"
+        },
+        {
+          "starredAt": "2025-02-11T16:47:10Z"
+        },
+        {
+          "starredAt": "2025-02-22T10:10:15Z"
+        },
+        {
+          "starredAt": "2025-02-23T19:07:02Z"
+        },
+        {
+          "starredAt": "2025-02-27T10:46:20Z"
+        },
+        {
+          "starredAt": "2025-03-02T05:53:20Z"
+        },
+        {
+          "starredAt": "2025-03-08T23:29:59Z"
+        },
+        {
+          "starredAt": "2025-03-14T05:49:06Z"
+        },
+        {
+          "starredAt": "2025-03-17T20:19:26Z"
+        },
+        {
+          "starredAt": "2025-03-26T15:33:05Z"
+        },
+        {
+          "starredAt": "2025-05-06T16:35:30Z"
+        },
+        {
+          "starredAt": "2025-06-06T11:18:56Z"
+        },
+        {
+          "starredAt": "2025-06-06T15:39:23Z"
+        },
+        {
+          "starredAt": "2025-07-08T07:24:27Z"
+        },
+        {
+          "starredAt": "2025-08-06T06:42:42Z"
+        },
+        {
+          "starredAt": "2025-08-21T09:51:17Z"
+        },
+        {
+          "starredAt": "2025-08-21T15:17:01Z"
+        },
+        {
+          "starredAt": "2025-08-29T12:47:34Z"
+        },
+        {
+          "starredAt": "2025-08-31T01:02:30Z"
+        },
+        {
+          "starredAt": "2025-09-14T01:15:48Z"
+        },
+        {
+          "starredAt": "2025-09-21T02:12:12Z"
+        },
+        {
+          "starredAt": "2025-10-12T20:27:38Z"
+        },
+        {
+          "starredAt": "2025-10-21T07:06:53Z"
+        },
+        {
+          "starredAt": "2025-10-26T00:02:58Z"
+        },
+        {
+          "starredAt": "2025-11-21T10:35:19Z"
+        },
+        {
+          "starredAt": "2025-11-29T18:19:45Z"
+        },
+        {
+          "starredAt": "2025-12-30T05:21:19Z"
+        },
+        {
+          "starredAt": "2025-12-30T22:28:05Z"
+        },
+        {
+          "starredAt": "2026-01-25T19:23:09Z"
+        },
+        {
+          "starredAt": "2026-01-27T16:39:07Z"
+        },
+        {
+          "starredAt": "2026-01-29T10:48:31Z"
+        },
+        {
+          "starredAt": "2026-02-14T10:30:30Z"
+        },
+        {
+          "starredAt": "2026-02-17T16:50:22Z"
+        },
+        {
+          "starredAt": "2026-02-22T13:05:04Z"
+        },
+        {
+          "starredAt": "2026-02-28T07:55:40Z"
+        },
+        {
+          "starredAt": "2026-03-01T02:59:31Z"
+        },
+        {
+          "starredAt": "2026-03-09T04:00:59Z"
+        },
+        {
+          "starredAt": "2026-03-09T12:47:36Z"
+        },
+        {
+          "starredAt": "2026-03-09T23:36:11Z"
+        },
+        {
+          "starredAt": "2026-03-21T05:44:10Z"
+        },
+        {
+          "starredAt": "2026-03-22T17:20:33Z"
+        },
+        {
+          "starredAt": "2026-04-03T13:56:19Z"
+        },
+        {
+          "starredAt": "2026-04-04T01:07:08Z"
+        },
+        {
+          "starredAt": "2026-04-04T09:03:28Z"
+        },
+        {
+          "starredAt": "2026-04-06T08:25:16Z"
+        },
+        {
+          "starredAt": "2026-04-08T03:21:41Z"
+        },
+        {
+          "starredAt": "2026-04-24T20:37:27Z"
+        },
+        {
+          "starredAt": "2026-05-02T03:47:09Z"
+        },
+        {
+          "starredAt": "2026-06-23T19:53:00Z"
+        },
+        {
+          "starredAt": "2026-06-29T20:19:10Z"
+        },
+        {
+          "starredAt": "2026-06-29T23:01:26Z"
+        },
+        {
+          "starredAt": "2026-06-30T05:42:41Z"
+        }
+      ]
+    },
+    {
+      "name": "Advanced-Command-Handler",
+      "owner": "Advanced-Command-Handler",
+      "url": "https://github.com/Advanced-Command-Handler/Advanced-Command-Handler",
+      "stars": 35,
+      "history": [
+        {
+          "starredAt": "2020-01-18T14:00:03Z"
+        },
+        {
+          "starredAt": "2020-01-18T14:00:44Z"
+        },
+        {
+          "starredAt": "2020-01-21T21:32:34Z"
+        },
+        {
+          "starredAt": "2020-04-18T18:09:58Z"
+        },
+        {
+          "starredAt": "2020-08-15T16:04:32Z"
+        },
+        {
+          "starredAt": "2020-08-19T13:37:07Z"
+        },
+        {
+          "starredAt": "2020-08-19T15:09:07Z"
+        },
+        {
+          "starredAt": "2020-10-27T12:41:38Z"
+        },
+        {
+          "starredAt": "2020-10-27T21:46:01Z"
+        },
+        {
+          "starredAt": "2020-11-24T06:00:17Z"
+        },
+        {
+          "starredAt": "2020-12-09T03:17:39Z"
+        },
+        {
+          "starredAt": "2020-12-09T11:13:39Z"
+        },
+        {
+          "starredAt": "2020-12-09T19:18:28Z"
+        },
+        {
+          "starredAt": "2020-12-10T05:42:15Z"
+        },
+        {
+          "starredAt": "2020-12-28T09:21:38Z"
+        },
+        {
+          "starredAt": "2020-12-28T17:50:17Z"
+        },
+        {
+          "starredAt": "2021-01-02T15:15:23Z"
+        },
+        {
+          "starredAt": "2021-01-02T16:47:42Z"
+        },
+        {
+          "starredAt": "2021-01-02T23:52:39Z"
+        },
+        {
+          "starredAt": "2021-01-27T18:11:57Z"
+        },
+        {
+          "starredAt": "2021-04-03T03:47:17Z"
+        },
+        {
+          "starredAt": "2021-07-09T05:19:56Z"
+        },
+        {
+          "starredAt": "2021-07-22T02:41:36Z"
+        },
+        {
+          "starredAt": "2021-08-16T09:47:56Z"
+        },
+        {
+          "starredAt": "2021-08-24T13:27:45Z"
+        },
+        {
+          "starredAt": "2021-08-24T16:35:48Z"
+        },
+        {
+          "starredAt": "2021-11-12T18:54:58Z"
+        },
+        {
+          "starredAt": "2021-11-28T11:31:09Z"
+        },
+        {
+          "starredAt": "2021-12-05T20:18:42Z"
+        },
+        {
+          "starredAt": "2021-12-14T20:21:20Z"
+        },
+        {
+          "starredAt": "2022-05-02T09:35:59Z"
+        },
+        {
+          "starredAt": "2023-08-14T08:57:26Z"
+        },
+        {
+          "starredAt": "2024-05-15T15:20:19Z"
+        },
+        {
+          "starredAt": "2025-06-09T17:17:36Z"
+        },
+        {
+          "starredAt": "2025-06-20T10:24:40Z"
+        }
+      ]
+    },
+    {
+      "name": "Atom-Clicker",
+      "owner": "Ayfri",
+      "url": "https://github.com/Ayfri/Atom-Clicker",
+      "stars": 15,
+      "history": [
+        {
+          "starredAt": "2024-11-11T20:43:04Z"
+        },
+        {
+          "starredAt": "2025-01-20T20:06:58Z"
+        },
+        {
+          "starredAt": "2025-02-12T08:03:07Z"
+        },
+        {
+          "starredAt": "2025-04-03T03:19:43Z"
+        },
+        {
+          "starredAt": "2025-04-03T07:33:59Z"
+        },
+        {
+          "starredAt": "2025-04-03T08:37:14Z"
+        },
+        {
+          "starredAt": "2025-04-07T13:26:19Z"
+        },
+        {
+          "starredAt": "2025-04-07T18:28:19Z"
+        },
+        {
+          "starredAt": "2025-04-11T16:20:54Z"
+        },
+        {
+          "starredAt": "2025-04-14T03:25:15Z"
+        },
+        {
+          "starredAt": "2025-04-22T21:42:03Z"
+        },
+        {
+          "starredAt": "2025-05-09T07:47:00Z"
+        },
+        {
+          "starredAt": "2025-06-04T11:38:07Z"
+        },
+        {
+          "starredAt": "2025-06-12T07:35:11Z"
+        },
+        {
+          "starredAt": "2026-01-29T14:58:43Z"
+        }
+      ]
+    },
+    {
+      "name": "PIXI-Kotlin",
+      "owner": "Ayfri",
+      "url": "https://github.com/Ayfri/PIXI-Kotlin",
+      "stars": 15,
+      "history": [
+        {
+          "starredAt": "2021-08-27T16:13:10Z"
+        },
+        {
+          "starredAt": "2022-02-13T14:21:54Z"
+        },
+        {
+          "starredAt": "2022-02-14T23:53:24Z"
+        },
+        {
+          "starredAt": "2022-02-17T14:56:47Z"
+        },
+        {
+          "starredAt": "2022-02-17T20:36:59Z"
+        },
+        {
+          "starredAt": "2022-02-20T04:58:20Z"
+        },
+        {
+          "starredAt": "2022-02-21T09:59:57Z"
+        },
+        {
+          "starredAt": "2022-04-01T13:21:22Z"
+        },
+        {
+          "starredAt": "2022-08-23T19:35:31Z"
+        },
+        {
+          "starredAt": "2022-10-03T16:52:07Z"
+        },
+        {
+          "starredAt": "2023-02-08T13:10:05Z"
+        },
+        {
+          "starredAt": "2023-02-08T13:18:59Z"
+        },
+        {
+          "starredAt": "2023-03-22T18:17:29Z"
+        },
+        {
+          "starredAt": "2023-06-17T02:05:56Z"
+        },
+        {
+          "starredAt": "2023-12-02T22:26:26Z"
+        }
+      ]
+    },
+    {
+      "name": "Portfolio",
+      "owner": "Ayfri",
+      "url": "https://github.com/Ayfri/Portfolio",
+      "stars": 14,
+      "history": [
+        {
+          "starredAt": "2022-09-02T19:47:20Z"
+        },
+        {
+          "starredAt": "2023-11-16T14:17:50Z"
+        },
+        {
+          "starredAt": "2024-02-17T22:53:34Z"
+        },
+        {
+          "starredAt": "2024-05-06T09:44:14Z"
+        },
+        {
+          "starredAt": "2024-08-17T15:40:28Z"
+        },
+        {
+          "starredAt": "2024-08-22T09:20:56Z"
+        },
+        {
+          "starredAt": "2025-01-26T08:45:50Z"
+        },
+        {
+          "starredAt": "2025-03-09T16:14:06Z"
+        },
+        {
+          "starredAt": "2025-03-09T16:52:43Z"
+        },
+        {
+          "starredAt": "2025-03-09T18:47:01Z"
+        },
+        {
+          "starredAt": "2025-03-31T23:12:28Z"
+        },
+        {
+          "starredAt": "2025-04-02T07:25:45Z"
+        },
+        {
+          "starredAt": "2025-04-25T16:16:10Z"
+        },
+        {
+          "starredAt": "2025-08-24T02:46:30Z"
+        }
+      ]
+    },
+    {
+      "name": "Deep-Research",
+      "owner": "Ayfri",
+      "url": "https://github.com/Ayfri/Deep-Research",
+      "stars": 11,
+      "history": [
+        {
+          "starredAt": "2025-02-24T16:24:01Z"
+        },
+        {
+          "starredAt": "2025-03-04T19:59:56Z"
+        },
+        {
+          "starredAt": "2025-03-05T07:06:11Z"
+        },
+        {
+          "starredAt": "2025-03-06T18:18:17Z"
+        },
+        {
+          "starredAt": "2025-03-12T21:15:35Z"
+        },
+        {
+          "starredAt": "2025-03-23T18:53:12Z"
+        },
+        {
+          "starredAt": "2025-03-26T15:19:55Z"
+        },
+        {
+          "starredAt": "2025-04-02T09:47:41Z"
+        },
+        {
+          "starredAt": "2025-06-15T05:21:57Z"
+        },
+        {
+          "starredAt": "2026-03-01T15:39:08Z"
+        },
+        {
+          "starredAt": "2026-05-05T17:54:39Z"
+        }
+      ]
     }
   ]
 }

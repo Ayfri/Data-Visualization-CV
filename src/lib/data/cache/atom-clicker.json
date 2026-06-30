@@ -1,0 +1,156 @@
+{
+  "fetchedAt": "2026-06-30T13:35:01.247Z",
+  "totalUsers": 1089,
+  "leaderboardSize": 1000,
+  "onlineUsers": 0,
+  "activeLast7Days": 3,
+  "topAtoms": 4.078897655567354e+29,
+  "topLevel": 410,
+  "outlierUsers": 566,
+  "observedUserHistory": [
+    {
+      "date": "2024-12",
+      "count": 4,
+      "cumulative": 4
+    },
+    {
+      "date": "2025-01",
+      "count": 2,
+      "cumulative": 6
+    },
+    {
+      "date": "2025-02",
+      "count": 19,
+      "cumulative": 25
+    },
+    {
+      "date": "2025-03",
+      "count": 7,
+      "cumulative": 32
+    },
+    {
+      "date": "2025-04",
+      "count": 28,
+      "cumulative": 60
+    },
+    {
+      "date": "2025-05",
+      "count": 12,
+      "cumulative": 72
+    },
+    {
+      "date": "2025-06",
+      "count": 10,
+      "cumulative": 82
+    },
+    {
+      "date": "2025-07",
+      "count": 14,
+      "cumulative": 96
+    },
+    {
+      "date": "2025-08",
+      "count": 33,
+      "cumulative": 129
+    },
+    {
+      "date": "2025-09",
+      "count": 20,
+      "cumulative": 149
+    },
+    {
+      "date": "2025-10",
+      "count": 20,
+      "cumulative": 169
+    },
+    {
+      "date": "2025-11",
+      "count": 49,
+      "cumulative": 218
+    },
+    {
+      "date": "2025-12",
+      "count": 352,
+      "cumulative": 570
+    },
+    {
+      "date": "2026-01",
+      "count": 178,
+      "cumulative": 748
+    },
+    {
+      "date": "2026-02",
+      "count": 76,
+      "cumulative": 824
+    },
+    {
+      "date": "2026-03",
+      "count": 75,
+      "cumulative": 899
+    },
+    {
+      "date": "2026-04",
+      "count": 40,
+      "cumulative": 939
+    },
+    {
+      "date": "2026-05",
+      "count": 38,
+      "cumulative": 977
+    },
+    {
+      "date": "2026-06",
+      "count": 23,
+      "cumulative": 1000
+    }
+  ],
+  "registrationHistory": [],
+  "levelBuckets": [
+    {
+      "label": "0",
+      "count": 37
+    },
+    {
+      "label": "1-5",
+      "count": 60
+    },
+    {
+      "label": "6-10",
+      "count": 15
+    },
+    {
+      "label": "11-20",
+      "count": 70
+    },
+    {
+      "label": "21-40",
+      "count": 154
+    },
+    {
+      "label": "41+",
+      "count": 98
+    }
+  ],
+  "atomBands": [
+    {
+      "label": "<1K",
+      "count": 0
+    },
+    {
+      "label": "1K-100K",
+      "count": 120
+    },
+    {
+      "label": "100K-10M",
+      "count": 126
+    },
+    {
+      "label": "10M-1B",
+      "count": 75
+    },
+    {
+      "label": "1B+",
+      "count": 113
+    }
+  ]
+}

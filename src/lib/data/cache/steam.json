@@ -1,1000 +1,1398 @@
 {
-  "fetchedAt": "2026-06-30T12:32:28.410Z",
+  "fetchedAt": "2026-06-30T13:35:00.926Z",
   "games": [
     {
       "appid": 10,
       "name": "Counter-Strike",
-      "playtimeMinutes": 6
+      "playtimeMinutes": 6,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/10/6b0312cda02f5f777efa2f3318c307ff9acafbb5.jpg"
     },
     {
       "appid": 20,
       "name": "Team Fortress Classic",
-      "playtimeMinutes": 0
+      "playtimeMinutes": 0,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/20/38ea7ebe3c1abbbbf4eabdbef174c41a972102b9.jpg"
     },
     {
       "appid": 30,
       "name": "Day of Defeat",
-      "playtimeMinutes": 0
+      "playtimeMinutes": 0,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/30/aadc0ce51ff6ba2042d633f8ec033b0de62091d0.jpg"
     },
     {
       "appid": 40,
       "name": "Deathmatch Classic",
-      "playtimeMinutes": 0
+      "playtimeMinutes": 0,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/40/c525f76c8bc7353db4fd74b128c4ae2028426c2a.jpg"
     },
     {
       "appid": 50,
       "name": "Half-Life: Opposing Force",
-      "playtimeMinutes": 0
+      "playtimeMinutes": 0,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/50/04e81206c10e12416908c72c5f22aad411b3aeef.jpg"
     },
     {
       "appid": 60,
       "name": "Ricochet",
-      "playtimeMinutes": 4
+      "playtimeMinutes": 4,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/60/98c69e04cd59b838e05cb6980c12c05874c6419e.jpg"
     },
     {
       "appid": 70,
       "name": "Half-Life",
-      "playtimeMinutes": 150
+      "playtimeMinutes": 150,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/70/95be6d131fc61f145797317ca437c9765f24b41c.jpg"
     },
     {
       "appid": 80,
       "name": "Counter-Strike: Condition Zero",
-      "playtimeMinutes": 0
+      "playtimeMinutes": 0,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/80/077b050ef3e89cd84e2c5a575d78d53b54058236.jpg"
     },
     {
       "appid": 100,
       "name": "Counter-Strike: Condition Zero Deleted Scenes",
-      "playtimeMinutes": 0
+      "playtimeMinutes": 0,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/100/077b050ef3e89cd84e2c5a575d78d53b54058236.jpg"
     },
     {
       "appid": 130,
       "name": "Half-Life: Blue Shift",
-      "playtimeMinutes": 0
+      "playtimeMinutes": 0,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/130/b06fdee488b3220362c11704be4edad82abeed08.jpg"
     },
     {
       "appid": 220,
       "name": "Half-Life 2",
-      "playtimeMinutes": 1157
+      "playtimeMinutes": 1157,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/220/fcfb366051782b8ebf2aa297f3b746395858cb62.jpg"
     },
     {
       "appid": 240,
       "name": "Counter-Strike: Source",
-      "playtimeMinutes": 0
+      "playtimeMinutes": 0,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/240/9052fa60c496a1c03383b27687ec50f4bf0f0e10.jpg"
     },
     {
       "appid": 280,
       "name": "Half-Life: Source",
-      "playtimeMinutes": 0
+      "playtimeMinutes": 0,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/280/b4f572a6cc5a6a84ae84634c31414b9123d2f26b.jpg"
     },
     {
       "appid": 300,
       "name": "Day of Defeat: Source",
-      "playtimeMinutes": 0
+      "playtimeMinutes": 0,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/300/062754bb5853b0534283ae27dc5d58200692b22d.jpg"
     },
     {
       "appid": 320,
       "name": "Half-Life 2: Deathmatch",
-      "playtimeMinutes": 0
+      "playtimeMinutes": 0,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/320/795e85364189511f4990861b578084deef086cb1.jpg"
     },
     {
       "appid": 360,
       "name": "Half-Life Deathmatch: Source",
-      "playtimeMinutes": 0
+      "playtimeMinutes": 0,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/360/40b8a62efff5a9ab356e5c56f5c8b0532c8e1aa3.jpg"
     },
     {
       "appid": 400,
       "name": "Portal",
-      "playtimeMinutes": 165
+      "playtimeMinutes": 165,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/400/cfa928ab4119dd137e50d728e8fe703e4e970aff.jpg"
     },
     {
       "appid": 500,
       "name": "Left 4 Dead",
-      "playtimeMinutes": 0
+      "playtimeMinutes": 0,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/500/428df26bc35b09319e31b1ffb712487b20b3245c.jpg"
     },
     {
       "appid": 550,
       "name": "Left 4 Dead 2",
-      "playtimeMinutes": 4817
+      "playtimeMinutes": 4817,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/550/7d5a243f9500d2f8467312822f8af2a2928777ed.jpg"
     },
     {
       "appid": 570,
       "name": "Dota 2",
-      "playtimeMinutes": 69
+      "playtimeMinutes": 69,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/570/0bbb630d63262dd66d2fdd0f7d37e8661a410075.jpg"
     },
     {
       "appid": 620,
       "name": "Portal 2",
-      "playtimeMinutes": 8926
+      "playtimeMinutes": 8926,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/620/25a5a16b2423bf7487ac5340b5b0948cef48c5f8.jpg"
     },
     {
       "appid": 730,
       "name": "Counter-Strike 2",
-      "playtimeMinutes": 875
+      "playtimeMinutes": 875,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/730/8dbc71957312bbd3baea65848b545be9eae2a355.jpg"
     },
     {
       "appid": 4000,
       "name": "Garry's Mod",
-      "playtimeMinutes": 2000
+      "playtimeMinutes": 2000,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/4000/4a6f25cfa2426445d0d9d6e233408de4d371ce8b.jpg"
     },
     {
       "appid": 8500,
       "name": "EVE Online",
-      "playtimeMinutes": 109
+      "playtimeMinutes": 109,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/8500/884d8c6482487e74b18ceef872ee9543a1c5828d.jpg"
     },
     {
       "appid": 17390,
       "name": "Spore",
-      "playtimeMinutes": 1
+      "playtimeMinutes": 1,
+      "recentPlaytimeMinutes": 1,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/17390/00e6b5f1f7173e5a2db9978de34df03abb886430.jpg"
     },
     {
       "appid": 39000,
       "name": "Moonbase Alpha",
-      "playtimeMinutes": 32
+      "playtimeMinutes": 32,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/39000/24b18829c461e2db0a9962ce0aaeb5dfa3d381d8.jpg"
     },
     {
       "appid": 41300,
       "name": "Altitude",
-      "playtimeMinutes": 52
+      "playtimeMinutes": 52,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/41300/91bbd5b5ae3a170159beef0dacc1e3cca242c953.jpg"
     },
     {
       "appid": 49520,
       "name": "Borderlands 2",
-      "playtimeMinutes": 3646
+      "playtimeMinutes": 3646,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/49520/a3f4945226e69b6196074df4c776e342d3e5a3be.jpg"
     },
     {
       "appid": 200210,
       "name": "Realm of the Mad God Exalt",
-      "playtimeMinutes": 12
+      "playtimeMinutes": 12,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/200210/76c62602486e58f9501e09e7e8f189e86823e8d5.jpg"
     },
     {
       "appid": 206420,
       "name": "Saints Row IV",
-      "playtimeMinutes": 7174
+      "playtimeMinutes": 7174,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/206420/211c502e385781a17b4d02cad7a3ef53f09f1e91.jpg"
     },
     {
       "appid": 220200,
       "name": "Kerbal Space Program",
-      "playtimeMinutes": 13305
+      "playtimeMinutes": 13305,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/220200/6dc8c1377c6b0ffedaeaec59c253f8c33fb3e62b.jpg"
     },
     {
       "appid": 225540,
       "name": "Just Cause 3",
-      "playtimeMinutes": 2230
+      "playtimeMinutes": 2230,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/225540/c82c69c8d616d9d273d749e3dd3bd7a0f9da594a.jpg"
     },
     {
       "appid": 227940,
       "name": "Heroes & Generals",
-      "playtimeMinutes": 26
+      "playtimeMinutes": 26,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/227940/64f09c15e558464a40ced00a9ef35ed13542e144.jpg"
     },
     {
       "appid": 230410,
       "name": "Warframe",
-      "playtimeMinutes": 7
+      "playtimeMinutes": 7,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/230410/22064646470f4c53388ba87774c7ac10f0a91ffa.jpg"
     },
     {
       "appid": 235900,
       "name": "RPG Maker XP",
-      "playtimeMinutes": 0
+      "playtimeMinutes": 0,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/235900/d4fae8dbf49b2d8fda0aa9d74323529e41d200a2.jpg"
     },
     {
       "appid": 236390,
       "name": "War Thunder",
-      "playtimeMinutes": 819
+      "playtimeMinutes": 819,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/236390/c69fbafb6e9891314cc5df0fe6a659612c289bf9.jpg"
     },
     {
       "appid": 239820,
       "name": "Game Dev Tycoon",
-      "playtimeMinutes": 756
+      "playtimeMinutes": 756,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/239820/f63ee73113b0880922a84e8d6af0d222fef91c40.jpg"
     },
     {
       "appid": 242590,
       "name": "Saints Row IV Inauguration Station",
-      "playtimeMinutes": 37
+      "playtimeMinutes": 37,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/242590/b5e8448a3e2ea31ddf3595addae4e1eee2375c0d.jpg"
     },
     {
       "appid": 243470,
       "name": "Watch_Dogs",
-      "playtimeMinutes": 104
+      "playtimeMinutes": 104,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/243470/53368e59a196dfa9af66ecd32135939da97fa72e.jpg"
     },
     {
       "appid": 244930,
       "name": "SNOW",
-      "playtimeMinutes": 58
+      "playtimeMinutes": 58,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/244930/7e90f75e6236774b3e9069e17b3acc3491128166.jpg"
     },
     {
       "appid": 247120,
       "name": "Portal 2 Sixense Perceptual Pack",
-      "playtimeMinutes": 2
+      "playtimeMinutes": 2,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/247120/610bfe3ac6d5d3838d49251594ef5adcc2c81286.jpg"
     },
     {
       "appid": 248570,
       "name": "Toribash",
-      "playtimeMinutes": 101
+      "playtimeMinutes": 101,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/248570/7642e8aaf8d97a5fca68d749ed5cdd548cbb6d35.jpg"
     },
     {
       "appid": 253710,
       "name": "theHunter Classic",
-      "playtimeMinutes": 94
+      "playtimeMinutes": 94,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/253710/4a91dc770675e559038a4f46e0daa4f8fa42ee30.jpg"
     },
     {
       "appid": 255710,
       "name": "Cities: Skylines",
-      "playtimeMinutes": 2935
+      "playtimeMinutes": 2935,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/255710/6cf7b10dd29db28448ef79698ed2118a03617d63.jpg"
     },
     {
       "appid": 261640,
       "name": "Borderlands: The Pre-Sequel",
-      "playtimeMinutes": 1
+      "playtimeMinutes": 1,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/261640/af5ef05eac8b1eb618e4f57354ac7b3e918ab1bd.jpg"
     },
     {
       "appid": 262410,
       "name": "World of Guns: Gun Disassembly",
-      "playtimeMinutes": 73
+      "playtimeMinutes": 73,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/262410/39c2ca5b9be73c728568f1954543e5969ecd2707.jpg"
     },
     {
       "appid": 265930,
       "name": "Goat Simulator",
-      "playtimeMinutes": 5107
+      "playtimeMinutes": 5107,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/265930/edf6c28b83d5fc221338ff71d01caa11d11d3b50.jpg"
     },
     {
       "appid": 273350,
       "name": "Evolve Stage 2",
-      "playtimeMinutes": 2
+      "playtimeMinutes": 2,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/273350/6b9e205c389185a4b0e079a13090c751e47375d2.jpg"
     },
     {
       "appid": 286080,
       "name": "Thinking with Time Machine",
-      "playtimeMinutes": 194
+      "playtimeMinutes": 194,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/286080/704dec3992ad6cc0bf8aca588b11089556c8b92a.jpg"
     },
     {
       "appid": 289070,
       "name": "Sid Meier's Civilization VI",
-      "playtimeMinutes": 107
+      "playtimeMinutes": 107,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/289070/9dc914132fec244adcede62fb8e7524a72a7398c.jpg"
     },
     {
       "appid": 291550,
       "name": "Brawlhalla",
-      "playtimeMinutes": 1720
+      "playtimeMinutes": 1720,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/291550/c43fac31b8bf8821764603a14d09412bc3d45f66.jpg"
     },
     {
       "appid": 301520,
       "name": "Robocraft",
-      "playtimeMinutes": 1163
+      "playtimeMinutes": 1163,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/301520/25b4f8bc206a7768638974d991b12d3943729d49.jpg"
     },
     {
       "appid": 302380,
       "name": "Floating Point",
-      "playtimeMinutes": 264
+      "playtimeMinutes": 264,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/302380/0ff14a47134b45214c1715546370e81786d0e9fe.jpg"
     },
     {
       "appid": 302830,
       "name": "BLOCKADE 3D",
-      "playtimeMinutes": 14
+      "playtimeMinutes": 14,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/302830/30bb5bd7471b01d76f093c3c4b063ace35cb109f.jpg"
     },
     {
       "appid": 304930,
       "name": "Unturned",
-      "playtimeMinutes": 36
+      "playtimeMinutes": 36,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/304930/e18009fb628b35953826efe47dc3be556b689f4c.jpg"
     },
     {
       "appid": 314650,
       "name": "SpaceEngine",
-      "playtimeMinutes": 206
+      "playtimeMinutes": 206,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/314650/816f69ec91e4735aed80253f536438699c8e065d.jpg"
     },
     {
       "appid": 317470,
       "name": "Cubic Castles",
-      "playtimeMinutes": 26
+      "playtimeMinutes": 26,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/317470/134a305f7a654d64d0b2d45f31dce756ecade93b.jpg"
     },
     {
       "appid": 317790,
       "name": "Rexaura",
-      "playtimeMinutes": 28
+      "playtimeMinutes": 28,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/317790/e73d6a6f34701a459c961ed7833c56527f5c19a6.jpg"
     },
     {
       "appid": 319510,
       "name": "Five Nights at Freddy's",
-      "playtimeMinutes": 92
+      "playtimeMinutes": 92,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/319510/5da39a273efa65643cf4c12025898da0076dad69.jpg"
     },
     {
       "appid": 322170,
       "name": "Geometry Dash",
-      "playtimeMinutes": 6697
+      "playtimeMinutes": 6697,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/322170/7fb2e71773468dbd98d56c733b604c92f5ab0ad4.jpg"
     },
     {
       "appid": 327030,
       "name": "Worms W.M.D",
-      "playtimeMinutes": 0
+      "playtimeMinutes": 0,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/327030/9f18090e88fd50a0a85a66a1a9872bd36c856b58.jpg"
     },
     {
       "appid": 332950,
       "name": "Dark Deception",
-      "playtimeMinutes": 16
+      "playtimeMinutes": 16,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/332950/12bcf34c427e39a3cdc91979cc8adefe7d031ae2.jpg"
     },
     {
       "appid": 346110,
       "name": "ARK: Survival Evolved",
-      "playtimeMinutes": 0
+      "playtimeMinutes": 0,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/346110/fef1799533131c10f538d2dd697bbbd89e663265.jpg"
     },
     {
       "appid": 346900,
       "name": "AdVenture Capitalist",
-      "playtimeMinutes": 2146
+      "playtimeMinutes": 2146,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/346900/b4dd5ca1582ed52335b31960e05766fd22fa7cc4.jpg"
     },
     {
       "appid": 363970,
       "name": "Clicker Heroes",
-      "playtimeMinutes": 33008
+      "playtimeMinutes": 33008,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/363970/155ed2de95eacc3353b91c2a057bdbf727c11c20.jpg"
     },
     {
       "appid": 375600,
       "name": "Air Brawl",
-      "playtimeMinutes": 51
+      "playtimeMinutes": 51,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/375600/c310ea1a0438752ab97d5b667251ae39de60c937.jpg"
     },
     {
       "appid": 379720,
       "name": "DOOM",
-      "playtimeMinutes": 808
+      "playtimeMinutes": 808,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/379720/b6e72ff47d1990cb644700751eeeff14e0aba6dc.jpg"
     },
     {
       "appid": 380360,
       "name": "Tap Tap Infinity",
-      "playtimeMinutes": 751
+      "playtimeMinutes": 751,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/380360/54bcbe9ca4247d9247188dabfe073ad0d1d23a7c.jpg"
     },
     {
       "appid": 385770,
       "name": "Time Clickers",
-      "playtimeMinutes": 2209
+      "playtimeMinutes": 2209,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/385770/7eaca926a86cd223e1e3e18b26ae4d03bbe9f755.jpg"
     },
     {
       "appid": 391820,
       "name": "Evolution",
-      "playtimeMinutes": 95
+      "playtimeMinutes": 95,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/391820/964ba6c5e84ff72f950083b4fd152ccc6cb28782.jpg"
     },
     {
       "appid": 397100,
       "name": "MachineCraft",
-      "playtimeMinutes": 37
+      "playtimeMinutes": 37,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/397100/6ca97f431b7a0d3540688f3a08198daca895fb95.jpg"
     },
     {
       "appid": 397900,
       "name": "Business Tour - Online Multiplayer Board Game",
-      "playtimeMinutes": 1100
+      "playtimeMinutes": 1100,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/397900/b6ce52a576e99f54c5d18f675540b9c3ee70ed47.jpg"
     },
     {
       "appid": 407530,
       "name": "ARK: Survival Of The Fittest",
-      "playtimeMinutes": 0
+      "playtimeMinutes": 0,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/407530/807c673cddebbfee0700a947a75f4872ad136e9b.jpg"
     },
     {
       "appid": 416600,
       "name": "Full Metal Furies",
-      "playtimeMinutes": 493
+      "playtimeMinutes": 493,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/416600/c0452615278e90c4f810ec78ec60854c1f702b7a.jpg"
     },
     {
       "appid": 417860,
       "name": "Emily is Away",
-      "playtimeMinutes": 31
+      "playtimeMinutes": 31,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/417860/51909ffd578abe91b984f60c9cfe90ec74845608.jpg"
     },
     {
       "appid": 424840,
       "name": "Little Nightmares",
-      "playtimeMinutes": 0
+      "playtimeMinutes": 0,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/424840/1904c041f963b5e2cb22b56c370444517cc4e288.jpg"
     },
     {
       "appid": 431730,
       "name": "Aseprite",
-      "playtimeMinutes": 16112
+      "playtimeMinutes": 16112,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/431730/da61bd2806f69205a97609dcdd4ca27df3baf800.jpg"
     },
     {
       "appid": 431960,
       "name": "Wallpaper Engine",
-      "playtimeMinutes": 11220
+      "playtimeMinutes": 11220,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/431960/72edaed9d748c6cf7397ffb1c83f0b837b9ebd9d.jpg"
     },
     {
       "appid": 438100,
       "name": "VRChat",
-      "playtimeMinutes": 257
+      "playtimeMinutes": 257,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/438100/52c5f93bd9f8de008307f5fad95023600267462c.jpg"
     },
     {
       "appid": 444200,
       "name": "World of Tanks Blitz",
-      "playtimeMinutes": 19
+      "playtimeMinutes": 19,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/444200/6ce02840322f500c93a2f0304bc916fb44422631.jpg"
     },
     {
       "appid": 444250,
       "name": "Crown and Council",
-      "playtimeMinutes": 183
+      "playtimeMinutes": 183,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/444250/c3a814050bd10a90d7f55d26df3e07228d125662.jpg"
     },
     {
       "appid": 459820,
       "name": "Crush Crush",
-      "playtimeMinutes": 1425
+      "playtimeMinutes": 1425,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/459820/ad9adca86f3e9d9987e0537bd7fc29ffa9cadf4d.jpg"
     },
     {
       "appid": 461040,
       "name": "PICO PARK:Classic Edition",
-      "playtimeMinutes": 12
+      "playtimeMinutes": 12,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/461040/03190707446a3394e000bafee58da96581ed8721.jpg"
     },
     {
       "appid": 462930,
       "name": "AdVenture Communist",
-      "playtimeMinutes": 162
+      "playtimeMinutes": 162,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/462930/b22cfd05cc4cdf32ce7e8f618ad6f7e1aecc47c3.jpg"
     },
     {
       "appid": 466940,
       "name": "The Sandbox Evolution",
-      "playtimeMinutes": 7
+      "playtimeMinutes": 7,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/466940/4f540773c56842df28e3492b1e5433ddcb7afb8f.jpg"
     },
     {
       "appid": 476460,
       "name": "Picross Touch",
-      "playtimeMinutes": 23
+      "playtimeMinutes": 23,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/476460/ab321dccf42c4d0d793d61629d120906d0805201.jpg"
     },
     {
       "appid": 485650,
       "name": "Campaign Clicker",
-      "playtimeMinutes": 18
+      "playtimeMinutes": 18,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/485650/53043ade862264d05c35e24019154b3992cdaa80.jpg"
     },
     {
       "appid": 493340,
       "name": "Planet Coaster",
-      "playtimeMinutes": 551
+      "playtimeMinutes": 551,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/493340/1b2f29e743dd3048f21fefd9642d86a5f5123968.jpg"
     },
     {
       "appid": 504230,
       "name": "Celeste",
-      "playtimeMinutes": 205
+      "playtimeMinutes": 205,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/504230/04cb7aa0b497a3962e6b1655b7fd81a2cc95d18b.jpg"
     },
     {
       "appid": 505750,
       "name": "Trimmer Tycoon",
-      "playtimeMinutes": 61
+      "playtimeMinutes": 61,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/505750/b2ff2ac9b175e2c84441f9852a612f375c1d8aa8.jpg"
     },
     {
       "appid": 506610,
       "name": "Five Nights at Freddy's: Sister Location",
-      "playtimeMinutes": 408
+      "playtimeMinutes": 408,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/506610/3e4a286cebe2ce195718ad1a18903e7667251d65.jpg"
     },
     {
       "appid": 508440,
       "name": "Totally Accurate Battle Simulator",
-      "playtimeMinutes": 36
+      "playtimeMinutes": 36,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/508440/50fbd075b1cbb63ab805d9e49bbe6c57c5c6e9ff.jpg"
     },
     {
       "appid": 513560,
       "name": "Hunger Dungeon",
-      "playtimeMinutes": 46
+      "playtimeMinutes": 46,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/513560/fda62fb6f6b6669ac23de9c4cd4fc95860958f19.jpg"
     },
     {
       "appid": 517630,
       "name": "Just Cause 4",
-      "playtimeMinutes": 1104
+      "playtimeMinutes": 1104,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/517630/f2f0824cf788ba0acb3dad3b39cd6f25de06e667.jpg"
     },
     {
       "appid": 526870,
       "name": "Satisfactory",
-      "playtimeMinutes": 159
+      "playtimeMinutes": 159,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/526870/ee3406fe5ec813b1987ad67e37e5cd6fb4f620e6.jpg"
     },
     {
       "appid": 550040,
       "name": "Steep Open Beta",
-      "playtimeMinutes": 353
+      "playtimeMinutes": 353,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/550040/275cd4254449b78f4409b2b497e2486f562368ec.jpg"
     },
     {
       "appid": 558230,
       "name": "Elsword Free-to-Play",
-      "playtimeMinutes": 134
+      "playtimeMinutes": 134,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/558230/7f3df313d204d7d124b93aa6f309b8106d5d79e3.jpg"
     },
     {
       "appid": 582500,
       "name": "We Were Here",
-      "playtimeMinutes": 63
+      "playtimeMinutes": 63,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/582500/3b5dc17a063e558ef755b7bb6e7a3feeb771972f.jpg"
     },
     {
       "appid": 589870,
       "name": "Learn to Fly 3",
-      "playtimeMinutes": 121
+      "playtimeMinutes": 121,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/589870/900a42e164ed8744a326db1ce9d7ca7f00ec24c5.jpg"
     },
     {
       "appid": 601360,
       "name": "Portal: Revolution",
-      "playtimeMinutes": 300
+      "playtimeMinutes": 300,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/601360/7afb1feec3db22a42a34ac59657a510647ff4b77.jpg"
     },
     {
       "appid": 606800,
       "name": "Startup Company",
-      "playtimeMinutes": 3064
+      "playtimeMinutes": 3064,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/606800/373583624a5600570be32f4cb8492b7694ecc3e1.jpg"
     },
     {
       "appid": 607260,
       "name": "McOsu",
-      "playtimeMinutes": 19
+      "playtimeMinutes": 19,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/607260/41eb330acbd8e63a3ea51eeae605b562b57309b9.jpg"
     },
     {
       "appid": 611040,
       "name": "Tube Tycoon",
-      "playtimeMinutes": 530
+      "playtimeMinutes": 530,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/611040/ef8972deb7db85c8fe58a032ebca9a6af3b5f4b1.jpg"
     },
     {
       "appid": 619910,
       "name": "Just Cause™ 3: Multiplayer Mod",
-      "playtimeMinutes": 15
+      "playtimeMinutes": 15,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/619910/f47549fceafa32b3a2e396f439b6c5000e4f2d50.jpg"
     },
     {
       "appid": 630100,
       "name": "SoulWorker",
-      "playtimeMinutes": 182
+      "playtimeMinutes": 182,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/630100/a6508d81099861636f59188db07f9349d885046a.jpg"
     },
     {
       "appid": 646570,
       "name": "Slay the Spire",
-      "playtimeMinutes": 133
+      "playtimeMinutes": 133,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/646570/33ea124ea8c03a9ce7012d34c3b348a351612fca.jpg"
     },
     {
       "appid": 646910,
       "name": "The Crew 2",
-      "playtimeMinutes": 6835
+      "playtimeMinutes": 6835,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/646910/c627b2fa24d61b4042afbd2b183f49b9ca59bc45.jpg"
     },
     {
       "appid": 652980,
       "name": "Loading Screen Simulator",
-      "playtimeMinutes": 11
+      "playtimeMinutes": 11,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/652980/a05d56896d73128b477f78062b6cfc72f03c30d1.jpg"
     },
     {
       "appid": 667870,
       "name": "MINDNIGHT",
-      "playtimeMinutes": 144
+      "playtimeMinutes": 144,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/667870/39a095dfe905bda9bf568f2e95f0bcaf0bd15816.jpg"
     },
     {
       "appid": 667890,
       "name": "Dead Maze",
-      "playtimeMinutes": 105
+      "playtimeMinutes": 105,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/667890/2c560c126c2befa2e0918bcc96ac492dc7b86803.jpg"
     },
     {
       "appid": 697610,
       "name": "Idle Bouncer",
-      "playtimeMinutes": 332
+      "playtimeMinutes": 332,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/697610/c3593197790a7d5ef04b5924d5a2dc76f3da2c12.jpg"
     },
     {
       "appid": 698780,
       "name": "Doki Doki Literature Club",
-      "playtimeMinutes": 818
+      "playtimeMinutes": 818,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/698780/2bf8ed528d8f251428435a6f6ffc8e4e8e4b294c.jpg"
     },
     {
       "appid": 726840,
       "name": "City Game Studio",
-      "playtimeMinutes": 5373
+      "playtimeMinutes": 5373,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/726840/012f7e42ba3960e488a19d8b192f33e2c33ac000.jpg"
     },
     {
       "appid": 734750,
       "name": "PickCrafter",
-      "playtimeMinutes": 2419
+      "playtimeMinutes": 2419,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/734750/9300d0a65a2be17a2c5576e0ac1bc7854db080a2.jpg"
     },
     {
       "appid": 738060,
       "name": "Freddy Fazbear's Pizzeria Simulator",
-      "playtimeMinutes": 200
+      "playtimeMinutes": 200,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/738060/533e5d3d0322ad03117c49bbddfac47c416c3cb9.jpg"
     },
     {
       "appid": 782330,
       "name": "DOOM Eternal",
-      "playtimeMinutes": 132
+      "playtimeMinutes": 132,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/782330/14235f425d27ab3b83661ba14c17d22dc90e566b.jpg"
     },
     {
       "appid": 813630,
       "name": "Supraland",
-      "playtimeMinutes": 0
+      "playtimeMinutes": 0,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/813630/e5def2d820a777ad0408249b8fa5deffae645d19.jpg"
     },
     {
       "appid": 851110,
       "name": "Idle Racing GO: Car Clicker Tycoon",
-      "playtimeMinutes": 216
+      "playtimeMinutes": 216,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/851110/68d0a8fcfb83e1908b26943190b1c054668fb2e6.jpg"
     },
     {
       "appid": 858210,
       "name": "Nova Drift",
-      "playtimeMinutes": 2003
+      "playtimeMinutes": 2003,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/858210/5b679343f9b0c0f19bb50843c225ceb44f2e604f.jpg"
     },
     {
       "appid": 871720,
       "name": "Ultimate Custom Night",
-      "playtimeMinutes": 1594
+      "playtimeMinutes": 1594,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/871720/b2fd1232960c8a481c7b857509ad20dd11c0de64.jpg"
     },
     {
       "appid": 937310,
       "name": "Infinitode 2",
-      "playtimeMinutes": 1434
+      "playtimeMinutes": 1434,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/937310/9fd6c6bf9ffde161b09acb9d2d57343323c0e885.jpg"
     },
     {
       "appid": 949230,
       "name": "Cities: Skylines II",
-      "playtimeMinutes": 1549
+      "playtimeMinutes": 1549,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/949230/2dfa1f3e740ae5300bf59e9a14066391dab4727a.jpg"
     },
     {
       "appid": 977400,
       "name": "Cell to Singularity - Evolution Never Ends",
-      "playtimeMinutes": 18596
+      "playtimeMinutes": 18596,
+      "recentPlaytimeMinutes": 23,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/977400/130a3091d6e6ae68e7204b21bfa2b4fec02c3d8d.jpg"
     },
     {
       "appid": 977950,
       "name": "A Dance of Fire and Ice",
-      "playtimeMinutes": 1523
+      "playtimeMinutes": 1523,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/977950/8951234b5979fde3030acbf53b32fc04dfc706b3.jpg"
     },
     {
       "appid": 1048370,
       "name": "Idle Skilling",
-      "playtimeMinutes": 27826
+      "playtimeMinutes": 27826,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1048370/d7257f06801b4dc88b8110c845abfdb54dd75e8e.jpg"
     },
     {
       "appid": 1053710,
       "name": "The Red Lantern",
-      "playtimeMinutes": 0
+      "playtimeMinutes": 0,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1053710/0efc0c5e80b66389d33981aceaf67b7309b4baec.jpg"
     },
     {
       "appid": 1062830,
       "name": "Embr",
-      "playtimeMinutes": 0
+      "playtimeMinutes": 0,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1062830/f9ba2d14f2b4e50989dd46de4dca141b13b636b1.jpg"
     },
     {
       "appid": 1134700,
       "name": "Wild Terra 2: New Lands",
-      "playtimeMinutes": 0
+      "playtimeMinutes": 0,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1134700/8594527d19edbfdb2ded666dd09573f4542c282f.jpg"
     },
     {
       "appid": 1135230,
       "name": "Ember Knights",
-      "playtimeMinutes": 401
+      "playtimeMinutes": 401,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1135230/6309ed12efcbdc62ef1d1c00175d2a0398d4eb39.jpg"
     },
     {
       "appid": 1144110,
       "name": "Open World Game: the Open World Game",
-      "playtimeMinutes": 20
+      "playtimeMinutes": 20,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1144110/de1d4e8f63dc514d0a01091ee803117629e4df7e.jpg"
     },
     {
       "appid": 1145360,
       "name": "Hades",
-      "playtimeMinutes": 195
+      "playtimeMinutes": 195,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1145360/8a3fca36a00883e8066263ad35dd15d77a1f9abc.jpg"
     },
     {
       "appid": 1147690,
       "name": "NGU IDLE",
-      "playtimeMinutes": 2871
+      "playtimeMinutes": 2871,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1147690/4ca0c36f5a2a0683e33ac4c768274c9c68779fdc.jpg"
     },
     {
       "appid": 1151050,
       "name": "Golf Gang",
-      "playtimeMinutes": 440
+      "playtimeMinutes": 440,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1151050/685f57f8539156964165413c96f6feb265a8e7d3.jpg"
     },
     {
       "appid": 1222670,
       "name": "The Sims™ 4",
-      "playtimeMinutes": 781
+      "playtimeMinutes": 781,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1222670/ca6bc8b2411bce4a2cd325ab75f0204bc3a4ad98.jpg"
     },
     {
       "appid": 1238810,
       "name": "Battlefield™ V",
-      "playtimeMinutes": 57
+      "playtimeMinutes": 57,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1238810/23ded6a957b5ec7525679c2e7bdac90c0653dbc8.jpg"
     },
     {
       "appid": 1250790,
       "name": "Crafting Idle Clicker",
-      "playtimeMinutes": 40
+      "playtimeMinutes": 40,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1250790/02f20ba379cc520f12c154a9c160278f570a57a7.jpg"
     },
     {
       "appid": 1252780,
       "name": "Bloons Monkey City",
-      "playtimeMinutes": 68
+      "playtimeMinutes": 68,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1252780/0cdba2d14bf2880937a46079d6af4d9ff1995435.jpg"
     },
     {
       "appid": 1325860,
       "name": "VTube Studio",
-      "playtimeMinutes": 39
+      "playtimeMinutes": 39,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1325860/afd5c41656a67009dd4ffd7919acdcfb9844bd2a.jpg"
     },
     {
       "appid": 1353300,
       "name": "Idle Slayer – Incremental RPG",
-      "playtimeMinutes": 9143
+      "playtimeMinutes": 9143,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1353300/4a2e0701c61812a2895147b9c992c72c31ca46d7.jpg"
     },
     {
       "appid": 1364390,
       "name": "Animaze",
-      "playtimeMinutes": 55
+      "playtimeMinutes": 55,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1364390/7e1c38df0af72a9213f9f65ca6b855ce995b5d5b.jpg"
     },
     {
       "appid": 1371630,
       "name": "Incremental Adventures",
-      "playtimeMinutes": 1161
+      "playtimeMinutes": 1161,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1371630/ec9a1c54ce3a21a5315cf2518264ce40594670b3.jpg"
     },
     {
       "appid": 1399720,
       "name": "Antimatter Dimensions",
-      "playtimeMinutes": 38564
+      "playtimeMinutes": 38564,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1399720/b9410b4606d6425ef7514a920718f38d6ecf399f.jpg"
     },
     {
       "appid": 1433990,
       "name": "NGU INDUSTRIES",
-      "playtimeMinutes": 7380
+      "playtimeMinutes": 7380,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1433990/710b0d84021414eb86dde49c0d6a1e8cb5c4e18f.jpg"
     },
     {
       "appid": 1454400,
       "name": "Cookie Clicker",
-      "playtimeMinutes": 56031
+      "playtimeMinutes": 56031,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1454400/e0c68bbdb2813528f0802ef6751655e33a42c9bb.jpg"
     },
     {
       "appid": 1468260,
       "name": "Leaf Blower Revolution - Idle Game",
-      "playtimeMinutes": 325348
+      "playtimeMinutes": 325348,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1468260/2d4f99c08afe2e11673db964da768953e752a0fc.jpg"
     },
     {
       "appid": 1468720,
       "name": "Ultimate Epic Battle Simulator 2",
-      "playtimeMinutes": 96
+      "playtimeMinutes": 96,
+      "recentPlaytimeMinutes": 96,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1468720/52280ff48d79ef527dac6dc43dd4c71f1ae7410a.jpg"
     },
     {
       "appid": 1473350,
       "name": "(the) Gnorp Apologue",
-      "playtimeMinutes": 1395
+      "playtimeMinutes": 1395,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1473350/c0ce2ae2660a7d0590b777e2cdbc6395d78e99c3.jpg"
     },
     {
       "appid": 1476970,
       "name": "IdleOn",
-      "playtimeMinutes": 301
+      "playtimeMinutes": 301,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1476970/8eae2b19c35dc4319a58ec553e4fb28f8eb60e84.jpg"
     },
     {
       "appid": 1479140,
       "name": "AK-xolotl: Together",
-      "playtimeMinutes": 53
+      "playtimeMinutes": 53,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1479140/12c5cc11413ba878e8b1ae12476e1fb91cbaa8b0.jpg"
     },
     {
       "appid": 1482860,
       "name": "Idle Research",
-      "playtimeMinutes": 617
+      "playtimeMinutes": 617,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1482860/71162225e2b901bc6fbf5c9a93fc7fd804fff945.jpg"
     },
     {
       "appid": 1509960,
       "name": "PICO PARK",
-      "playtimeMinutes": 478
+      "playtimeMinutes": 478,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1509960/738c7b1a12275d8b792f9a01a6c174453cd9770e.jpg"
     },
     {
       "appid": 1540960,
       "name": "Underworld Idle",
-      "playtimeMinutes": 10262
+      "playtimeMinutes": 10262,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1540960/e6c8f0a8a409c8767c81c27e7816f68013d557c8.jpg"
     },
     {
       "appid": 1623730,
       "name": "Palworld",
-      "playtimeMinutes": 600
+      "playtimeMinutes": 600,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1623730/f5523077a8f4c923c2e8d8c17794b3319035fa73.jpg"
     },
     {
       "appid": 1690690,
       "name": "Idle Monkeylogy",
-      "playtimeMinutes": 3259
+      "playtimeMinutes": 3259,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1690690/e16751c94aa765853a4fdb6e496980352d5989aa.jpg"
     },
     {
       "appid": 1690710,
       "name": "Incremental Epic Hero 2",
-      "playtimeMinutes": 725
+      "playtimeMinutes": 725,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1690710/9e54c13433207f88cdfe50749d3dd8fc0aee95f2.jpg"
     },
     {
       "appid": 1690730,
       "name": "Incremental Cubes",
-      "playtimeMinutes": 22243
+      "playtimeMinutes": 22243,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1690730/4fe3b510f51d8e82e8b7d6206f8656fc15462d8a.jpg"
     },
     {
       "appid": 1755300,
       "name": "Smart Factory Tycoon",
-      "playtimeMinutes": 0
+      "playtimeMinutes": 0,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1755300/4db3100c3c29e2d949ef6d3d163864527921c063.jpg"
     },
     {
       "appid": 1782210,
       "name": "Crab Game",
-      "playtimeMinutes": 108
+      "playtimeMinutes": 108,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1782210/e1afdaf96f55771d1d5ea4c9692d0f707ab0110b.jpg"
     },
     {
       "appid": 1809540,
       "name": "Nine Sols",
-      "playtimeMinutes": 176
+      "playtimeMinutes": 176,
+      "recentPlaytimeMinutes": 32,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1809540/9ba25f8e1b636ee56cc37196eb6fbcc13defac8e.jpg"
     },
     {
       "appid": 1827980,
       "name": "Idle Spiral",
-      "playtimeMinutes": 2520
+      "playtimeMinutes": 2520,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1827980/9ead02195f3e1ef51ba89d998afda25732b93f82.jpg"
     },
     {
       "appid": 1836550,
       "name": "Tap Wizard 2",
-      "playtimeMinutes": 2776
+      "playtimeMinutes": 2776,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1836550/4c57b038eac356889494d8da502965d4545bc4fe.jpg"
     },
     {
       "appid": 1863080,
       "name": "Beat Invaders",
-      "playtimeMinutes": 81
+      "playtimeMinutes": 81,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1863080/6cc7c7c05bc22c5269a64623bb4b6a7bc4a6ae84.jpg"
     },
     {
       "appid": 1891700,
       "name": "Tap Ninja",
-      "playtimeMinutes": 45
+      "playtimeMinutes": 45,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1891700/ab0cb61b9d0882bd65a159da1316a17232d6ccbb.jpg"
     },
     {
       "appid": 1902490,
       "name": "Aperture Desk Job",
-      "playtimeMinutes": 100
+      "playtimeMinutes": 100,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1902490/3e71e5682e61ce692a4475b9d16ea6e026ac3233.jpg"
     },
     {
       "appid": 1942280,
       "name": "Brotato",
-      "playtimeMinutes": 1350
+      "playtimeMinutes": 1350,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/1942280/d9dfcab8f300a9548439f70bef7b5f4e53d0fc28.jpg"
     },
     {
       "appid": 2012840,
       "name": "Portal with RTX",
-      "playtimeMinutes": 257
+      "playtimeMinutes": 257,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2012840/611a08d5cfa11033ef96de3ba890ba379dd76fa1.jpg"
     },
     {
       "appid": 2149010,
       "name": "Little Nightmares Enhanced Edition",
-      "playtimeMinutes": 0
+      "playtimeMinutes": 0,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2149010/6d1326d97decbaeddca21c14daa5041d464a1a63.jpg"
     },
     {
       "appid": 2167580,
       "name": "Summoners War: Chronicles",
-      "playtimeMinutes": 6583
+      "playtimeMinutes": 6583,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2167580/84aa4d1532b5ef8a265c2dd130a93de1c379223e.jpg"
     },
     {
       "appid": 2181610,
       "name": "Heretic's Fork",
-      "playtimeMinutes": 140
+      "playtimeMinutes": 140,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2181610/17cf2c54f5a2c7c7e746e40e83a2deb5b138d08d.jpg"
     },
     {
       "appid": 2181940,
       "name": "CivIdle",
-      "playtimeMinutes": 149
+      "playtimeMinutes": 149,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2181940/930a39c2da5aeb4602df4be95749c6308bcbfd05.jpg"
     },
     {
       "appid": 2276980,
       "name": "FACEMINER",
-      "playtimeMinutes": 196
+      "playtimeMinutes": 196,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2276980/cac9bce2ed5abfa660dca873a4ccb6bffe58a3e4.jpg"
     },
     {
       "appid": 2289450,
       "name": "Idle Cave Miner",
-      "playtimeMinutes": 11
+      "playtimeMinutes": 11,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2289450/50b5c6c6cf9c0f633afc8d0d3126aa37440fc763.jpg"
     },
     {
       "appid": 2302990,
       "name": "Vacuum Warrior",
-      "playtimeMinutes": 5928
+      "playtimeMinutes": 5928,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2302990/d353e56f6105fd944946e1835fc1039aede5b8b7.jpg"
     },
     {
       "appid": 2471100,
       "name": "Unnamed Space Idle",
-      "playtimeMinutes": 50
+      "playtimeMinutes": 50,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2471100/4adcf205aef3a41d2671dadb3cd08d9c6a4d3822.jpg"
     },
     {
       "appid": 2499470,
       "name": "Pumping Simulator 2",
-      "playtimeMinutes": 1268
+      "playtimeMinutes": 1268,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2499470/812735df540435eef9ec655c8781706cd012864a.jpg"
     },
     {
       "appid": 2698940,
       "name": "The Crew Motorfest",
-      "playtimeMinutes": 732
+      "playtimeMinutes": 732,
+      "recentPlaytimeMinutes": 160,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2698940/4c6ef4b12817cea5d720d38a160b4ca14a0f5af2.jpg"
     },
     {
       "appid": 2763740,
       "name": "Revolution Idle",
-      "playtimeMinutes": 602
+      "playtimeMinutes": 602,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2763740/82afae56cfd88514886adb316b6d0f672dcbfaea.jpg"
     },
     {
       "appid": 2843640,
       "name": "Idle Colony",
-      "playtimeMinutes": 355
+      "playtimeMinutes": 355,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2843640/f3ac397169556e49729e307377fdec2002100a85.jpg"
     },
     {
       "appid": 2849680,
       "name": "Utopia Must Fall",
-      "playtimeMinutes": 10
+      "playtimeMinutes": 10,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2849680/ea4eb267703cb049806460a500dc6d6ebfa21c41.jpg"
     },
     {
       "appid": 2881650,
       "name": "Content Warning",
-      "playtimeMinutes": 0
+      "playtimeMinutes": 0,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2881650/513cf7f2e22c94f4372369e29bffccc4c239e9c0.jpg"
     },
     {
       "appid": 2904000,
       "name": "The Spell Brigade",
-      "playtimeMinutes": 349
+      "playtimeMinutes": 349,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2904000/d09d1ca9dbd08f56624edeb84915870db08d816c.jpg"
     },
     {
       "appid": 2905170,
       "name": "Magic Archery",
-      "playtimeMinutes": 61
+      "playtimeMinutes": 61,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2905170/2452f31193351100ad833465034400ffd8ee9142.jpg"
     },
     {
       "appid": 2962810,
       "name": "Galaxy Idle Clicker",
-      "playtimeMinutes": 103
+      "playtimeMinutes": 103,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/2962810/b3f3c2e5eb05aa55c6197054eb165bf596bd8f6f.jpg"
     },
     {
       "appid": 3047370,
       "name": "Net.Attack()",
-      "playtimeMinutes": 97
+      "playtimeMinutes": 97,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3047370/7b46ce82fea5f018e37668bffbcedeffe54380df.jpg"
     },
     {
       "appid": 3107330,
       "name": "Nodebuster",
-      "playtimeMinutes": 111
+      "playtimeMinutes": 111,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3107330/a3478be4f594681711e625b24e75ea4ba9fcba46.jpg"
     },
     {
       "appid": 3147430,
       "name": "Journey to Incrementalia",
-      "playtimeMinutes": 122
+      "playtimeMinutes": 122,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3147430/38337bf37805dc3ac6a6af9e93854ac34fb7e463.jpg"
     },
     {
       "appid": 3217600,
       "name": "Idle Sphere",
-      "playtimeMinutes": 34
+      "playtimeMinutes": 34,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3217600/ad787087abb583bf5e6e266eddbf416031353749.jpg"
     },
     {
       "appid": 3226750,
       "name": "DEEP SPACE CACHE",
-      "playtimeMinutes": 126
+      "playtimeMinutes": 126,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3226750/40f3d26320bff525bd935a383c55179e9aa30ad3.jpg"
     },
     {
       "appid": 3312030,
       "name": "AI Learns To Drive",
-      "playtimeMinutes": 28
+      "playtimeMinutes": 28,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3312030/c57dceeae62ac877169165f1d60c99db8cc45686.jpg"
     },
     {
       "appid": 3354750,
       "name": "skate.",
-      "playtimeMinutes": 229
+      "playtimeMinutes": 229,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3354750/741cefdfeabf38b28288dab2cdbcf848995b85cb.jpg"
     },
     {
       "appid": 3421300,
       "name": "Lyca",
-      "playtimeMinutes": 295
+      "playtimeMinutes": 295,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3421300/c7b7828d3434407f00de58574192a266bfc1b74d.jpg"
     },
     {
       "appid": 3425460,
       "name": "Console Shop Simulator",
-      "playtimeMinutes": 442
+      "playtimeMinutes": 442,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3425460/7680218d0f08fa4ab5af4181f8145002e0caf9ef.jpg"
     },
     {
       "appid": 3444480,
       "name": "Nebulock",
-      "playtimeMinutes": 103
+      "playtimeMinutes": 103,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3444480/eb9321b5ce73a61a4afe1f4feabb92ab40526280.jpg"
     },
     {
       "appid": 3606890,
       "name": "Upload Labs",
-      "playtimeMinutes": 235
+      "playtimeMinutes": 235,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3606890/5c68ccf4c818c2120966aa23ca1fbb4890d31060.jpg"
     },
     {
       "appid": 3651950,
       "name": "Evil Egg",
-      "playtimeMinutes": 18
+      "playtimeMinutes": 18,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3651950/24618a226d91490fd5fb1b89557e5a7bb68cf52a.jpg"
     },
     {
       "appid": 3772240,
       "name": "Void Miner – Asteroid Roguelite",
-      "playtimeMinutes": 139
+      "playtimeMinutes": 139,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3772240/4dc4ae9b31a441ec42e9c305fe442f2aff51d270.jpg"
     },
     {
       "appid": 3929760,
       "name": "Incredicer",
-      "playtimeMinutes": 238
+      "playtimeMinutes": 238,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/3929760/3b69e39055db37ff9d40d7e72fbd3ad23d78e625.jpg"
     },
     {
       "appid": 4009730,
       "name": "Feed the Reactor",
-      "playtimeMinutes": 214
+      "playtimeMinutes": 214,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/4009730/e6e3c9dfa20bfa92e66f458e54caec87f2caeabf.jpg"
     },
     {
       "appid": 4265560,
       "name": "Starvester Playtest",
-      "playtimeMinutes": 44
+      "playtimeMinutes": 44,
+      "recentPlaytimeMinutes": 0,
+      "iconUrl": "https://media.steampowered.com/steamcommunity/public/images/apps/4265560/96f9404a26ca75f6c509888f5cf12819e1cce262.jpg"
     }
   ]
 }
