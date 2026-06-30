@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { SvelteMap } from 'svelte/reactivity';
+	import { langColor } from '$lib/data/github-colors';
 
 	interface Props {
 		items: { semester: string; languages: Record<string, number> }[];
@@ -12,10 +13,6 @@
 		'Shell', 'Makefile', 'XML', 'HTML', 'Text', 'EditorConfig',
 	]);
 
-	const COLORS = [
-		'#c8d08a', '#8ab4c8', '#c89e8a', '#a88ac8', '#8ac8a8',
-		'#c8a88a', '#8a8ac8', '#c88aa8', '#aac88a', '#8ac8c8',
-	];
 
 	const PAD = { top: 20, right: 16, bottom: 48, left: 36 };
 	const W = 900;
@@ -115,6 +112,17 @@
 		for (let v = 0; v <= maxValue; v += step) ticks.push(v);
 		return ticks;
 	});
+
+	const yearTicks = $derived.by(() => {
+		const seen = new Set<string>();
+		return items
+			.map((item, i) => ({ year: item.semester.slice(0, 4), i }))
+			.filter(({ year }) => {
+				if (seen.has(year)) return false;
+				seen.add(year);
+				return true;
+			});
+	});
 </script>
 
 <div class="space-y-4">
@@ -129,7 +137,7 @@
 						: 'border-zinc-800 bg-zinc-950 text-zinc-500 hover:border-zinc-600'}"
 				onclick={() => (hoveredLanguage = hoveredLanguage === lang ? null : lang)}
 			>
-				<span class="h-2 w-2 rounded-full" style="background-color: {COLORS[i % COLORS.length]}"></span>
+				<span class="h-2 w-2 rounded-full" style="background-color: {langColor(lang, i)}"></span>
 				{lang}
 			</button>
 		{/each}
@@ -147,16 +155,8 @@
 			role="img"
 			aria-label="Language usage over semesters"
 		>
-			<!-- Grid lines -->
+			<!-- Y axis ticks only (no horizontal grid) -->
 			{#each yTicks as tick (tick)}
-				<line
-					x1={PAD.left}
-					y1={yFor(tick)}
-					x2={PAD.left + innerW}
-					y2={yFor(tick)}
-					stroke="#27272a"
-					stroke-width="1"
-				/>
 				<text
 					x={PAD.left - 6}
 					y={yFor(tick)}
@@ -167,17 +167,8 @@
 				>{tick}</text>
 			{/each}
 
-			<!-- Vertical guides -->
-			{#each items as item, i (item.semester)}
-				<line
-					x1={xFor(i)}
-					y1={PAD.top}
-					x2={xFor(i)}
-					y2={PAD.top + innerH}
-					stroke="#1c1c1e"
-					stroke-width="1"
-				/>
-			{/each}
+			<!-- Baseline -->
+			<line x1={PAD.left} y1={PAD.top + innerH} x2={PAD.left + innerW} y2={PAD.top + innerH} stroke="#3f3f46" stroke-width="1" />
 
 			<!-- Language lines -->
 			{#each languages as lang, i (lang)}
@@ -186,7 +177,7 @@
 				<path
 					d={smoothPath(pts)}
 					fill="none"
-					stroke={COLORS[i % COLORS.length]}
+					stroke={langColor(lang, i)}
 					stroke-width={active ? 2 : 1}
 					opacity={active ? 0.9 : 0.12}
 					stroke-linejoin="round"
@@ -200,7 +191,7 @@
 							cx={px}
 							cy={py}
 							r={active ? 3 : 2}
-							fill={COLORS[i % COLORS.length]}
+							fill={langColor(lang, i)}
 							opacity={active ? 0.9 : 0.12}
 						/>
 					{/if}
@@ -221,16 +212,16 @@
 				<circle cx={tooltip.x} cy={tooltip.y} r="5" fill="#09090b" stroke="#a1a1aa" stroke-width="1.5" />
 			{/if}
 
-			<!-- X axis labels -->
-			{#each items as item, i (item.semester)}
+			<!-- X axis: year labels only -->
+			{#each yearTicks as { year, i } (year)}
+				<line x1={xFor(i)} y1={PAD.top + innerH} x2={xFor(i)} y2={PAD.top + innerH + 4} stroke="#3f3f46" stroke-width="1" />
 				<text
 					x={xFor(i)}
-					y={PAD.top + innerH + 16}
+					y={PAD.top + innerH + 14}
 					text-anchor="middle"
-					fill="#52525b"
-					font-size="9"
-					transform={items.length > 8 ? `rotate(-35, ${xFor(i)}, ${PAD.top + innerH + 16})` : ''}
-				>{item.semester}</text>
+					fill="#71717a"
+					font-size="10"
+				>{year}</text>
 			{/each}
 		</svg>
 

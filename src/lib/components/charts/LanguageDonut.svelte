@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { LanguageSlice } from '$lib/types';
+	import { langColor } from '$lib/data/github-colors';
 	import { Braces, Code2 } from '@lucide/svelte';
 
 	interface Props {
@@ -13,29 +14,6 @@
 
 	let metric = $state<Metric>('repos');
 	let activeName = $state<string | null>(null);
-
-	const LANG_COLORS: Record<string, string> = {
-		TypeScript: '#3178c6',
-		JavaScript: '#f7df1e',
-		Kotlin: '#b9a7ff',
-		Python: '#3572a5',
-		Rust: '#c6976b',
-		Go: '#00add8',
-		CSS: '#7a8a99',
-		HTML: '#e34c26',
-		Java: '#b07219',
-		Shell: '#89e051',
-		Svelte: '#ff3e00',
-		Vue: '#41b883',
-		SCSS: '#c6538c',
-		Markdown: '#083fa1',
-		Dockerfile: '#384d54',
-	};
-
-	const DEFAULT_COLORS = [
-		'#c8d08a', '#8aa1a8', '#b8926a', '#9d8d7a', '#6f8c74',
-		'#a86f64', '#82918d', '#a7a29a', '#6c8797', '#a99a6e',
-	];
 
 	const totalRepos = $derived(slices.reduce((sum, slice) => sum + slice.repoCount, 0));
 	const totalFiles = $derived(slices.reduce((sum, slice) => sum + slice.fileCount, 0));
@@ -79,7 +57,7 @@
 				value: valueFor(slice),
 				start: angle,
 				end: angle + sweep,
-				color: LANG_COLORS[slice.name] ?? DEFAULT_COLORS[index % DEFAULT_COLORS.length],
+				color: langColor(slice.name, index),
 			};
 			angle += sweep;
 			return segment;

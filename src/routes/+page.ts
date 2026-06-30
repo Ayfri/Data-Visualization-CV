@@ -11,7 +11,7 @@ export const prerender = true;
 
 export const load: PageLoad = () => {
 	return {
-		github: githubRaw as GithubCache,
+		github: githubRaw as unknown as GithubCache,
 		steam: steamRaw as SteamCache,
 		discord: discordRaw as DiscordCache,
 		atomClicker: atomClickerRaw as AtomClickerCache,

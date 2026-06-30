@@ -56,7 +56,7 @@
 
 		{#if data.github.languageTimeline && data.github.languageTimeline.length > 0}
 			<div class="rounded-md border border-zinc-800 bg-zinc-950/70 p-5 shadow-2xl shadow-black/30">
-				<h3 class="mb-5 text-sm font-medium text-zinc-400">Languages over time by semester</h3>
+				<h3 class="mb-5 text-sm font-medium text-zinc-400">Language adoption by quarter</h3>
 				<LanguageTimeline items={data.github.languageTimeline} />
 			</div>
 		{/if}

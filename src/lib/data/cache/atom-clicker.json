@@ -1,12 +1,12 @@
 {
-  "fetchedAt": "2026-06-30T13:35:01.247Z",
+  "fetchedAt": "2026-06-30T14:53:04.911Z",
   "totalUsers": 1089,
   "leaderboardSize": 1000,
   "onlineUsers": 0,
   "activeLast7Days": 3,
-  "topAtoms": 4.078897655567354e+29,
-  "topLevel": 410,
-  "outlierUsers": 566,
+  "topAtoms": 3.3676181912759074e+119,
+  "topLevel": 767,
+  "outlierUsers": 48,
   "observedUserHistory": [
     {
       "date": "2024-12",
@@ -128,7 +128,7 @@
     },
     {
       "label": "41+",
-      "count": 98
+      "count": 616
     }
   ],
   "atomBands": [
@@ -150,7 +150,7 @@
     },
     {
       "label": "1B+",
-      "count": 113
+      "count": 631
     }
   ]
 }

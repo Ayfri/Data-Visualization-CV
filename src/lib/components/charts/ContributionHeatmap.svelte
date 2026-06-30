@@ -79,6 +79,14 @@
 		});
 	});
 
+	const weekdayMatrix = $derived.by(() => {
+		return DAYS.map((day, dayIdx) =>
+			cells
+				.filter((c) => c.dayOfWeek === dayIdx)
+				.sort((a, b) => a.week - b.week),
+		);
+	});
+
 	const longestStreak = $derived.by(() => {
 		let current = 0;
 		let longest = 0;
@@ -218,24 +226,35 @@
 					onmouseleave={() => (pointer = null)}
 					aria-label="Week {week.index + 1}: {week.count} contributions"
 				>
-					<span class="h-full w-full rounded-t bg-linear-to-t from-stone-700 via-zinc-500 to-lime-200 opacity-70 transition group-hover:opacity-100"></span>
+					<span class="h-full w-full rounded-t opacity-70 transition group-hover:opacity-100" style="background-color: {color(Math.round(week.count / Math.max(1, week.active)))}"></span>
 				</button>
 			{/each}
 		</div>
 	{:else}
-		<div class="space-y-3">
-			{#each weekdayTotals as day (day.day)}
-				<div class="grid grid-cols-[3.5rem_1fr_4rem] items-center gap-3">
-					<span class="text-xs text-zinc-500">{day.day}</span>
-					<div class="h-8 overflow-hidden rounded-md border border-zinc-800 bg-zinc-950">
-						<div
-							class="h-full rounded-r bg-linear-to-r from-zinc-700 via-stone-500 to-lime-200"
-							style="width: {(day.count / Math.max(1, ...weekdayTotals.map((item) => item.count))) * 100}%"
-						></div>
+		<div class="space-y-1.5 overflow-x-auto pb-1">
+			<div class="min-w-max">
+				{#each weekdayMatrix as dayCells, dayIdx (dayIdx)}
+					{@const total = weekdayTotals[dayIdx].count}
+					<div class="flex items-center gap-2">
+						<span class="w-8 shrink-0 text-right text-[10px] text-zinc-500">{DAYS[dayIdx]}</span>
+						<div class="flex gap-px">
+							{#each dayCells as cell (cell.date)}
+								<button
+									type="button"
+									class="h-5 w-2.5 rounded-[2px] transition duration-100 hover:scale-y-150"
+									style="background-color: {color(cell.count)}; opacity: {cell.count === 0 ? 0.35 : 1};"
+									onmouseenter={(e) => showTip(e, `${cell.date}: ${cell.count} contributions`)}
+									onmousemove={(e) => showTip(e, `${cell.date}: ${cell.count} contributions`)}
+									onmouseleave={() => (pointer = null)}
+									aria-label="{cell.date}: {cell.count} contributions"
+								></button>
+							{/each}
+						</div>
+						<span class="shrink-0 text-[10px] tabular-nums text-zinc-600">{total}</span>
 					</div>
-					<span class="text-right text-xs text-zinc-400">{day.count}</span>
-				</div>
-			{/each}
+				{/each}
+			</div>
+			<p class="mt-2 text-[10px] text-zinc-700">Each bar = one week · color = contribution intensity</p>
 		</div>
 	{/if}
 
