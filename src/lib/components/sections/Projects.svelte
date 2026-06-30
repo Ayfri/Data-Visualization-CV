@@ -2,8 +2,8 @@
 	import type { GithubCache } from '$lib/types';
 	import StarsTimeline from '$lib/components/charts/StarsTimeline.svelte';
 	import SectionHeading from '$lib/components/ui/SectionHeading.svelte';
-	import { toStarTimeline } from '$lib/transforms/github';
-	import { Star, ExternalLink, GitFork } from '@lucide/svelte';
+	import { toStarSeries } from '$lib/transforms/github';
+	import { Star, ExternalLink } from '@lucide/svelte';
 
 	interface Props {
 		github: GithubCache;
@@ -18,15 +18,15 @@
 			.slice(0, 6),
 	);
 
-	const korePoints = $derived(toStarTimeline(github.koreStarHistory));
+	const starSeries = $derived(toStarSeries(github));
 
 	// Language colors for topic chips
 	const TOPIC_COLORS = [
-		'bg-emerald-500/10 text-emerald-400 border-emerald-500/20',
-		'bg-violet-500/10 text-violet-400 border-violet-500/20',
-		'bg-amber-500/10 text-amber-400 border-amber-500/20',
-		'bg-blue-500/10 text-blue-400 border-blue-500/20',
-		'bg-rose-500/10 text-rose-400 border-rose-500/20',
+		'bg-lime-200/10 text-lime-100 border-lime-200/20',
+		'bg-stone-400/10 text-stone-300 border-stone-400/20',
+		'bg-zinc-400/10 text-zinc-300 border-zinc-400/20',
+		'bg-amber-700/10 text-amber-300 border-amber-700/20',
+		'bg-neutral-400/10 text-neutral-300 border-neutral-400/20',
 	];
 
 	function topicColor(i: number) {
@@ -34,21 +34,21 @@
 	}
 </script>
 
-<section class="mx-auto max-w-5xl px-6 py-16">
+<section class="mx-auto max-w-7xl px-6 py-16">
 	<SectionHeading
 		title="Open Source"
 		subtitle="{github.repos.length} public repositories · {github.repos.reduce((s, r) => s + r.stars, 0)} total stars"
 		accent="amber"
 	/>
 
-	{#if korePoints.length > 0}
-		<div class="mb-12 rounded-xl border border-slate-800 bg-slate-900/60 p-6">
+	{#if starSeries.length > 0}
+		<div class="mb-12 rounded-md border border-zinc-800 bg-zinc-950/70 p-5 shadow-2xl shadow-black/30">
 			<div class="mb-4 flex items-center gap-2">
-				<Star size={16} class="text-amber-400" />
-				<h3 class="font-semibold text-white">Kore</h3>
-				<span class="text-sm text-slate-500">- star history</span>
+				<Star size={16} class="text-lime-200" />
+				<h3 class="font-semibold text-zinc-100">Project star histories</h3>
+				<span class="text-sm text-zinc-600">top {starSeries.length} public projects</span>
 			</div>
-			<StarsTimeline points={korePoints} />
+			<StarsTimeline series={starSeries} />
 		</div>
 	{/if}
 
@@ -58,15 +58,15 @@
 				href={repo.url}
 				target="_blank"
 				rel="noopener noreferrer"
-				class="group flex flex-col rounded-xl border border-slate-800 bg-slate-900/60 p-5 backdrop-blur-sm transition-all duration-200 hover:border-slate-600 hover:bg-slate-800/60 hover:shadow-lg hover:shadow-black/20"
+				class="group flex flex-col rounded-md border border-zinc-800 bg-zinc-950/70 p-5 transition duration-200 hover:border-zinc-600 hover:bg-zinc-900/70 hover:shadow-lg hover:shadow-black/30"
 			>
 				<div class="flex items-start justify-between gap-2">
-					<h3 class="font-semibold text-slate-200 group-hover:text-white">{repo.name}</h3>
-					<ExternalLink size={14} class="mt-0.5 flex-shrink-0 text-slate-600 group-hover:text-slate-400" />
+					<h3 class="font-semibold text-zinc-200 group-hover:text-white">{repo.name}</h3>
+					<ExternalLink size={14} class="mt-0.5 shrink-0 text-zinc-600 group-hover:text-zinc-400" />
 				</div>
 
 				{#if repo.description}
-					<p class="mt-2 flex-1 text-sm leading-relaxed text-slate-500">{repo.description}</p>
+					<p class="mt-2 flex-1 text-sm leading-relaxed text-zinc-500">{repo.description}</p>
 				{/if}
 
 				{#if repo.topics.length > 0}
@@ -77,7 +77,7 @@
 					</div>
 				{/if}
 
-				<div class="mt-4 flex items-center gap-1 text-xs text-amber-400/80">
+				<div class="mt-4 flex items-center gap-1 text-xs text-lime-200/80">
 					<Star size={12} />
 					<span class="font-medium">{repo.stars}</span>
 				</div>

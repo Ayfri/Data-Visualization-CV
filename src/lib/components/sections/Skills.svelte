@@ -28,10 +28,10 @@
 		'soft-skill': 'blue',
 	};
 
-	const LEVEL_COLOR = ['', 'bg-slate-600', 'bg-blue-500', 'bg-violet-500', 'bg-emerald-500', 'bg-emerald-400'];
+	const LEVEL_COLOR = ['', 'bg-zinc-700', 'bg-stone-600', 'bg-stone-500', 'bg-lime-200/70', 'bg-lime-200'];
 </script>
 
-<section class="mx-auto max-w-5xl px-6 py-16">
+<section class="mx-auto max-w-7xl px-6 py-16">
 	<SectionHeading
 		title="Skills"
 		subtitle="Technical proficiency across languages, frameworks, and tools"
@@ -41,21 +41,21 @@
 	<!-- Skill bars by category -->
 	<div class="mb-12 grid gap-8 sm:grid-cols-2">
 		{#each byCategory as group (group.category)}
-			<div>
-				<h3 class="mb-4 text-xs font-semibold uppercase tracking-widest text-slate-500">
+			<div class="rounded-md border border-zinc-800 bg-zinc-950/60 p-5">
+				<h3 class="mb-4 text-xs font-semibold uppercase tracking-widest text-zinc-600">
 					{group.category.replace('-', ' ')}
 				</h3>
 				<div class="space-y-3">
 					{#each group.skills as skill (skill.name)}
 						<div>
 							<div class="mb-1.5 flex items-center justify-between">
-								<span class="text-sm font-medium text-slate-300">{skill.name}</span>
-								<span class="text-xs text-slate-500">{LEVEL_LABEL[skill.level]}</span>
+								<span class="text-sm font-medium text-zinc-300">{skill.name}</span>
+								<span class="text-xs text-zinc-600">{LEVEL_LABEL[skill.level]}</span>
 							</div>
 							<div class="flex gap-1">
 								{#each Array(5) as _, i (i)}
 									<div
-										class="h-1.5 flex-1 rounded-full transition-all {i < skill.level ? LEVEL_COLOR[skill.level] : 'bg-slate-800'}"
+										class="h-1.5 flex-1 rounded-full transition-all {i < skill.level ? LEVEL_COLOR[skill.level] : 'bg-zinc-900'}"
 									></div>
 								{/each}
 							</div>
@@ -67,13 +67,13 @@
 	</div>
 
 	<!-- Radar chart -->
-	<div class="rounded-xl border border-slate-800 bg-slate-900/40 p-6">
-		<h3 class="mb-6 text-sm font-medium text-slate-400">Proficiency radar</h3>
+	<div class="rounded-md border border-zinc-800 bg-zinc-950/70 p-5 shadow-2xl shadow-black/30">
+		<h3 class="mb-6 text-sm font-medium text-zinc-400">Proficiency radar</h3>
 		<SkillsRadar {skills} />
 	</div>
 </section>
 
-<section class="mx-auto max-w-5xl px-6 py-16">
+<section class="mx-auto max-w-7xl px-6 py-16">
 	<SectionHeading
 		title="Career"
 		subtitle="Education, work experience, and key milestones"

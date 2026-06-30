@@ -23,7 +23,7 @@
 	const mostPlayed = $derived(topGames[0]);
 </script>
 
-<section class="mx-auto max-w-5xl px-6 py-16">
+<section class="mx-auto max-w-7xl px-6 py-16">
 	<SectionHeading
 		title="Gaming"
 		subtitle="Live data from Steam · {steam.games.length} games owned"
@@ -31,30 +31,30 @@
 	/>
 
 	<!-- Stats strip -->
-	<div class="mb-10 grid grid-cols-3 gap-4">
-		<div class="rounded-xl border border-slate-800 bg-slate-900/60 p-4 text-center">
-			<p class="text-2xl font-bold text-white">{totalHours.toLocaleString()}</p>
-			<p class="text-xs text-slate-500">hours on Steam</p>
+	<div class="mb-10 grid grid-cols-1 gap-3 sm:grid-cols-3">
+		<div class="rounded-md border border-zinc-800 bg-zinc-950/70 p-4 text-center">
+			<p class="text-2xl font-semibold text-zinc-100">{totalHours.toLocaleString()}</p>
+			<p class="text-xs uppercase tracking-[0.18em] text-zinc-600">hours on Steam</p>
 		</div>
-		<div class="rounded-xl border border-slate-800 bg-slate-900/60 p-4 text-center">
-			<p class="text-2xl font-bold text-white">{gamesWithTime}</p>
-			<p class="text-xs text-slate-500">games played</p>
+		<div class="rounded-md border border-zinc-800 bg-zinc-950/70 p-4 text-center">
+			<p class="text-2xl font-semibold text-zinc-100">{gamesWithTime}</p>
+			<p class="text-xs uppercase tracking-[0.18em] text-zinc-600">games played</p>
 		</div>
-		<div class="rounded-xl border border-slate-800 bg-slate-900/60 p-4 text-center">
-			<p class="text-2xl font-bold text-white truncate">{mostPlayed?.name ?? '-'}</p>
-			<p class="text-xs text-slate-500">most played</p>
+		<div class="rounded-md border border-zinc-800 bg-zinc-950/70 p-4 text-center">
+			<p class="truncate text-2xl font-semibold text-zinc-100">{mostPlayed?.name ?? '-'}</p>
+			<p class="text-xs uppercase tracking-[0.18em] text-zinc-600">most played</p>
 		</div>
 	</div>
 
 	{#if topGames.length > 0}
-		<div class="mb-12 rounded-xl border border-slate-800 bg-slate-900/60 p-6">
-			<h3 class="mb-5 text-sm font-medium text-slate-400">Top {topGames.length} games by playtime</h3>
+		<div class="mb-12 rounded-md border border-zinc-800 bg-zinc-950/70 p-5 shadow-2xl shadow-black/30">
+			<h3 class="mb-5 text-sm font-medium text-zinc-400">Steam playtime orbit</h3>
 			<PlaytimeBar games={topGames} />
 		</div>
 	{/if}
 
-	<div class="rounded-xl border border-slate-800 bg-slate-900/60 p-6">
-		<h3 class="mb-5 text-sm font-medium text-slate-400">Discord game activity</h3>
+	<div class="rounded-md border border-zinc-800 bg-zinc-950/70 p-5 shadow-2xl shadow-black/30">
+		<h3 class="mb-5 text-sm font-medium text-zinc-400">Discord activity pulse</h3>
 		<GameActivityTimeline days={activityDays} />
 	</div>
 </section>
