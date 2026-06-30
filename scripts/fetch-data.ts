@@ -1,8 +1,8 @@
 // Run with: bun run scripts/fetch-data.ts
 // Requires .env with GITHUB_TOKEN, GITHUB_USERNAME, STEAM_API_KEY, STEAM_ID
 
-import { writeFileSync } from 'fs';
-import { join } from 'path';
+import { existsSync, writeFileSync } from 'node:fs';
+import { join } from 'node:path';
 import { fetchGithubCache } from '../src/lib/fetchers/github';
 import { fetchSteamCache } from '../src/lib/fetchers/steam';
 import { parseDiscordExport } from '../src/lib/parsers/discord';
@@ -33,11 +33,15 @@ async function main() {
 	writeFileSync(join(CACHE_DIR, 'steam.json'), JSON.stringify(steam, null, 2));
 	console.log(`  ${steam.games.length} games`);
 
-	console.log('Parsing Discord export...');
-	// exportDate = date you requested the Discord data export
-	const discord = parseDiscordExport(RAW_DIR, process.env['DISCORD_EXPORT_DATE'] ?? '');
-	writeFileSync(join(CACHE_DIR, 'discord.json'), JSON.stringify(discord, null, 2));
-	console.log(`  ${discord.gameSessions.length} game session entries`);
+	const analyticsDir = join(RAW_DIR, 'activity', 'analytics');
+	if (existsSync(analyticsDir)) {
+		console.log('Parsing Discord export...');
+		const discord = parseDiscordExport(RAW_DIR, process.env['DISCORD_EXPORT_DATE'] ?? '');
+		writeFileSync(join(CACHE_DIR, 'discord.json'), JSON.stringify(discord, null, 2));
+		console.log(`  ${discord.gameSessions.length} game session entries`);
+	} else {
+		console.log('Skipping Discord export (no export found at src/lib/data/raw/discord-export/)');
+	}
 
 	console.log('Done. Commit src/lib/data/cache/ to refresh the site data.');
 }
