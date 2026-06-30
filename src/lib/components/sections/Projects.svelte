@@ -37,7 +37,7 @@
 <section class="mx-auto max-w-7xl px-6 py-16">
 	<SectionHeading
 		title="Open Source"
-		subtitle="{github.repos.length} public repositories · {github.repos.reduce((s, r) => s + r.stars, 0)} total stars"
+		subtitle="{github.repos.filter((r) => !r.isPrivate).length} public · {github.repos.filter((r) => r.isPrivate).length} private repositories · {github.repos.reduce((s, r) => s + r.stars, 0)} total stars"
 		accent="amber"
 	/>
 

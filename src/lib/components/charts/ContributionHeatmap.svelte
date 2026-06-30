@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { HeatmapCell } from '$lib/types';
+	import { SvelteMap, SvelteSet } from 'svelte/reactivity';
 	import { Activity, CalendarDays, ScanLine } from '@lucide/svelte';
 
 	interface Props {
@@ -33,7 +34,7 @@
 	});
 
 	const weeks = $derived.by(() => {
-		const map = new Map<number, HeatmapCell[]>();
+		const map = new SvelteMap<number, HeatmapCell[]>();
 		for (const cell of cells) {
 			const arr = map.get(cell.week) ?? [];
 			arr.push(cell);
@@ -45,7 +46,7 @@
 	});
 
 	const monthLabels = $derived.by(() => {
-		const seen = new Set<string>();
+		const seen = new SvelteSet<string>();
 		const labels: { weekIndex: number; label: string }[] = [];
 		weeks.forEach((days, weekIndex) => {
 			const first = days[0];
@@ -53,7 +54,6 @@
 			const month = first.date.slice(0, 7);
 			if (!seen.has(month)) {
 				seen.add(month);
-				const [, m] = month.split('-');
 				labels.push({
 					weekIndex,
 					label: new Date(`${month}-01`).toLocaleString('en', { month: 'short' }),
@@ -61,6 +61,28 @@
 			}
 		});
 		return labels;
+	});
+
+	const monthWeekdayGrid = $derived.by(() => {
+		const monthMap = new SvelteMap<string, SvelteMap<number, number[]>>();
+		for (const cell of cells) {
+			const month = cell.date.slice(0, 7);
+			if (!monthMap.has(month)) monthMap.set(month, new SvelteMap());
+			const dayMap = monthMap.get(month)!;
+			const existing = dayMap.get(cell.dayOfWeek) ?? [];
+			existing.push(cell.count);
+			dayMap.set(cell.dayOfWeek, existing);
+		}
+		const months = [...monthMap.keys()].sort();
+		const monthShort = months.map((m) => new Date(`${m}-01`).toLocaleString('en', { month: 'short' }));
+		const grid = DAYS.map((_, dayIdx) =>
+			months.map((month) => {
+				const counts = monthMap.get(month)?.get(dayIdx) ?? [];
+				const sum = counts.reduce((a, b) => a + b, 0);
+				return counts.length === 0 ? 0 : Math.round(sum / counts.length);
+			}),
+		);
+		return { months, monthShort, grid };
 	});
 
 	const weeklySignal = $derived.by(() => {
@@ -79,13 +101,6 @@
 		});
 	});
 
-	const weekdayMatrix = $derived.by(() => {
-		return DAYS.map((day, dayIdx) =>
-			cells
-				.filter((c) => c.dayOfWeek === dayIdx)
-				.sort((a, b) => a.week - b.week),
-		);
-	});
 
 	const longestStreak = $derived.by(() => {
 		let current = 0;
@@ -231,30 +246,32 @@
 			{/each}
 		</div>
 	{:else}
-		<div class="space-y-1.5 overflow-x-auto pb-1">
-			<div class="min-w-max">
-				{#each weekdayMatrix as dayCells, dayIdx (dayIdx)}
-					{@const total = weekdayTotals[dayIdx].count}
-					<div class="flex items-center gap-2">
+		<div class="overflow-x-auto pb-1">
+			<div class="min-w-max space-y-1">
+				<div class="flex items-center gap-1 pb-1 pl-9">
+					{#each monthWeekdayGrid.monthShort as label, mi (mi)}
+						<span class="w-10 text-center text-[10px] text-zinc-600">{label}</span>
+					{/each}
+				</div>
+				{#each monthWeekdayGrid.grid as row, dayIdx (dayIdx)}
+					<div class="flex items-center gap-1">
 						<span class="w-8 shrink-0 text-right text-[10px] text-zinc-500">{DAYS[dayIdx]}</span>
-						<div class="flex gap-px">
-							{#each dayCells as cell (cell.date)}
-								<button
-									type="button"
-									class="h-5 w-2.5 rounded-[2px] transition duration-100 hover:scale-y-150"
-									style="background-color: {color(cell.count)}; opacity: {cell.count === 0 ? 0.35 : 1};"
-									onmouseenter={(e) => showTip(e, `${cell.date}: ${cell.count} contributions`)}
-									onmousemove={(e) => showTip(e, `${cell.date}: ${cell.count} contributions`)}
-									onmouseleave={() => (pointer = null)}
-									aria-label="{cell.date}: {cell.count} contributions"
-								></button>
-							{/each}
-						</div>
-						<span class="shrink-0 text-[10px] tabular-nums text-zinc-600">{total}</span>
+						{#each row as avg, mi (mi)}
+							<button
+								type="button"
+								class="h-8 w-10 rounded-[3px] transition duration-100 hover:ring-1 hover:ring-zinc-400"
+								style="background-color: {color(avg)}; opacity: {avg === 0 ? 0.38 : 1};"
+								onmouseenter={(e) => showTip(e, `${DAYS[dayIdx]} · ${monthWeekdayGrid.months[mi]}: avg ${avg} contributions`)}
+								onmousemove={(e) => showTip(e, `${DAYS[dayIdx]} · ${monthWeekdayGrid.months[mi]}: avg ${avg} contributions`)}
+								onmouseleave={() => (pointer = null)}
+								aria-label="{DAYS[dayIdx]} in {monthWeekdayGrid.months[mi]}: avg {avg} contributions"
+							></button>
+						{/each}
+						<span class="w-8 shrink-0 text-right text-[10px] tabular-nums text-zinc-600">{weekdayTotals[dayIdx].count}</span>
 					</div>
 				{/each}
 			</div>
-			<p class="mt-2 text-[10px] text-zinc-700">Each bar = one week · color = contribution intensity</p>
+			<p class="mt-3 text-[10px] text-zinc-700">Average contributions per weekday per month</p>
 		</div>
 	{/if}
 

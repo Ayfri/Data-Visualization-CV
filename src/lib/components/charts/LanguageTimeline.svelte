@@ -114,7 +114,7 @@
 	});
 
 	const yearTicks = $derived.by(() => {
-		const seen = new Set<string>();
+		const seen = new SvelteSet<string>();
 		return items
 			.map((item, i) => ({ year: item.semester.slice(0, 4), i }))
 			.filter(({ year }) => {
