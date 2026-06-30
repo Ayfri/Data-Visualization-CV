@@ -5,6 +5,7 @@ import { existsSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { fetchGithubCache } from '../src/lib/fetchers/github';
 import { fetchSteamCache } from '../src/lib/fetchers/steam';
+import { fetchAtomClickerCache } from '../src/lib/fetchers/atom-clicker';
 import { parseDiscordExport } from '../src/lib/parsers/discord';
 
 const CACHE_DIR = join(import.meta.dir, '../src/lib/data/cache');
@@ -32,6 +33,11 @@ async function main() {
 	);
 	writeFileSync(join(CACHE_DIR, 'steam.json'), JSON.stringify(steam, null, 2));
 	console.log(`  ${steam.games.length} games`);
+
+	console.log('Fetching Atom Clicker public aggregates...');
+	const atomClicker = await fetchAtomClickerCache();
+	writeFileSync(join(CACHE_DIR, 'atom-clicker.json'), JSON.stringify(atomClicker, null, 2));
+	console.log(`  ${atomClicker.totalUsers} total users, ${atomClicker.leaderboardSize} leaderboard entries`);
 
 	const analyticsDir = join(RAW_DIR, 'activity', 'analytics');
 	if (existsSync(analyticsDir)) {

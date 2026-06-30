@@ -22,6 +22,7 @@ export async function fetchSteamCache(apiKey: string, steamId: string): Promise<
 				appid: number;
 				name: string;
 				playtime_forever: number;
+				playtime_2weeks?: number;
 				img_icon_url: string;
 			}[];
 		};
@@ -31,6 +32,10 @@ export async function fetchSteamCache(apiKey: string, steamId: string): Promise<
 		appid: g.appid,
 		name: g.name,
 		playtimeMinutes: g.playtime_forever,
+		recentPlaytimeMinutes: g.playtime_2weeks ?? 0,
+		iconUrl: g.img_icon_url
+			? `https://media.steampowered.com/steamcommunity/public/images/apps/${g.appid}/${g.img_icon_url}.jpg`
+			: undefined,
 	}));
 
 	return {
