@@ -4,15 +4,33 @@ export interface GithubCache {
 	fetchedAt: string;
 	contributionCalendar: { date: string; count: number }[];
 	languageBytes: Record<string, number>;
+	languageRepos?: Record<string, number>;
+	languageFiles?: Record<string, number>;
+	languageTimeline?: { semester: string; languages: Record<string, number> }[];
 	repos: {
 		name: string;
+		owner?: string;
 		description: string | null;
 		stars: number;
+		isPrivate?: boolean;
 		createdAt: string;
+		updatedAt?: string;
+		pushedAt?: string;
+		primaryLanguage?: string | null;
+		sizeKb?: number;
+		openIssues?: number;
+		watchers?: number;
 		topics: string[];
 		url: string;
 	}[];
 	koreStarHistory: { starredAt: string }[];
+	starHistories?: {
+		name: string;
+		owner: string;
+		url: string;
+		stars: number;
+		history: { starredAt: string }[];
+	}[];
 }
 
 export interface SteamCache {
@@ -21,6 +39,8 @@ export interface SteamCache {
 		appid: number;
 		name: string;
 		playtimeMinutes: number;
+		recentPlaytimeMinutes?: number;
+		iconUrl?: string;
 		genre?: string;
 		achievements?: { unlocked: number; total: number };
 	}[];
@@ -34,6 +54,21 @@ export interface DiscordCache {
 		date: string;
 		minutesPlayed: number;
 	}[];
+}
+
+export interface AtomClickerCache {
+	fetchedAt: string;
+	totalUsers: number;
+	leaderboardSize: number;
+	onlineUsers: number;
+	activeLast7Days: number;
+	topAtoms: number;
+	topLevel: number;
+	outlierUsers: number;
+	observedUserHistory: { date: string; cumulative: number; count: number }[];
+	registrationHistory: { date: string; cumulative: number; count: number }[];
+	levelBuckets: { label: string; count: number }[];
+	atomBands: { label: string; count: number }[];
 }
 
 // ---- Hand-maintained data shapes ----
@@ -65,8 +100,13 @@ export interface HeatmapCell {
 
 export interface LanguageSlice {
 	name: string;
+	repoCount: number;
+	fileCount: number;
 	bytes: number;
 	percentage: number;
+	repoPercentage: number;
+	filePercentage: number;
+	bytePercentage: number;
 }
 
 export interface StarPoint {
@@ -74,9 +114,20 @@ export interface StarPoint {
 	cumulative: number;
 }
 
+export interface StarSeries {
+	name: string;
+	owner: string;
+	url: string;
+	stars: number;
+	points: StarPoint[];
+}
+
 export interface PlaytimeEntry {
+	appid?: number;
 	name: string;
 	hours: number;
+	recentHours?: number;
+	iconUrl?: string;
 	genre?: string;
 }
 
