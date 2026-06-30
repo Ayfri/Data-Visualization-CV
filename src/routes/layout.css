@@ -1,28 +1,80 @@
 @import 'tailwindcss';
 
+@font-face {
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url('/fonts/space-grotesk-400.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+	src: url('/fonts/space-grotesk-500.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url('/fonts/space-grotesk-600.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Space Grotesk';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url('/fonts/space-grotesk-700.ttf') format('truetype');
+}
+
 @theme {
-	--color-bg: #080c14;
-	--color-surface: #0d1626;
-	--color-card: #111827;
-	--color-border: #1e2d42;
-	--color-border-subtle: #162032;
+	--color-bg: #050505;
+	--color-surface: #0a0a0a;
+	--color-card: #101010;
+	--color-border: #27272a;
+	--color-border-subtle: #18181b;
 
-	--color-primary: #10b981;
-	--color-primary-glow: rgba(16, 185, 129, 0.15);
-	--color-accent: #8b5cf6;
-	--color-accent-glow: rgba(139, 92, 246, 0.15);
-	--color-gold: #f59e0b;
+	--color-primary: #c8d08a;
+	--color-primary-glow: rgba(200, 208, 138, 0.12);
+	--color-accent: #a8a29e;
+	--color-accent-glow: rgba(168, 162, 158, 0.12);
+	--color-gold: #d6d3d1;
 
-	--color-text: #e2e8f0;
-	--color-muted: #94a3b8;
-	--color-subtle: #4b5563;
+	--color-text: #e7e5e4;
+	--color-muted: #a1a1aa;
+	--color-subtle: #52525b;
 }
 
 :root {
-	--color-primary: #10b981;
+	--color-primary: #c8d08a;
+	font-family: 'Space Grotesk', 'Aptos Display', 'Segoe UI', sans-serif;
 }
 
 body {
-	background-color: #080c14;
-	color: #e2e8f0;
+	background:
+		linear-gradient(rgba(255, 255, 255, 0.018) 1px, transparent 1px),
+		linear-gradient(90deg, rgba(255, 255, 255, 0.018) 1px, transparent 1px),
+		#050505;
+	background-size: 32px 32px;
+	color: #e7e5e4;
+}
+
+::selection {
+	background: rgba(200, 208, 138, 0.28);
+	color: #fafaf9;
+}
+
+button:not(:disabled),
+[role='button'],
+a[href] {
+	cursor: pointer;
+}
+
+button:disabled {
+	cursor: not-allowed;
 }

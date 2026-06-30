@@ -11,7 +11,7 @@
 </script>
 
 <div
-	class="rounded-xl border border-slate-800 bg-slate-900/60 p-5 backdrop-blur-sm {hover ? 'transition-all duration-200 hover:border-slate-600 hover:bg-slate-800/60 hover:shadow-lg hover:shadow-black/20' : ''} {cls}"
+	class="rounded-md border border-zinc-800 bg-zinc-950/70 p-5 {hover ? 'transition duration-200 hover:border-zinc-600 hover:bg-zinc-900/70 hover:shadow-lg hover:shadow-black/30' : ''} {cls}"
 >
 	{@render children()}
 </div>
