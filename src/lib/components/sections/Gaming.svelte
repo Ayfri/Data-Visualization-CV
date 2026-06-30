@@ -2,6 +2,7 @@
 	import type { SteamCache, DiscordCache } from '$lib/types';
 	import PlaytimeBar from '$lib/components/charts/PlaytimeBar.svelte';
 	import GameActivityTimeline from '$lib/components/charts/GameActivityTimeline.svelte';
+	import SectionHeading from '$lib/components/ui/SectionHeading.svelte';
 	import { toPlaytimeEntries } from '$lib/transforms/steam';
 	import { toGameActivityDays } from '$lib/transforms/discord';
 
@@ -12,29 +13,48 @@
 
 	let { steam, discord }: Props = $props();
 
-	const topGames = $derived(toPlaytimeEntries(steam.games));
+	const topGames = $derived(toPlaytimeEntries(steam.games, 15));
 	const activityDays = $derived(toGameActivityDays(discord.gameSessions));
 
 	const totalHours = $derived(
-		steam.games.reduce((s, g) => s + g.playtimeMinutes / 60, 0),
+		Math.round(steam.games.reduce((s, g) => s + g.playtimeMinutes / 60, 0)),
 	);
+	const gamesWithTime = $derived(steam.games.filter((g) => g.playtimeMinutes > 0).length);
+	const mostPlayed = $derived(topGames[0]);
 </script>
 
 <section class="mx-auto max-w-5xl px-6 py-16">
-	<h2 class="text-2xl font-semibold">Gaming</h2>
-	<p class="mt-1 text-gray-400">{totalHours.toFixed(0)} hours on Steam</p>
+	<SectionHeading
+		title="Gaming"
+		subtitle="Live data from Steam · {steam.games.length} games owned"
+		accent="violet"
+	/>
+
+	<!-- Stats strip -->
+	<div class="mb-10 grid grid-cols-3 gap-4">
+		<div class="rounded-xl border border-slate-800 bg-slate-900/60 p-4 text-center">
+			<p class="text-2xl font-bold text-white">{totalHours.toLocaleString()}</p>
+			<p class="text-xs text-slate-500">hours on Steam</p>
+		</div>
+		<div class="rounded-xl border border-slate-800 bg-slate-900/60 p-4 text-center">
+			<p class="text-2xl font-bold text-white">{gamesWithTime}</p>
+			<p class="text-xs text-slate-500">games played</p>
+		</div>
+		<div class="rounded-xl border border-slate-800 bg-slate-900/60 p-4 text-center">
+			<p class="text-2xl font-bold text-white truncate">{mostPlayed?.name ?? '-'}</p>
+			<p class="text-xs text-slate-500">most played</p>
+		</div>
+	</div>
 
 	{#if topGames.length > 0}
-		<div class="mt-6">
-			<h3 class="mb-3 text-lg font-medium">Top games by playtime</h3>
+		<div class="mb-12 rounded-xl border border-slate-800 bg-slate-900/60 p-6">
+			<h3 class="mb-5 text-sm font-medium text-slate-400">Top {topGames.length} games by playtime</h3>
 			<PlaytimeBar games={topGames} />
 		</div>
 	{/if}
 
-	{#if activityDays.length > 0}
-		<div class="mt-10">
-			<h3 class="mb-3 text-lg font-medium">Discord game activity</h3>
-			<GameActivityTimeline days={activityDays} />
-		</div>
-	{/if}
+	<div class="rounded-xl border border-slate-800 bg-slate-900/60 p-6">
+		<h3 class="mb-5 text-sm font-medium text-slate-400">Discord game activity</h3>
+		<GameActivityTimeline days={activityDays} />
+	</div>
 </section>
