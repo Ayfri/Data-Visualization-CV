@@ -215,7 +215,8 @@ export async function fetchGithubCache(token: string, username: string): Promise
 			history: await fetchRepositoryStarHistory(token, repo.owner.login, repo.name),
 		})),
 	);
-	const koreStarHistory = starHistories.find((repo) => repo.name.toLowerCase() === 'kore')?.history ?? [];
+
+	const publicRepos = ownRepos.filter((r) => !r.private);
 
 	return {
 		fetchedAt: now.toISOString(),
@@ -224,23 +225,14 @@ export async function fetchGithubCache(token: string, username: string): Promise
 		languageRepos,
 		languageFiles,
 		languageTimeline,
-		repos: ownRepos.map((r) => ({
-			name: r.private ? 'Private repository' : r.name,
-			owner: r.private ? undefined : r.owner.login,
-			description: r.private ? null : r.description,
+		totalRepoCount: ownRepos.length,
+		repos: publicRepos.map((r) => ({
+			name: r.name,
+			description: r.description,
 			stars: r.stargazers_count,
-			isPrivate: r.private,
-			createdAt: r.created_at,
-			updatedAt: r.updated_at,
-			pushedAt: r.pushed_at ?? undefined,
-			primaryLanguage: r.language,
-			sizeKb: r.size,
-			openIssues: r.open_issues_count,
-			watchers: r.watchers_count,
 			topics: r.topics,
-			url: r.private ? '' : r.html_url,
+			url: r.html_url,
 		})),
-		koreStarHistory,
 		starHistories,
 	};
 }

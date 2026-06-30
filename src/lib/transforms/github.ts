@@ -1,4 +1,4 @@
-import type { GithubCache, HeatmapCell, LanguageSlice, StarPoint, StarSeries } from '$lib/types';
+import type { GithubCache, HeatmapCell, LanguageSlice, StarSeries } from '$lib/types';
 
 export function toHeatmapCells(calendar: GithubCache['contributionCalendar']): HeatmapCell[] {
 	if (calendar.length === 0) return [];
@@ -20,18 +20,14 @@ export function toHeatmapCells(calendar: GithubCache['contributionCalendar']): H
 
 export function toLanguageSlices(github: GithubCache): LanguageSlice[] {
 	const byteCounts = github.languageBytes;
-	const repoCounts = github.languageRepos ?? github.repos.reduce<Record<string, number>>((counts, repo) => {
-		if (!repo.primaryLanguage) return counts;
-		counts[repo.primaryLanguage] = (counts[repo.primaryLanguage] ?? 0) + 1;
-		return counts;
-	}, {});
+	const repoCounts = github.languageRepos ?? {};
 	const fileCounts = github.languageFiles ?? {};
 	const names = new Set([
 		...Object.keys(repoCounts),
 		...Object.keys(fileCounts),
 		...Object.keys(byteCounts),
 	]);
-	const repoTotal = Math.max(1, github.repos.length);
+	const repoTotal = Math.max(1, github.totalRepoCount ?? github.repos.length);
 	const fileTotal = Math.max(1, Object.values(fileCounts).reduce((sum, count) => sum + count, 0));
 	const byteTotal = Math.max(1, Object.values(byteCounts).reduce((sum, bytes) => sum + bytes, 0));
 
@@ -57,31 +53,17 @@ export function toLanguageSlices(github: GithubCache): LanguageSlice[] {
 		.sort((a, b) => b.repoCount - a.repoCount || b.fileCount - a.fileCount || b.bytes - a.bytes);
 }
 
-export function toStarTimeline(history: GithubCache['koreStarHistory']): StarPoint[] {
-	return history.map((entry, i) => ({
-		date: entry.starredAt.slice(0, 10),
-		cumulative: i + 1,
-	}));
-}
-
 export function toStarSeries(github: GithubCache): StarSeries[] {
-	const histories = github.starHistories ?? [
-		{
-			name: 'Kore',
-			owner: 'Ayfri',
-			url: 'https://github.com/Ayfri/Kore',
-			stars: github.koreStarHistory.length,
-			history: github.koreStarHistory,
-		},
-	];
-
-	return histories
+	return (github.starHistories ?? [])
 		.map((repo) => ({
 			name: repo.name,
 			owner: repo.owner,
 			url: repo.url,
 			stars: repo.stars,
-			points: toStarTimeline(repo.history),
+			points: repo.history.map((entry, i) => ({
+				date: entry.starredAt.slice(0, 10),
+				cumulative: i + 1,
+			})),
 		}))
 		.filter((repo) => repo.points.length > 0)
 		.sort((a, b) => b.stars - a.stars);
