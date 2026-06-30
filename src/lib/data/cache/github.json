@@ -1,0 +1,2681 @@
+{
+  "fetchedAt": "2026-06-30T12:32:27.539Z",
+  "contributionCalendar": [
+    {
+      "date": "2025-06-29",
+      "count": 4
+    },
+    {
+      "date": "2025-06-30",
+      "count": 22
+    },
+    {
+      "date": "2025-07-01",
+      "count": 1
+    },
+    {
+      "date": "2025-07-02",
+      "count": 26
+    },
+    {
+      "date": "2025-07-03",
+      "count": 2
+    },
+    {
+      "date": "2025-07-04",
+      "count": 1
+    },
+    {
+      "date": "2025-07-05",
+      "count": 16
+    },
+    {
+      "date": "2025-07-06",
+      "count": 0
+    },
+    {
+      "date": "2025-07-07",
+      "count": 20
+    },
+    {
+      "date": "2025-07-08",
+      "count": 6
+    },
+    {
+      "date": "2025-07-09",
+      "count": 0
+    },
+    {
+      "date": "2025-07-10",
+      "count": 0
+    },
+    {
+      "date": "2025-07-11",
+      "count": 1
+    },
+    {
+      "date": "2025-07-12",
+      "count": 3
+    },
+    {
+      "date": "2025-07-13",
+      "count": 11
+    },
+    {
+      "date": "2025-07-14",
+      "count": 0
+    },
+    {
+      "date": "2025-07-15",
+      "count": 8
+    },
+    {
+      "date": "2025-07-16",
+      "count": 19
+    },
+    {
+      "date": "2025-07-17",
+      "count": 20
+    },
+    {
+      "date": "2025-07-18",
+      "count": 2
+    },
+    {
+      "date": "2025-07-19",
+      "count": 29
+    },
+    {
+      "date": "2025-07-20",
+      "count": 4
+    },
+    {
+      "date": "2025-07-21",
+      "count": 0
+    },
+    {
+      "date": "2025-07-22",
+      "count": 6
+    },
+    {
+      "date": "2025-07-23",
+      "count": 44
+    },
+    {
+      "date": "2025-07-24",
+      "count": 11
+    },
+    {
+      "date": "2025-07-25",
+      "count": 12
+    },
+    {
+      "date": "2025-07-26",
+      "count": 0
+    },
+    {
+      "date": "2025-07-27",
+      "count": 0
+    },
+    {
+      "date": "2025-07-28",
+      "count": 10
+    },
+    {
+      "date": "2025-07-29",
+      "count": 11
+    },
+    {
+      "date": "2025-07-30",
+      "count": 0
+    },
+    {
+      "date": "2025-07-31",
+      "count": 0
+    },
+    {
+      "date": "2025-08-01",
+      "count": 0
+    },
+    {
+      "date": "2025-08-02",
+      "count": 0
+    },
+    {
+      "date": "2025-08-03",
+      "count": 0
+    },
+    {
+      "date": "2025-08-04",
+      "count": 34
+    },
+    {
+      "date": "2025-08-05",
+      "count": 35
+    },
+    {
+      "date": "2025-08-06",
+      "count": 24
+    },
+    {
+      "date": "2025-08-07",
+      "count": 0
+    },
+    {
+      "date": "2025-08-08",
+      "count": 0
+    },
+    {
+      "date": "2025-08-09",
+      "count": 0
+    },
+    {
+      "date": "2025-08-10",
+      "count": 0
+    },
+    {
+      "date": "2025-08-11",
+      "count": 3
+    },
+    {
+      "date": "2025-08-12",
+      "count": 6
+    },
+    {
+      "date": "2025-08-13",
+      "count": 23
+    },
+    {
+      "date": "2025-08-14",
+      "count": 1
+    },
+    {
+      "date": "2025-08-15",
+      "count": 0
+    },
+    {
+      "date": "2025-08-16",
+      "count": 0
+    },
+    {
+      "date": "2025-08-17",
+      "count": 0
+    },
+    {
+      "date": "2025-08-18",
+      "count": 14
+    },
+    {
+      "date": "2025-08-19",
+      "count": 11
+    },
+    {
+      "date": "2025-08-20",
+      "count": 18
+    },
+    {
+      "date": "2025-08-21",
+      "count": 18
+    },
+    {
+      "date": "2025-08-22",
+      "count": 3
+    },
+    {
+      "date": "2025-08-23",
+      "count": 0
+    },
+    {
+      "date": "2025-08-24",
+      "count": 10
+    },
+    {
+      "date": "2025-08-25",
+      "count": 1
+    },
+    {
+      "date": "2025-08-26",
+      "count": 2
+    },
+    {
+      "date": "2025-08-27",
+      "count": 28
+    },
+    {
+      "date": "2025-08-28",
+      "count": 3
+    },
+    {
+      "date": "2025-08-29",
+      "count": 6
+    },
+    {
+      "date": "2025-08-30",
+      "count": 0
+    },
+    {
+      "date": "2025-08-31",
+      "count": 0
+    },
+    {
+      "date": "2025-09-01",
+      "count": 7
+    },
+    {
+      "date": "2025-09-02",
+      "count": 14
+    },
+    {
+      "date": "2025-09-03",
+      "count": 37
+    },
+    {
+      "date": "2025-09-04",
+      "count": 2
+    },
+    {
+      "date": "2025-09-05",
+      "count": 7
+    },
+    {
+      "date": "2025-09-06",
+      "count": 16
+    },
+    {
+      "date": "2025-09-07",
+      "count": 0
+    },
+    {
+      "date": "2025-09-08",
+      "count": 0
+    },
+    {
+      "date": "2025-09-09",
+      "count": 14
+    },
+    {
+      "date": "2025-09-10",
+      "count": 3
+    },
+    {
+      "date": "2025-09-11",
+      "count": 1
+    },
+    {
+      "date": "2025-09-12",
+      "count": 0
+    },
+    {
+      "date": "2025-09-13",
+      "count": 19
+    },
+    {
+      "date": "2025-09-14",
+      "count": 5
+    },
+    {
+      "date": "2025-09-15",
+      "count": 9
+    },
+    {
+      "date": "2025-09-16",
+      "count": 0
+    },
+    {
+      "date": "2025-09-17",
+      "count": 0
+    },
+    {
+      "date": "2025-09-18",
+      "count": 29
+    },
+    {
+      "date": "2025-09-19",
+      "count": 9
+    },
+    {
+      "date": "2025-09-20",
+      "count": 0
+    },
+    {
+      "date": "2025-09-21",
+      "count": 4
+    },
+    {
+      "date": "2025-09-22",
+      "count": 65
+    },
+    {
+      "date": "2025-09-23",
+      "count": 6
+    },
+    {
+      "date": "2025-09-24",
+      "count": 11
+    },
+    {
+      "date": "2025-09-25",
+      "count": 21
+    },
+    {
+      "date": "2025-09-26",
+      "count": 17
+    },
+    {
+      "date": "2025-09-27",
+      "count": 3
+    },
+    {
+      "date": "2025-09-28",
+      "count": 0
+    },
+    {
+      "date": "2025-09-29",
+      "count": 4
+    },
+    {
+      "date": "2025-09-30",
+      "count": 7
+    },
+    {
+      "date": "2025-10-01",
+      "count": 14
+    },
+    {
+      "date": "2025-10-02",
+      "count": 14
+    },
+    {
+      "date": "2025-10-03",
+      "count": 1
+    },
+    {
+      "date": "2025-10-04",
+      "count": 18
+    },
+    {
+      "date": "2025-10-05",
+      "count": 7
+    },
+    {
+      "date": "2025-10-06",
+      "count": 21
+    },
+    {
+      "date": "2025-10-07",
+      "count": 26
+    },
+    {
+      "date": "2025-10-08",
+      "count": 28
+    },
+    {
+      "date": "2025-10-09",
+      "count": 12
+    },
+    {
+      "date": "2025-10-10",
+      "count": 0
+    },
+    {
+      "date": "2025-10-11",
+      "count": 31
+    },
+    {
+      "date": "2025-10-12",
+      "count": 2
+    },
+    {
+      "date": "2025-10-13",
+      "count": 32
+    },
+    {
+      "date": "2025-10-14",
+      "count": 0
+    },
+    {
+      "date": "2025-10-15",
+      "count": 20
+    },
+    {
+      "date": "2025-10-16",
+      "count": 48
+    },
+    {
+      "date": "2025-10-17",
+      "count": 23
+    },
+    {
+      "date": "2025-10-18",
+      "count": 0
+    },
+    {
+      "date": "2025-10-19",
+      "count": 0
+    },
+    {
+      "date": "2025-10-20",
+      "count": 25
+    },
+    {
+      "date": "2025-10-21",
+      "count": 0
+    },
+    {
+      "date": "2025-10-22",
+      "count": 18
+    },
+    {
+      "date": "2025-10-23",
+      "count": 8
+    },
+    {
+      "date": "2025-10-24",
+      "count": 19
+    },
+    {
+      "date": "2025-10-25",
+      "count": 9
+    },
+    {
+      "date": "2025-10-26",
+      "count": 0
+    },
+    {
+      "date": "2025-10-27",
+      "count": 10
+    },
+    {
+      "date": "2025-10-28",
+      "count": 12
+    },
+    {
+      "date": "2025-10-29",
+      "count": 1
+    },
+    {
+      "date": "2025-10-30",
+      "count": 13
+    },
+    {
+      "date": "2025-10-31",
+      "count": 4
+    },
+    {
+      "date": "2025-11-01",
+      "count": 0
+    },
+    {
+      "date": "2025-11-02",
+      "count": 3
+    },
+    {
+      "date": "2025-11-03",
+      "count": 11
+    },
+    {
+      "date": "2025-11-04",
+      "count": 17
+    },
+    {
+      "date": "2025-11-05",
+      "count": 0
+    },
+    {
+      "date": "2025-11-06",
+      "count": 2
+    },
+    {
+      "date": "2025-11-07",
+      "count": 0
+    },
+    {
+      "date": "2025-11-08",
+      "count": 0
+    },
+    {
+      "date": "2025-11-09",
+      "count": 1
+    },
+    {
+      "date": "2025-11-10",
+      "count": 0
+    },
+    {
+      "date": "2025-11-11",
+      "count": 0
+    },
+    {
+      "date": "2025-11-12",
+      "count": 8
+    },
+    {
+      "date": "2025-11-13",
+      "count": 12
+    },
+    {
+      "date": "2025-11-14",
+      "count": 19
+    },
+    {
+      "date": "2025-11-15",
+      "count": 10
+    },
+    {
+      "date": "2025-11-16",
+      "count": 0
+    },
+    {
+      "date": "2025-11-17",
+      "count": 2
+    },
+    {
+      "date": "2025-11-18",
+      "count": 3
+    },
+    {
+      "date": "2025-11-19",
+      "count": 12
+    },
+    {
+      "date": "2025-11-20",
+      "count": 2
+    },
+    {
+      "date": "2025-11-21",
+      "count": 0
+    },
+    {
+      "date": "2025-11-22",
+      "count": 0
+    },
+    {
+      "date": "2025-11-23",
+      "count": 0
+    },
+    {
+      "date": "2025-11-24",
+      "count": 11
+    },
+    {
+      "date": "2025-11-25",
+      "count": 0
+    },
+    {
+      "date": "2025-11-26",
+      "count": 8
+    },
+    {
+      "date": "2025-11-27",
+      "count": 20
+    },
+    {
+      "date": "2025-11-28",
+      "count": 20
+    },
+    {
+      "date": "2025-11-29",
+      "count": 20
+    },
+    {
+      "date": "2025-11-30",
+      "count": 0
+    },
+    {
+      "date": "2025-12-01",
+      "count": 6
+    },
+    {
+      "date": "2025-12-02",
+      "count": 1
+    },
+    {
+      "date": "2025-12-03",
+      "count": 0
+    },
+    {
+      "date": "2025-12-04",
+      "count": 5
+    },
+    {
+      "date": "2025-12-05",
+      "count": 26
+    },
+    {
+      "date": "2025-12-06",
+      "count": 0
+    },
+    {
+      "date": "2025-12-07",
+      "count": 2
+    },
+    {
+      "date": "2025-12-08",
+      "count": 1
+    },
+    {
+      "date": "2025-12-09",
+      "count": 0
+    },
+    {
+      "date": "2025-12-10",
+      "count": 9
+    },
+    {
+      "date": "2025-12-11",
+      "count": 2
+    },
+    {
+      "date": "2025-12-12",
+      "count": 6
+    },
+    {
+      "date": "2025-12-13",
+      "count": 28
+    },
+    {
+      "date": "2025-12-14",
+      "count": 10
+    },
+    {
+      "date": "2025-12-15",
+      "count": 5
+    },
+    {
+      "date": "2025-12-16",
+      "count": 20
+    },
+    {
+      "date": "2025-12-17",
+      "count": 12
+    },
+    {
+      "date": "2025-12-18",
+      "count": 35
+    },
+    {
+      "date": "2025-12-19",
+      "count": 13
+    },
+    {
+      "date": "2025-12-20",
+      "count": 0
+    },
+    {
+      "date": "2025-12-21",
+      "count": 0
+    },
+    {
+      "date": "2025-12-22",
+      "count": 1
+    },
+    {
+      "date": "2025-12-23",
+      "count": 23
+    },
+    {
+      "date": "2025-12-24",
+      "count": 2
+    },
+    {
+      "date": "2025-12-25",
+      "count": 12
+    },
+    {
+      "date": "2025-12-26",
+      "count": 0
+    },
+    {
+      "date": "2025-12-27",
+      "count": 16
+    },
+    {
+      "date": "2025-12-28",
+      "count": 24
+    },
+    {
+      "date": "2025-12-29",
+      "count": 19
+    },
+    {
+      "date": "2025-12-30",
+      "count": 36
+    },
+    {
+      "date": "2025-12-31",
+      "count": 13
+    },
+    {
+      "date": "2026-01-01",
+      "count": 0
+    },
+    {
+      "date": "2026-01-02",
+      "count": 0
+    },
+    {
+      "date": "2026-01-03",
+      "count": 0
+    },
+    {
+      "date": "2026-01-04",
+      "count": 6
+    },
+    {
+      "date": "2026-01-05",
+      "count": 0
+    },
+    {
+      "date": "2026-01-06",
+      "count": 14
+    },
+    {
+      "date": "2026-01-07",
+      "count": 8
+    },
+    {
+      "date": "2026-01-08",
+      "count": 26
+    },
+    {
+      "date": "2026-01-09",
+      "count": 23
+    },
+    {
+      "date": "2026-01-10",
+      "count": 22
+    },
+    {
+      "date": "2026-01-11",
+      "count": 0
+    },
+    {
+      "date": "2026-01-12",
+      "count": 2
+    },
+    {
+      "date": "2026-01-13",
+      "count": 0
+    },
+    {
+      "date": "2026-01-14",
+      "count": 4
+    },
+    {
+      "date": "2026-01-15",
+      "count": 1
+    },
+    {
+      "date": "2026-01-16",
+      "count": 11
+    },
+    {
+      "date": "2026-01-17",
+      "count": 29
+    },
+    {
+      "date": "2026-01-18",
+      "count": 0
+    },
+    {
+      "date": "2026-01-19",
+      "count": 16
+    },
+    {
+      "date": "2026-01-20",
+      "count": 0
+    },
+    {
+      "date": "2026-01-21",
+      "count": 0
+    },
+    {
+      "date": "2026-01-22",
+      "count": 4
+    },
+    {
+      "date": "2026-01-23",
+      "count": 28
+    },
+    {
+      "date": "2026-01-24",
+      "count": 35
+    },
+    {
+      "date": "2026-01-25",
+      "count": 49
+    },
+    {
+      "date": "2026-01-26",
+      "count": 33
+    },
+    {
+      "date": "2026-01-27",
+      "count": 34
+    },
+    {
+      "date": "2026-01-28",
+      "count": 4
+    },
+    {
+      "date": "2026-01-29",
+      "count": 0
+    },
+    {
+      "date": "2026-01-30",
+      "count": 14
+    },
+    {
+      "date": "2026-01-31",
+      "count": 30
+    },
+    {
+      "date": "2026-02-01",
+      "count": 22
+    },
+    {
+      "date": "2026-02-02",
+      "count": 23
+    },
+    {
+      "date": "2026-02-03",
+      "count": 54
+    },
+    {
+      "date": "2026-02-04",
+      "count": 36
+    },
+    {
+      "date": "2026-02-05",
+      "count": 11
+    },
+    {
+      "date": "2026-02-06",
+      "count": 0
+    },
+    {
+      "date": "2026-02-07",
+      "count": 27
+    },
+    {
+      "date": "2026-02-08",
+      "count": 1
+    },
+    {
+      "date": "2026-02-09",
+      "count": 30
+    },
+    {
+      "date": "2026-02-10",
+      "count": 45
+    },
+    {
+      "date": "2026-02-11",
+      "count": 15
+    },
+    {
+      "date": "2026-02-12",
+      "count": 23
+    },
+    {
+      "date": "2026-02-13",
+      "count": 18
+    },
+    {
+      "date": "2026-02-14",
+      "count": 13
+    },
+    {
+      "date": "2026-02-15",
+      "count": 34
+    },
+    {
+      "date": "2026-02-16",
+      "count": 10
+    },
+    {
+      "date": "2026-02-17",
+      "count": 11
+    },
+    {
+      "date": "2026-02-18",
+      "count": 4
+    },
+    {
+      "date": "2026-02-19",
+      "count": 8
+    },
+    {
+      "date": "2026-02-20",
+      "count": 34
+    },
+    {
+      "date": "2026-02-21",
+      "count": 31
+    },
+    {
+      "date": "2026-02-22",
+      "count": 33
+    },
+    {
+      "date": "2026-02-23",
+      "count": 63
+    },
+    {
+      "date": "2026-02-24",
+      "count": 17
+    },
+    {
+      "date": "2026-02-25",
+      "count": 8
+    },
+    {
+      "date": "2026-02-26",
+      "count": 2
+    },
+    {
+      "date": "2026-02-27",
+      "count": 0
+    },
+    {
+      "date": "2026-02-28",
+      "count": 0
+    },
+    {
+      "date": "2026-03-01",
+      "count": 0
+    },
+    {
+      "date": "2026-03-02",
+      "count": 17
+    },
+    {
+      "date": "2026-03-03",
+      "count": 14
+    },
+    {
+      "date": "2026-03-04",
+      "count": 14
+    },
+    {
+      "date": "2026-03-05",
+      "count": 0
+    },
+    {
+      "date": "2026-03-06",
+      "count": 14
+    },
+    {
+      "date": "2026-03-07",
+      "count": 17
+    },
+    {
+      "date": "2026-03-08",
+      "count": 0
+    },
+    {
+      "date": "2026-03-09",
+      "count": 3
+    },
+    {
+      "date": "2026-03-10",
+      "count": 15
+    },
+    {
+      "date": "2026-03-11",
+      "count": 10
+    },
+    {
+      "date": "2026-03-12",
+      "count": 1
+    },
+    {
+      "date": "2026-03-13",
+      "count": 10
+    },
+    {
+      "date": "2026-03-14",
+      "count": 19
+    },
+    {
+      "date": "2026-03-15",
+      "count": 7
+    },
+    {
+      "date": "2026-03-16",
+      "count": 0
+    },
+    {
+      "date": "2026-03-17",
+      "count": 24
+    },
+    {
+      "date": "2026-03-18",
+      "count": 8
+    },
+    {
+      "date": "2026-03-19",
+      "count": 52
+    },
+    {
+      "date": "2026-03-20",
+      "count": 2
+    },
+    {
+      "date": "2026-03-21",
+      "count": 0
+    },
+    {
+      "date": "2026-03-22",
+      "count": 0
+    },
+    {
+      "date": "2026-03-23",
+      "count": 12
+    },
+    {
+      "date": "2026-03-24",
+      "count": 18
+    },
+    {
+      "date": "2026-03-25",
+      "count": 6
+    },
+    {
+      "date": "2026-03-26",
+      "count": 13
+    },
+    {
+      "date": "2026-03-27",
+      "count": 9
+    },
+    {
+      "date": "2026-03-28",
+      "count": 18
+    },
+    {
+      "date": "2026-03-29",
+      "count": 0
+    },
+    {
+      "date": "2026-03-30",
+      "count": 9
+    },
+    {
+      "date": "2026-03-31",
+      "count": 32
+    },
+    {
+      "date": "2026-04-01",
+      "count": 21
+    },
+    {
+      "date": "2026-04-02",
+      "count": 25
+    },
+    {
+      "date": "2026-04-03",
+      "count": 24
+    },
+    {
+      "date": "2026-04-04",
+      "count": 0
+    },
+    {
+      "date": "2026-04-05",
+      "count": 0
+    },
+    {
+      "date": "2026-04-06",
+      "count": 0
+    },
+    {
+      "date": "2026-04-07",
+      "count": 3
+    },
+    {
+      "date": "2026-04-08",
+      "count": 9
+    },
+    {
+      "date": "2026-04-09",
+      "count": 17
+    },
+    {
+      "date": "2026-04-10",
+      "count": 1
+    },
+    {
+      "date": "2026-04-11",
+      "count": 0
+    },
+    {
+      "date": "2026-04-12",
+      "count": 15
+    },
+    {
+      "date": "2026-04-13",
+      "count": 12
+    },
+    {
+      "date": "2026-04-14",
+      "count": 13
+    },
+    {
+      "date": "2026-04-15",
+      "count": 21
+    },
+    {
+      "date": "2026-04-16",
+      "count": 22
+    },
+    {
+      "date": "2026-04-17",
+      "count": 40
+    },
+    {
+      "date": "2026-04-18",
+      "count": 0
+    },
+    {
+      "date": "2026-04-19",
+      "count": 3
+    },
+    {
+      "date": "2026-04-20",
+      "count": 18
+    },
+    {
+      "date": "2026-04-21",
+      "count": 35
+    },
+    {
+      "date": "2026-04-22",
+      "count": 21
+    },
+    {
+      "date": "2026-04-23",
+      "count": 1
+    },
+    {
+      "date": "2026-04-24",
+      "count": 7
+    },
+    {
+      "date": "2026-04-25",
+      "count": 30
+    },
+    {
+      "date": "2026-04-26",
+      "count": 11
+    },
+    {
+      "date": "2026-04-27",
+      "count": 17
+    },
+    {
+      "date": "2026-04-28",
+      "count": 25
+    },
+    {
+      "date": "2026-04-29",
+      "count": 7
+    },
+    {
+      "date": "2026-04-30",
+      "count": 4
+    },
+    {
+      "date": "2026-05-01",
+      "count": 8
+    },
+    {
+      "date": "2026-05-02",
+      "count": 8
+    },
+    {
+      "date": "2026-05-03",
+      "count": 14
+    },
+    {
+      "date": "2026-05-04",
+      "count": 22
+    },
+    {
+      "date": "2026-05-05",
+      "count": 9
+    },
+    {
+      "date": "2026-05-06",
+      "count": 39
+    },
+    {
+      "date": "2026-05-07",
+      "count": 11
+    },
+    {
+      "date": "2026-05-08",
+      "count": 3
+    },
+    {
+      "date": "2026-05-09",
+      "count": 0
+    },
+    {
+      "date": "2026-05-10",
+      "count": 0
+    },
+    {
+      "date": "2026-05-11",
+      "count": 43
+    },
+    {
+      "date": "2026-05-12",
+      "count": 1
+    },
+    {
+      "date": "2026-05-13",
+      "count": 0
+    },
+    {
+      "date": "2026-05-14",
+      "count": 0
+    },
+    {
+      "date": "2026-05-15",
+      "count": 0
+    },
+    {
+      "date": "2026-05-16",
+      "count": 0
+    },
+    {
+      "date": "2026-05-17",
+      "count": 0
+    },
+    {
+      "date": "2026-05-18",
+      "count": 33
+    },
+    {
+      "date": "2026-05-19",
+      "count": 10
+    },
+    {
+      "date": "2026-05-20",
+      "count": 3
+    },
+    {
+      "date": "2026-05-21",
+      "count": 4
+    },
+    {
+      "date": "2026-05-22",
+      "count": 21
+    },
+    {
+      "date": "2026-05-23",
+      "count": 1
+    },
+    {
+      "date": "2026-05-24",
+      "count": 0
+    },
+    {
+      "date": "2026-05-25",
+      "count": 0
+    },
+    {
+      "date": "2026-05-26",
+      "count": 12
+    },
+    {
+      "date": "2026-05-27",
+      "count": 0
+    },
+    {
+      "date": "2026-05-28",
+      "count": 2
+    },
+    {
+      "date": "2026-05-29",
+      "count": 6
+    },
+    {
+      "date": "2026-05-30",
+      "count": 0
+    },
+    {
+      "date": "2026-05-31",
+      "count": 5
+    },
+    {
+      "date": "2026-06-01",
+      "count": 0
+    },
+    {
+      "date": "2026-06-02",
+      "count": 2
+    },
+    {
+      "date": "2026-06-03",
+      "count": 3
+    },
+    {
+      "date": "2026-06-04",
+      "count": 6
+    },
+    {
+      "date": "2026-06-05",
+      "count": 1
+    },
+    {
+      "date": "2026-06-06",
+      "count": 9
+    },
+    {
+      "date": "2026-06-07",
+      "count": 0
+    },
+    {
+      "date": "2026-06-08",
+      "count": 32
+    },
+    {
+      "date": "2026-06-09",
+      "count": 23
+    },
+    {
+      "date": "2026-06-10",
+      "count": 1
+    },
+    {
+      "date": "2026-06-11",
+      "count": 25
+    },
+    {
+      "date": "2026-06-12",
+      "count": 20
+    },
+    {
+      "date": "2026-06-13",
+      "count": 2
+    },
+    {
+      "date": "2026-06-14",
+      "count": 18
+    },
+    {
+      "date": "2026-06-15",
+      "count": 7
+    },
+    {
+      "date": "2026-06-16",
+      "count": 43
+    },
+    {
+      "date": "2026-06-17",
+      "count": 9
+    },
+    {
+      "date": "2026-06-18",
+      "count": 4
+    },
+    {
+      "date": "2026-06-19",
+      "count": 0
+    },
+    {
+      "date": "2026-06-20",
+      "count": 42
+    },
+    {
+      "date": "2026-06-21",
+      "count": 3
+    },
+    {
+      "date": "2026-06-22",
+      "count": 18
+    },
+    {
+      "date": "2026-06-23",
+      "count": 17
+    },
+    {
+      "date": "2026-06-24",
+      "count": 13
+    },
+    {
+      "date": "2026-06-25",
+      "count": 21
+    },
+    {
+      "date": "2026-06-26",
+      "count": 59
+    },
+    {
+      "date": "2026-06-27",
+      "count": 28
+    },
+    {
+      "date": "2026-06-28",
+      "count": 13
+    },
+    {
+      "date": "2026-06-29",
+      "count": 9
+    },
+    {
+      "date": "2026-06-30",
+      "count": 13
+    }
+  ],
+  "languageBytes": {
+    "TypeScript": 1177541,
+    "Svelte": 1343316,
+    "HTML": 176654,
+    "CSS": 135539,
+    "Kotlin": 3843664,
+    "JavaScript": 363734,
+    "PHP": 33210,
+    "C++": 76347,
+    "CMake": 6437,
+    "C#": 50540,
+    "C": 143267,
+    "Objective-C": 1152,
+    "Jupyter Notebook": 7837216,
+    "Python": 626614,
+    "Java": 236863,
+    "Go": 87304,
+    "Dockerfile": 2234,
+    "Mako": 704,
+    "Shell": 251,
+    "GDScript": 65502,
+    "Groovy": 547,
+    "Batchfile": 958,
+    "Vue": 37242
+  },
+  "repos": [
+    {
+      "name": "Data-Visualization-CV",
+      "description": "A web-based CV that tells my professional and personal journey through data  visualizations instead of plain text.",
+      "stars": 0,
+      "createdAt": "2026-06-30T10:04:09Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/Data-Visualization-CV"
+    },
+    {
+      "name": "Kore",
+      "description": "A Kotlin library to generate Datapacks for Minecraft Java.",
+      "stars": 138,
+      "createdAt": "2022-11-13T14:36:08Z",
+      "topics": [
+        "datapack",
+        "functions",
+        "kore",
+        "kotlin-dsl",
+        "kotlinserverside",
+        "minecraft",
+        "minecraft-datapack",
+        "minecraft-kotlin",
+        "modding",
+        "modding-tools"
+      ],
+      "url": "https://github.com/Ayfri/Kore"
+    },
+    {
+      "name": "DeepSky-Classifier",
+      "description": "DeepSky-Classifier is a high-performance astronomical data pipeline and inference engine.",
+      "stars": 1,
+      "createdAt": "2026-01-16T11:03:26Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/DeepSky-Classifier"
+    },
+    {
+      "name": "Minecraft-Images-Mobs-Generator",
+      "description": "A small mod to generate thousand of images of in-game Minecraft mobs, to create a complete dataset of images.",
+      "stars": 0,
+      "createdAt": "2026-06-08T14:57:14Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/Minecraft-Images-Mobs-Generator"
+    },
+    {
+      "name": "Minecraft-Mobs-Vision",
+      "description": "A multi-task Computer Vision model that classifies Minecraft mobs and predicts their on-screen bounding boxes from game screenshots.",
+      "stars": 0,
+      "createdAt": "2026-06-09T08:55:05Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/Minecraft-Mobs-Vision"
+    },
+    {
+      "name": "MCUS",
+      "description": "A minecraft username sniper tool.",
+      "stars": 7,
+      "createdAt": "2025-01-31T13:30:30Z",
+      "topics": [
+        "check",
+        "minecraft",
+        "minecraft-utilities",
+        "username"
+      ],
+      "url": "https://github.com/Ayfri/MCUS"
+    },
+    {
+      "name": "Portfolio",
+      "description": "My online portfolio.",
+      "stars": 14,
+      "createdAt": "2022-06-23T22:24:00Z",
+      "topics": [
+        "kobweb",
+        "kotlin-website",
+        "portfolio",
+        "portfolio-website"
+      ],
+      "url": "https://github.com/Ayfri/Portfolio"
+    },
+    {
+      "name": "Neural-Jump",
+      "description": "A platformer game where AI agents learn to play through reinforcement learning.",
+      "stars": 2,
+      "createdAt": "2024-06-30T22:39:10Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/Neural-Jump"
+    },
+    {
+      "name": "Deep-Learning-Exercices",
+      "description": "My exercices on Deep Learning course.",
+      "stars": 0,
+      "createdAt": "2026-04-27T13:55:05Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/Deep-Learning-Exercices"
+    },
+    {
+      "name": "Deep-Research",
+      "description": "My own implementation of DeepResearch.",
+      "stars": 11,
+      "createdAt": "2025-02-24T16:01:04Z",
+      "topics": [
+        "ai-chat",
+        "deep-research",
+        "openai",
+        "perplexity"
+      ],
+      "url": "https://github.com/Ayfri/Deep-Research"
+    },
+    {
+      "name": "GPT-Images",
+      "description": "A modern application for creating images or videos with GPT Images/Sora models.",
+      "stars": 4,
+      "createdAt": "2025-04-24T17:01:31Z",
+      "topics": [
+        "ai-images",
+        "dalle",
+        "gpt-images",
+        "openai",
+        "sora",
+        "svelte",
+        "sveltekit"
+      ],
+      "url": "https://github.com/Ayfri/GPT-Images"
+    },
+    {
+      "name": "pokestore-2000",
+      "description": "A nostalgic Pokémon card shop website straight from the year 2000! ",
+      "stars": 1,
+      "createdAt": "2025-03-29T22:59:50Z",
+      "topics": [
+        "2000s",
+        "pokemon",
+        "website"
+      ],
+      "url": "https://github.com/Ayfri/pokestore-2000"
+    },
+    {
+      "name": "Doctor-Java",
+      "description": "A Discord French bot made in Java.",
+      "stars": 3,
+      "createdAt": "2020-09-01T00:09:07Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/Doctor-Java"
+    },
+    {
+      "name": "shayders",
+      "description": "Quick website for doing shaders tests.",
+      "stars": 1,
+      "createdAt": "2026-02-22T16:33:45Z",
+      "topics": [
+        "glsl",
+        "shader",
+        "shaders",
+        "shadertoy",
+        "webgl"
+      ],
+      "url": "https://github.com/Ayfri/shayders"
+    },
+    {
+      "name": "voxel-game",
+      "description": "Another voxel game, made with Kool in Kotlin.",
+      "stars": 0,
+      "createdAt": "2026-03-19T20:36:21Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/voxel-game"
+    },
+    {
+      "name": "Artificial-Infiltration",
+      "description": "A game.",
+      "stars": 1,
+      "createdAt": "2023-05-23T08:17:14Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/Artificial-Infiltration"
+    },
+    {
+      "name": "Atom-Clicker",
+      "description": "A clicker game about atoms.",
+      "stars": 15,
+      "createdAt": "2024-10-31T01:25:45Z",
+      "topics": [
+        "clicker",
+        "game",
+        "incremental",
+        "pixi",
+        "svelte"
+      ],
+      "url": "https://github.com/Ayfri/Atom-Clicker"
+    },
+    {
+      "name": "Ayfri",
+      "description": "Informations on me.",
+      "stars": 2,
+      "createdAt": "2020-07-23T14:44:52Z",
+      "topics": [
+        "ayfri",
+        "discord-bots",
+        "typescript"
+      ],
+      "url": "https://github.com/Ayfri/Ayfri"
+    },
+    {
+      "name": "portal-2d",
+      "description": "A portal game made in TypeScript using PIXI.",
+      "stars": 1,
+      "createdAt": "2021-01-15T13:01:07Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/portal-2d"
+    },
+    {
+      "name": "Cacayfri",
+      "description": "Cacayfri, find the url.",
+      "stars": 1,
+      "createdAt": "2025-07-05T18:40:24Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/Cacayfri"
+    },
+    {
+      "name": "ia-cloud-1",
+      "description": "Cloud IA model.",
+      "stars": 0,
+      "createdAt": "2026-02-04T09:06:42Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/ia-cloud-1"
+    },
+    {
+      "name": "PCC-Worker",
+      "description": "Cron.",
+      "stars": 0,
+      "createdAt": "2025-05-21T13:47:58Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/PCC-Worker"
+    },
+    {
+      "name": "PokeCards-Collector",
+      "description": "PokeCards-Collector is a website that allows you to check Pokemon browse and manage your Pokémon Trading Card Game (TCG) collection.",
+      "stars": 2,
+      "createdAt": "2023-10-02T10:00:36Z",
+      "topics": [
+        "pokemon",
+        "pokemon-cards",
+        "supabase",
+        "svelte",
+        "sveltekit",
+        "tcg",
+        "website"
+      ],
+      "url": "https://github.com/Ayfri/PokeCards-Collector"
+    },
+    {
+      "name": "aternos-watcher",
+      "description": "A Minecraft Aternos server watcher in python.",
+      "stars": 0,
+      "createdAt": "2025-12-27T21:13:12Z",
+      "topics": [
+        "aternos",
+        "minecraft",
+        "python",
+        "server",
+        "watcher"
+      ],
+      "url": "https://github.com/Ayfri/aternos-watcher"
+    },
+    {
+      "name": "atom-clicker-pixi",
+      "description": "[DEPRECATED] A simple clicker game with the theme of atoms.",
+      "stars": 4,
+      "createdAt": "2021-02-12T23:13:57Z",
+      "topics": [
+        "clicker-game",
+        "game",
+        "idle-game",
+        "pixi",
+        "typescript"
+      ],
+      "url": "https://github.com/Ayfri/atom-clicker-pixi"
+    },
+    {
+      "name": "ETL-1",
+      "description": "Implementation of a data pipeline",
+      "stars": 0,
+      "createdAt": "2025-10-07T08:39:07Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/ETL-1"
+    },
+    {
+      "name": "kotlin-js-esmodules-bug",
+      "description": null,
+      "stars": 0,
+      "createdAt": "2023-07-05T09:56:20Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/kotlin-js-esmodules-bug"
+    },
+    {
+      "name": "A-Follow",
+      "description": "A p5.js + a* path algorithm small experiment.",
+      "stars": 0,
+      "createdAt": "2025-09-22T16:51:08Z",
+      "topics": [
+        "a-star-algorithm",
+        "game",
+        "p5js",
+        "typescript"
+      ],
+      "url": "https://github.com/Ayfri/A-Follow"
+    },
+    {
+      "name": "Ai-Test",
+      "description": "A first test about creating an AI using Deep Learning, will later change name when theme is found and AI is working.",
+      "stars": 0,
+      "createdAt": "2022-12-22T01:05:25Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/Ai-Test"
+    },
+    {
+      "name": "RAG",
+      "description": "My own RAG implementation.",
+      "stars": 1,
+      "createdAt": "2025-07-22T21:26:51Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/RAG"
+    },
+    {
+      "name": "AI-GD",
+      "description": "A Geometry Dash-like game but run by an IA using Deep Reinforcement Learning.",
+      "stars": 0,
+      "createdAt": "2023-05-28T16:40:28Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/AI-GD"
+    },
+    {
+      "name": "NLP-1",
+      "description": "NLP with discord messages.",
+      "stars": 0,
+      "createdAt": "2025-06-17T13:44:22Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/NLP-1"
+    },
+    {
+      "name": "HTML-TP1",
+      "description": "My first exercice in HTML/CSS.",
+      "stars": 0,
+      "createdAt": "2021-11-07T00:03:16Z",
+      "topics": [
+        "adventure",
+        "game",
+        "html",
+        "minecraft"
+      ],
+      "url": "https://github.com/Ayfri/HTML-TP1"
+    },
+    {
+      "name": "Basic-CommandHandler",
+      "description": "This is a simple Command Handler with modules.",
+      "stars": 3,
+      "createdAt": "2020-01-15T15:47:19Z",
+      "topics": [
+        "bot",
+        "command-handler",
+        "discord-js"
+      ],
+      "url": "https://github.com/Ayfri/Basic-CommandHandler"
+    },
+    {
+      "name": "hackaton-m1",
+      "description": "Le hackaton en m1.",
+      "stars": 0,
+      "createdAt": "2025-01-20T08:42:27Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/hackaton-m1"
+    },
+    {
+      "name": "Cat-aclysm-Claw-of-the-Dead",
+      "description": "A Tower Defense game in zombie apocalypse theme. You play with cats, and you have to defend your city from the zombie invasion using towers.",
+      "stars": 7,
+      "createdAt": "2023-01-11T08:27:15Z",
+      "topics": [
+        "game",
+        "game-development",
+        "godot"
+      ],
+      "url": "https://github.com/Ayfri/Cat-aclysm-Claw-of-the-Dead"
+    },
+    {
+      "name": "Image2Minecraft",
+      "description": "A simple Processing program using PApplet to transform images to Minecraft Pixel Art",
+      "stars": 8,
+      "createdAt": "2020-04-28T17:20:44Z",
+      "topics": [
+        "java",
+        "minecraft",
+        "processing"
+      ],
+      "url": "https://github.com/Ayfri/Image2Minecraft"
+    },
+    {
+      "name": "UF_Project_B3",
+      "description": null,
+      "stars": 0,
+      "createdAt": "2024-03-05T09:54:27Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/UF_Project_B3"
+    },
+    {
+      "name": "PIXI-Kotlin",
+      "description": "Kotlin/JS bindings for PIXI.js library.",
+      "stars": 15,
+      "createdAt": "2021-05-09T15:49:32Z",
+      "topics": [
+        "kotlin",
+        "kotlinjs",
+        "pixijs"
+      ],
+      "url": "https://github.com/Ayfri/PIXI-Kotlin"
+    },
+    {
+      "name": "docker-tp",
+      "description": "A docker tp.",
+      "stars": 1,
+      "createdAt": "2024-02-08T18:24:15Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/docker-tp"
+    },
+    {
+      "name": "Redis-Cluster",
+      "description": "A TP I have to do, must use a Redis Cluster, can use any language to add CRUD operations.",
+      "stars": 0,
+      "createdAt": "2024-05-11T21:34:24Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/Redis-Cluster"
+    },
+    {
+      "name": "MongoDB-ReplicaSet",
+      "description": "A TP I have to do, must use MongoDB ReplicaSet on docker, can use any language to add CRUD operations.",
+      "stars": 0,
+      "createdAt": "2024-04-14T21:48:42Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/MongoDB-ReplicaSet"
+    },
+    {
+      "name": "AyBreak",
+      "description": "A breakout game made in Windows Forms and C#.",
+      "stars": 3,
+      "createdAt": "2022-10-10T07:00:18Z",
+      "topics": [
+        "breakout",
+        "csharp",
+        "windows-forms"
+      ],
+      "url": "https://github.com/Ayfri/AyBreak"
+    },
+    {
+      "name": "AyBot-2",
+      "description": "La deuxième version de mon bot discord.",
+      "stars": 0,
+      "createdAt": "2019-02-01T22:34:43Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/AyBot-2"
+    },
+    {
+      "name": "discord-fetch-messages",
+      "description": "A npm package to fetch all of the messages of a channel, channel list or a guild, using discord.js.",
+      "stars": 12,
+      "createdAt": "2020-10-20T20:55:40Z",
+      "topics": [
+        "discord",
+        "discord-bot",
+        "discord-js",
+        "discord-messages",
+        "fetch",
+        "fetching"
+      ],
+      "url": "https://github.com/Ayfri/discord-fetch-messages"
+    },
+    {
+      "name": "KordEx-Intellij-Plugin",
+      "description": "An intellij plugin to help you develop wih KordEx.",
+      "stars": 1,
+      "createdAt": "2022-05-15T21:28:40Z",
+      "topics": [
+        "intellij-plugin",
+        "kordex",
+        "kotlin"
+      ],
+      "url": "https://github.com/Ayfri/KordEx-Intellij-Plugin"
+    },
+    {
+      "name": "Infra-Doc",
+      "description": "The documentation of our second TP in infra.",
+      "stars": 0,
+      "createdAt": "2023-06-16T08:47:08Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/Infra-Doc"
+    },
+    {
+      "name": "Cyber-TP-1",
+      "description": "Cyber TP 1",
+      "stars": 0,
+      "createdAt": "2023-06-01T11:54:28Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/Cyber-TP-1"
+    },
+    {
+      "name": "GodEmbed",
+      "description": "Create a Discord RichEmbed from a GodEmbed text to use for \"embed say\" commands of your bots or stock his text to GodEmbed files.",
+      "stars": 1,
+      "createdAt": "2021-01-01T05:39:03Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/GodEmbed"
+    },
+    {
+      "name": "Challenge-Discovery",
+      "description": null,
+      "stars": 0,
+      "createdAt": "2022-02-02T16:04:31Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/Challenge-Discovery"
+    },
+    {
+      "name": "Hangman-Web",
+      "description": "A hangman on a website using a backend in Go for the logic.",
+      "stars": 1,
+      "createdAt": "2022-01-27T10:38:34Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/Hangman-Web"
+    },
+    {
+      "name": "Java-TP1",
+      "description": "My first set of exercices in Java for my school.",
+      "stars": 1,
+      "createdAt": "2022-09-16T16:14:41Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/Java-TP1"
+    },
+    {
+      "name": "jetbrains-plugin-copy-save",
+      "description": "A JetBrains plugin that lets you copy the contents of the current file when saving.",
+      "stars": 1,
+      "createdAt": "2023-03-02T21:54:53Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/jetbrains-plugin-copy-save"
+    },
+    {
+      "name": "challenge-48h",
+      "description": null,
+      "stars": 0,
+      "createdAt": "2023-02-06T08:19:48Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/challenge-48h"
+    },
+    {
+      "name": "mdn-bot-parser",
+      "description": "A discord bot for parsing the MDN documentation.",
+      "stars": 5,
+      "createdAt": "2020-07-16T22:24:27Z",
+      "topics": [
+        "discord-bot",
+        "documentation",
+        "javascript",
+        "mdn"
+      ],
+      "url": "https://github.com/Ayfri/mdn-bot-parser"
+    },
+    {
+      "name": "TypeCraft",
+      "description": "A Minecraft like made with p5.js in TypeScript.",
+      "stars": 1,
+      "createdAt": "2020-03-28T15:52:01Z",
+      "topics": [
+        "minecraft",
+        "typescript",
+        "webpack"
+      ],
+      "url": "https://github.com/Ayfri/TypeCraft"
+    },
+    {
+      "name": "2d-minecraft",
+      "description": "A TypeScript game made with the PIXI.js library and WebPack.",
+      "stars": 11,
+      "createdAt": "2020-06-28T20:46:17Z",
+      "topics": [
+        "2d-minecraft",
+        "game",
+        "minecraft",
+        "pixi-library",
+        "pixijs",
+        "typescript",
+        "webpack"
+      ],
+      "url": "https://github.com/Ayfri/2d-minecraft"
+    },
+    {
+      "name": "Java-TP3",
+      "description": "My third set of exercices to do for school.",
+      "stars": 0,
+      "createdAt": "2022-11-05T06:37:11Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/Java-TP3"
+    },
+    {
+      "name": "Java-TP2",
+      "description": "My second set of exercices to do in Java for my school.",
+      "stars": 2,
+      "createdAt": "2022-10-02T20:37:36Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/Java-TP2"
+    },
+    {
+      "name": "Channel-Icons",
+      "description": "Gives some channels unique icons depending on their name.",
+      "stars": 0,
+      "createdAt": "2021-04-19T06:43:13Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/Channel-Icons"
+    },
+    {
+      "name": "Shooter",
+      "description": "An arcade shoot them up spaced-theme game.",
+      "stars": 0,
+      "createdAt": "2022-08-23T22:52:25Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/Shooter"
+    },
+    {
+      "name": "TP-JS",
+      "description": "My last set of exercices in JS of my first year at Ynov.",
+      "stars": 0,
+      "createdAt": "2022-06-08T09:10:35Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/TP-JS"
+    },
+    {
+      "name": "Cpp-TP5",
+      "description": "My last set of exercices to do in C++.",
+      "stars": 0,
+      "createdAt": "2022-05-14T14:07:52Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/Cpp-TP5"
+    },
+    {
+      "name": "Cpp-TP4",
+      "description": "My fourth set of exercices to do.",
+      "stars": 0,
+      "createdAt": "2022-04-28T07:30:03Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/Cpp-TP4"
+    },
+    {
+      "name": "Infra-Website",
+      "description": "The website for the infra project.",
+      "stars": 0,
+      "createdAt": "2022-04-20T12:48:49Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/Infra-Website"
+    },
+    {
+      "name": "Cpp-TP3",
+      "description": "My third set of exercices to do in C++.",
+      "stars": 0,
+      "createdAt": "2022-04-07T06:44:33Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/Cpp-TP3"
+    },
+    {
+      "name": "Cpp-TP2",
+      "description": "My second set of exercices to do in C++.",
+      "stars": 0,
+      "createdAt": "2022-04-05T10:44:34Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/Cpp-TP2"
+    },
+    {
+      "name": "Cpp-TP1",
+      "description": "My first exercices in C++ for my school.\"",
+      "stars": 0,
+      "createdAt": "2022-03-31T09:53:27Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/Cpp-TP1"
+    },
+    {
+      "name": "Cat-in-Space",
+      "description": "A website to show streamers analysis.",
+      "stars": 0,
+      "createdAt": "2022-02-02T14:42:50Z",
+      "topics": [
+        "api",
+        "go",
+        "twitch"
+      ],
+      "url": "https://github.com/Ayfri/Cat-in-Space"
+    },
+    {
+      "name": "Minekraft-2D",
+      "description": "A 2D game in Kotlin/JS using PIXI-Kotlin.",
+      "stars": 0,
+      "createdAt": "2022-02-27T14:31:21Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/Minekraft-2D"
+    },
+    {
+      "name": "Python-TP3",
+      "description": "The third exercice I have to do for my school.",
+      "stars": 0,
+      "createdAt": "2022-02-03T16:18:10Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/Python-TP3"
+    },
+    {
+      "name": "VersionCraft",
+      "description": "VersionCraft is a website listing all versions of minecraft.",
+      "stars": 0,
+      "createdAt": "2021-11-24T08:35:18Z",
+      "topics": [
+        "minecraft",
+        "snapshots",
+        "versions"
+      ],
+      "url": "https://github.com/Ayfri/VersionCraft"
+    },
+    {
+      "name": "Challenge-Go",
+      "description": null,
+      "stars": 0,
+      "createdAt": "2022-02-02T15:56:20Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/Challenge-Go"
+    },
+    {
+      "name": "Python-TP2",
+      "description": "My second exercice in Python for my school.",
+      "stars": 0,
+      "createdAt": "2022-01-21T18:31:57Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/Python-TP2"
+    },
+    {
+      "name": "Python-TP1",
+      "description": "My first exercice in Python for my school.",
+      "stars": 0,
+      "createdAt": "2022-01-21T13:33:51Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/Python-TP1"
+    },
+    {
+      "name": "Minecraft-Jsons",
+      "description": "A tool to generate JSONs used for Minecraft like recipes or blockstates.",
+      "stars": 1,
+      "createdAt": "2021-11-30T04:10:12Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/Minecraft-Jsons"
+    },
+    {
+      "name": "minecraft-wiki-scrapper",
+      "description": "A scrapper to get data on all the versions of Minecraft using its fandom wiki.",
+      "stars": 0,
+      "createdAt": "2021-12-04T03:15:46Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/minecraft-wiki-scrapper"
+    },
+    {
+      "name": "advent-of-code-2021",
+      "description": "The advent of code 2021 made in Kotlin.",
+      "stars": 0,
+      "createdAt": "2021-12-05T14:07:42Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/advent-of-code-2021"
+    },
+    {
+      "name": "hangman-classic",
+      "description": "A hangman game made in go.",
+      "stars": 1,
+      "createdAt": "2021-11-24T13:01:47Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/hangman-classic"
+    },
+    {
+      "name": "HTML-Menu",
+      "description": "An HTML/CSS responsive menu I have to recreate from a video.",
+      "stars": 0,
+      "createdAt": "2021-11-14T14:07:35Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/HTML-Menu"
+    },
+    {
+      "name": "Tetris-Cpp",
+      "description": "A game of tetris made in C++ using SDL.",
+      "stars": 0,
+      "createdAt": "2021-10-28T13:10:48Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/Tetris-Cpp"
+    },
+    {
+      "name": "CommunAyBot",
+      "description": "My Discord bot for my Guild CommunAyfri, made in Kotlin !",
+      "stars": 0,
+      "createdAt": "2021-06-01T13:34:41Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/CommunAyBot"
+    },
+    {
+      "name": "Project-Red",
+      "description": "A project in Golang with Ynov.",
+      "stars": 0,
+      "createdAt": "2021-09-22T13:22:23Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/Project-Red"
+    },
+    {
+      "name": "Discord.js-v11-Like",
+      "description": "A node module that have the discord.js v11.6.4 fields but works in discord.js v12.x",
+      "stars": 1,
+      "createdAt": "2020-06-18T11:26:37Z",
+      "topics": [
+        "discord",
+        "discord-js",
+        "npm-package"
+      ],
+      "url": "https://github.com/Ayfri/Discord.js-v11-Like"
+    },
+    {
+      "name": "Kode",
+      "description": "A code editor made in Kotlin using Compose.",
+      "stars": 0,
+      "createdAt": "2021-09-06T13:47:39Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/Kode"
+    },
+    {
+      "name": "Better-Lists",
+      "description": "A package for using better lists.",
+      "stars": 0,
+      "createdAt": "2021-07-27T16:54:19Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/Better-Lists"
+    },
+    {
+      "name": "PIXI-Extended",
+      "description": "A framework to help you develop with PIXI 2d games.",
+      "stars": 1,
+      "createdAt": "2021-04-09T13:37:10Z",
+      "topics": [
+        "game-development",
+        "pixi",
+        "pixi-extended",
+        "pixi-game",
+        "pixi-utils",
+        "pixijs"
+      ],
+      "url": "https://github.com/Ayfri/PIXI-Extended"
+    },
+    {
+      "name": "minecraft-mod",
+      "description": "My minecraft mod that I'm making on twitch, better name will come later.",
+      "stars": 0,
+      "createdAt": "2021-06-23T13:35:11Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/minecraft-mod"
+    },
+    {
+      "name": "void-shooter",
+      "description": "A shooter game like the old arcade ones.",
+      "stars": 0,
+      "createdAt": "2021-06-05T12:30:05Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/void-shooter"
+    },
+    {
+      "name": "tsc",
+      "description": "A public Discord bot to test TypeScript on Discord.",
+      "stars": 2,
+      "createdAt": "2020-10-01T19:53:36Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/tsc"
+    },
+    {
+      "name": "God-Embot",
+      "description": "A simple bot to create Embeds with the godembed package.",
+      "stars": 1,
+      "createdAt": "2020-03-21T21:36:08Z",
+      "topics": [],
+      "url": "https://github.com/Ayfri/God-Embot"
+    }
+  ],
+  "koreStarHistory": [
+    {
+      "starredAt": "2022-11-18T22:39:17Z"
+    },
+    {
+      "starredAt": "2022-11-26T05:32:35Z"
+    },
+    {
+      "starredAt": "2022-11-27T04:01:35Z"
+    },
+    {
+      "starredAt": "2023-03-04T15:04:27Z"
+    },
+    {
+      "starredAt": "2023-03-04T15:12:07Z"
+    },
+    {
+      "starredAt": "2023-03-20T13:50:13Z"
+    },
+    {
+      "starredAt": "2023-04-10T17:09:59Z"
+    },
+    {
+      "starredAt": "2023-04-17T17:55:58Z"
+    },
+    {
+      "starredAt": "2023-04-25T18:26:00Z"
+    },
+    {
+      "starredAt": "2023-09-22T15:09:31Z"
+    },
+    {
+      "starredAt": "2023-09-24T09:07:34Z"
+    },
+    {
+      "starredAt": "2023-09-24T11:54:11Z"
+    },
+    {
+      "starredAt": "2023-09-24T12:19:40Z"
+    },
+    {
+      "starredAt": "2023-09-24T12:50:29Z"
+    },
+    {
+      "starredAt": "2023-09-24T20:28:06Z"
+    },
+    {
+      "starredAt": "2023-09-24T20:51:34Z"
+    },
+    {
+      "starredAt": "2023-09-25T07:46:19Z"
+    },
+    {
+      "starredAt": "2023-09-25T08:16:38Z"
+    },
+    {
+      "starredAt": "2023-09-25T14:57:34Z"
+    },
+    {
+      "starredAt": "2023-09-26T04:53:16Z"
+    },
+    {
+      "starredAt": "2023-09-26T09:39:27Z"
+    },
+    {
+      "starredAt": "2023-10-07T19:41:01Z"
+    },
+    {
+      "starredAt": "2023-10-08T12:16:34Z"
+    },
+    {
+      "starredAt": "2023-10-15T20:12:22Z"
+    },
+    {
+      "starredAt": "2023-10-16T04:39:33Z"
+    },
+    {
+      "starredAt": "2023-10-17T08:16:53Z"
+    },
+    {
+      "starredAt": "2023-10-18T21:12:09Z"
+    },
+    {
+      "starredAt": "2023-11-02T16:56:04Z"
+    },
+    {
+      "starredAt": "2023-11-05T01:10:45Z"
+    },
+    {
+      "starredAt": "2023-11-15T18:00:59Z"
+    },
+    {
+      "starredAt": "2023-11-16T07:25:01Z"
+    },
+    {
+      "starredAt": "2023-11-16T22:37:55Z"
+    },
+    {
+      "starredAt": "2023-11-17T04:18:07Z"
+    },
+    {
+      "starredAt": "2023-11-17T10:04:46Z"
+    },
+    {
+      "starredAt": "2023-11-20T14:52:55Z"
+    },
+    {
+      "starredAt": "2023-11-21T00:44:58Z"
+    },
+    {
+      "starredAt": "2023-11-21T00:57:03Z"
+    },
+    {
+      "starredAt": "2023-11-21T08:52:17Z"
+    },
+    {
+      "starredAt": "2023-11-26T11:33:54Z"
+    },
+    {
+      "starredAt": "2023-11-26T12:07:28Z"
+    },
+    {
+      "starredAt": "2023-12-08T11:22:22Z"
+    },
+    {
+      "starredAt": "2023-12-10T11:00:10Z"
+    },
+    {
+      "starredAt": "2023-12-29T18:24:55Z"
+    },
+    {
+      "starredAt": "2024-01-29T18:33:29Z"
+    },
+    {
+      "starredAt": "2024-01-31T09:07:36Z"
+    },
+    {
+      "starredAt": "2024-02-12T05:54:34Z"
+    },
+    {
+      "starredAt": "2024-02-26T14:50:29Z"
+    },
+    {
+      "starredAt": "2024-02-26T16:53:16Z"
+    },
+    {
+      "starredAt": "2024-04-15T18:09:23Z"
+    },
+    {
+      "starredAt": "2024-04-18T11:23:31Z"
+    },
+    {
+      "starredAt": "2024-05-12T10:46:21Z"
+    },
+    {
+      "starredAt": "2024-05-12T16:29:38Z"
+    },
+    {
+      "starredAt": "2024-05-13T02:39:34Z"
+    },
+    {
+      "starredAt": "2024-05-13T09:24:08Z"
+    },
+    {
+      "starredAt": "2024-05-13T09:29:01Z"
+    },
+    {
+      "starredAt": "2024-05-13T11:01:41Z"
+    },
+    {
+      "starredAt": "2024-05-14T07:04:28Z"
+    },
+    {
+      "starredAt": "2024-05-14T07:24:08Z"
+    },
+    {
+      "starredAt": "2024-05-15T13:07:24Z"
+    },
+    {
+      "starredAt": "2024-05-24T12:09:26Z"
+    },
+    {
+      "starredAt": "2024-06-02T18:17:02Z"
+    },
+    {
+      "starredAt": "2024-06-05T18:35:06Z"
+    },
+    {
+      "starredAt": "2024-06-27T17:28:35Z"
+    },
+    {
+      "starredAt": "2024-07-10T18:08:42Z"
+    },
+    {
+      "starredAt": "2024-07-12T09:30:13Z"
+    },
+    {
+      "starredAt": "2024-08-08T14:51:54Z"
+    },
+    {
+      "starredAt": "2024-08-11T11:04:20Z"
+    },
+    {
+      "starredAt": "2024-09-06T08:00:01Z"
+    },
+    {
+      "starredAt": "2024-09-06T22:53:54Z"
+    },
+    {
+      "starredAt": "2024-09-15T20:33:56Z"
+    },
+    {
+      "starredAt": "2024-09-18T20:13:05Z"
+    },
+    {
+      "starredAt": "2024-10-22T10:28:39Z"
+    },
+    {
+      "starredAt": "2024-10-29T17:53:05Z"
+    },
+    {
+      "starredAt": "2024-11-12T15:21:00Z"
+    },
+    {
+      "starredAt": "2024-11-21T23:19:13Z"
+    },
+    {
+      "starredAt": "2024-11-22T13:39:26Z"
+    },
+    {
+      "starredAt": "2024-12-20T21:57:30Z"
+    },
+    {
+      "starredAt": "2024-12-22T16:46:54Z"
+    },
+    {
+      "starredAt": "2024-12-27T07:10:19Z"
+    },
+    {
+      "starredAt": "2025-01-03T06:16:14Z"
+    },
+    {
+      "starredAt": "2025-01-04T11:03:27Z"
+    },
+    {
+      "starredAt": "2025-01-07T12:18:05Z"
+    },
+    {
+      "starredAt": "2025-01-07T12:18:26Z"
+    },
+    {
+      "starredAt": "2025-01-08T05:01:47Z"
+    },
+    {
+      "starredAt": "2025-01-11T12:55:38Z"
+    },
+    {
+      "starredAt": "2025-01-25T06:54:42Z"
+    },
+    {
+      "starredAt": "2025-02-01T13:02:52Z"
+    },
+    {
+      "starredAt": "2025-02-11T16:47:10Z"
+    },
+    {
+      "starredAt": "2025-02-22T10:10:15Z"
+    },
+    {
+      "starredAt": "2025-02-23T19:07:02Z"
+    },
+    {
+      "starredAt": "2025-02-27T10:46:20Z"
+    },
+    {
+      "starredAt": "2025-03-02T05:53:20Z"
+    },
+    {
+      "starredAt": "2025-03-08T23:29:59Z"
+    },
+    {
+      "starredAt": "2025-03-14T05:49:06Z"
+    },
+    {
+      "starredAt": "2025-03-17T20:19:26Z"
+    },
+    {
+      "starredAt": "2025-03-26T15:33:05Z"
+    },
+    {
+      "starredAt": "2025-05-06T16:35:30Z"
+    },
+    {
+      "starredAt": "2025-06-06T11:18:56Z"
+    },
+    {
+      "starredAt": "2025-06-06T15:39:23Z"
+    },
+    {
+      "starredAt": "2025-07-08T07:24:27Z"
+    }
+  ]
+}

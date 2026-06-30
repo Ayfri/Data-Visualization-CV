@@ -1,0 +1,1000 @@
+{
+  "fetchedAt": "2026-06-30T12:32:28.410Z",
+  "games": [
+    {
+      "appid": 10,
+      "name": "Counter-Strike",
+      "playtimeMinutes": 6
+    },
+    {
+      "appid": 20,
+      "name": "Team Fortress Classic",
+      "playtimeMinutes": 0
+    },
+    {
+      "appid": 30,
+      "name": "Day of Defeat",
+      "playtimeMinutes": 0
+    },
+    {
+      "appid": 40,
+      "name": "Deathmatch Classic",
+      "playtimeMinutes": 0
+    },
+    {
+      "appid": 50,
+      "name": "Half-Life: Opposing Force",
+      "playtimeMinutes": 0
+    },
+    {
+      "appid": 60,
+      "name": "Ricochet",
+      "playtimeMinutes": 4
+    },
+    {
+      "appid": 70,
+      "name": "Half-Life",
+      "playtimeMinutes": 150
+    },
+    {
+      "appid": 80,
+      "name": "Counter-Strike: Condition Zero",
+      "playtimeMinutes": 0
+    },
+    {
+      "appid": 100,
+      "name": "Counter-Strike: Condition Zero Deleted Scenes",
+      "playtimeMinutes": 0
+    },
+    {
+      "appid": 130,
+      "name": "Half-Life: Blue Shift",
+      "playtimeMinutes": 0
+    },
+    {
+      "appid": 220,
+      "name": "Half-Life 2",
+      "playtimeMinutes": 1157
+    },
+    {
+      "appid": 240,
+      "name": "Counter-Strike: Source",
+      "playtimeMinutes": 0
+    },
+    {
+      "appid": 280,
+      "name": "Half-Life: Source",
+      "playtimeMinutes": 0
+    },
+    {
+      "appid": 300,
+      "name": "Day of Defeat: Source",
+      "playtimeMinutes": 0
+    },
+    {
+      "appid": 320,
+      "name": "Half-Life 2: Deathmatch",
+      "playtimeMinutes": 0
+    },
+    {
+      "appid": 360,
+      "name": "Half-Life Deathmatch: Source",
+      "playtimeMinutes": 0
+    },
+    {
+      "appid": 400,
+      "name": "Portal",
+      "playtimeMinutes": 165
+    },
+    {
+      "appid": 500,
+      "name": "Left 4 Dead",
+      "playtimeMinutes": 0
+    },
+    {
+      "appid": 550,
+      "name": "Left 4 Dead 2",
+      "playtimeMinutes": 4817
+    },
+    {
+      "appid": 570,
+      "name": "Dota 2",
+      "playtimeMinutes": 69
+    },
+    {
+      "appid": 620,
+      "name": "Portal 2",
+      "playtimeMinutes": 8926
+    },
+    {
+      "appid": 730,
+      "name": "Counter-Strike 2",
+      "playtimeMinutes": 875
+    },
+    {
+      "appid": 4000,
+      "name": "Garry's Mod",
+      "playtimeMinutes": 2000
+    },
+    {
+      "appid": 8500,
+      "name": "EVE Online",
+      "playtimeMinutes": 109
+    },
+    {
+      "appid": 17390,
+      "name": "Spore",
+      "playtimeMinutes": 1
+    },
+    {
+      "appid": 39000,
+      "name": "Moonbase Alpha",
+      "playtimeMinutes": 32
+    },
+    {
+      "appid": 41300,
+      "name": "Altitude",
+      "playtimeMinutes": 52
+    },
+    {
+      "appid": 49520,
+      "name": "Borderlands 2",
+      "playtimeMinutes": 3646
+    },
+    {
+      "appid": 200210,
+      "name": "Realm of the Mad God Exalt",
+      "playtimeMinutes": 12
+    },
+    {
+      "appid": 206420,
+      "name": "Saints Row IV",
+      "playtimeMinutes": 7174
+    },
+    {
+      "appid": 220200,
+      "name": "Kerbal Space Program",
+      "playtimeMinutes": 13305
+    },
+    {
+      "appid": 225540,
+      "name": "Just Cause 3",
+      "playtimeMinutes": 2230
+    },
+    {
+      "appid": 227940,
+      "name": "Heroes & Generals",
+      "playtimeMinutes": 26
+    },
+    {
+      "appid": 230410,
+      "name": "Warframe",
+      "playtimeMinutes": 7
+    },
+    {
+      "appid": 235900,
+      "name": "RPG Maker XP",
+      "playtimeMinutes": 0
+    },
+    {
+      "appid": 236390,
+      "name": "War Thunder",
+      "playtimeMinutes": 819
+    },
+    {
+      "appid": 239820,
+      "name": "Game Dev Tycoon",
+      "playtimeMinutes": 756
+    },
+    {
+      "appid": 242590,
+      "name": "Saints Row IV Inauguration Station",
+      "playtimeMinutes": 37
+    },
+    {
+      "appid": 243470,
+      "name": "Watch_Dogs",
+      "playtimeMinutes": 104
+    },
+    {
+      "appid": 244930,
+      "name": "SNOW",
+      "playtimeMinutes": 58
+    },
+    {
+      "appid": 247120,
+      "name": "Portal 2 Sixense Perceptual Pack",
+      "playtimeMinutes": 2
+    },
+    {
+      "appid": 248570,
+      "name": "Toribash",
+      "playtimeMinutes": 101
+    },
+    {
+      "appid": 253710,
+      "name": "theHunter Classic",
+      "playtimeMinutes": 94
+    },
+    {
+      "appid": 255710,
+      "name": "Cities: Skylines",
+      "playtimeMinutes": 2935
+    },
+    {
+      "appid": 261640,
+      "name": "Borderlands: The Pre-Sequel",
+      "playtimeMinutes": 1
+    },
+    {
+      "appid": 262410,
+      "name": "World of Guns: Gun Disassembly",
+      "playtimeMinutes": 73
+    },
+    {
+      "appid": 265930,
+      "name": "Goat Simulator",
+      "playtimeMinutes": 5107
+    },
+    {
+      "appid": 273350,
+      "name": "Evolve Stage 2",
+      "playtimeMinutes": 2
+    },
+    {
+      "appid": 286080,
+      "name": "Thinking with Time Machine",
+      "playtimeMinutes": 194
+    },
+    {
+      "appid": 289070,
+      "name": "Sid Meier's Civilization VI",
+      "playtimeMinutes": 107
+    },
+    {
+      "appid": 291550,
+      "name": "Brawlhalla",
+      "playtimeMinutes": 1720
+    },
+    {
+      "appid": 301520,
+      "name": "Robocraft",
+      "playtimeMinutes": 1163
+    },
+    {
+      "appid": 302380,
+      "name": "Floating Point",
+      "playtimeMinutes": 264
+    },
+    {
+      "appid": 302830,
+      "name": "BLOCKADE 3D",
+      "playtimeMinutes": 14
+    },
+    {
+      "appid": 304930,
+      "name": "Unturned",
+      "playtimeMinutes": 36
+    },
+    {
+      "appid": 314650,
+      "name": "SpaceEngine",
+      "playtimeMinutes": 206
+    },
+    {
+      "appid": 317470,
+      "name": "Cubic Castles",
+      "playtimeMinutes": 26
+    },
+    {
+      "appid": 317790,
+      "name": "Rexaura",
+      "playtimeMinutes": 28
+    },
+    {
+      "appid": 319510,
+      "name": "Five Nights at Freddy's",
+      "playtimeMinutes": 92
+    },
+    {
+      "appid": 322170,
+      "name": "Geometry Dash",
+      "playtimeMinutes": 6697
+    },
+    {
+      "appid": 327030,
+      "name": "Worms W.M.D",
+      "playtimeMinutes": 0
+    },
+    {
+      "appid": 332950,
+      "name": "Dark Deception",
+      "playtimeMinutes": 16
+    },
+    {
+      "appid": 346110,
+      "name": "ARK: Survival Evolved",
+      "playtimeMinutes": 0
+    },
+    {
+      "appid": 346900,
+      "name": "AdVenture Capitalist",
+      "playtimeMinutes": 2146
+    },
+    {
+      "appid": 363970,
+      "name": "Clicker Heroes",
+      "playtimeMinutes": 33008
+    },
+    {
+      "appid": 375600,
+      "name": "Air Brawl",
+      "playtimeMinutes": 51
+    },
+    {
+      "appid": 379720,
+      "name": "DOOM",
+      "playtimeMinutes": 808
+    },
+    {
+      "appid": 380360,
+      "name": "Tap Tap Infinity",
+      "playtimeMinutes": 751
+    },
+    {
+      "appid": 385770,
+      "name": "Time Clickers",
+      "playtimeMinutes": 2209
+    },
+    {
+      "appid": 391820,
+      "name": "Evolution",
+      "playtimeMinutes": 95
+    },
+    {
+      "appid": 397100,
+      "name": "MachineCraft",
+      "playtimeMinutes": 37
+    },
+    {
+      "appid": 397900,
+      "name": "Business Tour - Online Multiplayer Board Game",
+      "playtimeMinutes": 1100
+    },
+    {
+      "appid": 407530,
+      "name": "ARK: Survival Of The Fittest",
+      "playtimeMinutes": 0
+    },
+    {
+      "appid": 416600,
+      "name": "Full Metal Furies",
+      "playtimeMinutes": 493
+    },
+    {
+      "appid": 417860,
+      "name": "Emily is Away",
+      "playtimeMinutes": 31
+    },
+    {
+      "appid": 424840,
+      "name": "Little Nightmares",
+      "playtimeMinutes": 0
+    },
+    {
+      "appid": 431730,
+      "name": "Aseprite",
+      "playtimeMinutes": 16112
+    },
+    {
+      "appid": 431960,
+      "name": "Wallpaper Engine",
+      "playtimeMinutes": 11220
+    },
+    {
+      "appid": 438100,
+      "name": "VRChat",
+      "playtimeMinutes": 257
+    },
+    {
+      "appid": 444200,
+      "name": "World of Tanks Blitz",
+      "playtimeMinutes": 19
+    },
+    {
+      "appid": 444250,
+      "name": "Crown and Council",
+      "playtimeMinutes": 183
+    },
+    {
+      "appid": 459820,
+      "name": "Crush Crush",
+      "playtimeMinutes": 1425
+    },
+    {
+      "appid": 461040,
+      "name": "PICO PARK:Classic Edition",
+      "playtimeMinutes": 12
+    },
+    {
+      "appid": 462930,
+      "name": "AdVenture Communist",
+      "playtimeMinutes": 162
+    },
+    {
+      "appid": 466940,
+      "name": "The Sandbox Evolution",
+      "playtimeMinutes": 7
+    },
+    {
+      "appid": 476460,
+      "name": "Picross Touch",
+      "playtimeMinutes": 23
+    },
+    {
+      "appid": 485650,
+      "name": "Campaign Clicker",
+      "playtimeMinutes": 18
+    },
+    {
+      "appid": 493340,
+      "name": "Planet Coaster",
+      "playtimeMinutes": 551
+    },
+    {
+      "appid": 504230,
+      "name": "Celeste",
+      "playtimeMinutes": 205
+    },
+    {
+      "appid": 505750,
+      "name": "Trimmer Tycoon",
+      "playtimeMinutes": 61
+    },
+    {
+      "appid": 506610,
+      "name": "Five Nights at Freddy's: Sister Location",
+      "playtimeMinutes": 408
+    },
+    {
+      "appid": 508440,
+      "name": "Totally Accurate Battle Simulator",
+      "playtimeMinutes": 36
+    },
+    {
+      "appid": 513560,
+      "name": "Hunger Dungeon",
+      "playtimeMinutes": 46
+    },
+    {
+      "appid": 517630,
+      "name": "Just Cause 4",
+      "playtimeMinutes": 1104
+    },
+    {
+      "appid": 526870,
+      "name": "Satisfactory",
+      "playtimeMinutes": 159
+    },
+    {
+      "appid": 550040,
+      "name": "Steep Open Beta",
+      "playtimeMinutes": 353
+    },
+    {
+      "appid": 558230,
+      "name": "Elsword Free-to-Play",
+      "playtimeMinutes": 134
+    },
+    {
+      "appid": 582500,
+      "name": "We Were Here",
+      "playtimeMinutes": 63
+    },
+    {
+      "appid": 589870,
+      "name": "Learn to Fly 3",
+      "playtimeMinutes": 121
+    },
+    {
+      "appid": 601360,
+      "name": "Portal: Revolution",
+      "playtimeMinutes": 300
+    },
+    {
+      "appid": 606800,
+      "name": "Startup Company",
+      "playtimeMinutes": 3064
+    },
+    {
+      "appid": 607260,
+      "name": "McOsu",
+      "playtimeMinutes": 19
+    },
+    {
+      "appid": 611040,
+      "name": "Tube Tycoon",
+      "playtimeMinutes": 530
+    },
+    {
+      "appid": 619910,
+      "name": "Just Cause™ 3: Multiplayer Mod",
+      "playtimeMinutes": 15
+    },
+    {
+      "appid": 630100,
+      "name": "SoulWorker",
+      "playtimeMinutes": 182
+    },
+    {
+      "appid": 646570,
+      "name": "Slay the Spire",
+      "playtimeMinutes": 133
+    },
+    {
+      "appid": 646910,
+      "name": "The Crew 2",
+      "playtimeMinutes": 6835
+    },
+    {
+      "appid": 652980,
+      "name": "Loading Screen Simulator",
+      "playtimeMinutes": 11
+    },
+    {
+      "appid": 667870,
+      "name": "MINDNIGHT",
+      "playtimeMinutes": 144
+    },
+    {
+      "appid": 667890,
+      "name": "Dead Maze",
+      "playtimeMinutes": 105
+    },
+    {
+      "appid": 697610,
+      "name": "Idle Bouncer",
+      "playtimeMinutes": 332
+    },
+    {
+      "appid": 698780,
+      "name": "Doki Doki Literature Club",
+      "playtimeMinutes": 818
+    },
+    {
+      "appid": 726840,
+      "name": "City Game Studio",
+      "playtimeMinutes": 5373
+    },
+    {
+      "appid": 734750,
+      "name": "PickCrafter",
+      "playtimeMinutes": 2419
+    },
+    {
+      "appid": 738060,
+      "name": "Freddy Fazbear's Pizzeria Simulator",
+      "playtimeMinutes": 200
+    },
+    {
+      "appid": 782330,
+      "name": "DOOM Eternal",
+      "playtimeMinutes": 132
+    },
+    {
+      "appid": 813630,
+      "name": "Supraland",
+      "playtimeMinutes": 0
+    },
+    {
+      "appid": 851110,
+      "name": "Idle Racing GO: Car Clicker Tycoon",
+      "playtimeMinutes": 216
+    },
+    {
+      "appid": 858210,
+      "name": "Nova Drift",
+      "playtimeMinutes": 2003
+    },
+    {
+      "appid": 871720,
+      "name": "Ultimate Custom Night",
+      "playtimeMinutes": 1594
+    },
+    {
+      "appid": 937310,
+      "name": "Infinitode 2",
+      "playtimeMinutes": 1434
+    },
+    {
+      "appid": 949230,
+      "name": "Cities: Skylines II",
+      "playtimeMinutes": 1549
+    },
+    {
+      "appid": 977400,
+      "name": "Cell to Singularity - Evolution Never Ends",
+      "playtimeMinutes": 18596
+    },
+    {
+      "appid": 977950,
+      "name": "A Dance of Fire and Ice",
+      "playtimeMinutes": 1523
+    },
+    {
+      "appid": 1048370,
+      "name": "Idle Skilling",
+      "playtimeMinutes": 27826
+    },
+    {
+      "appid": 1053710,
+      "name": "The Red Lantern",
+      "playtimeMinutes": 0
+    },
+    {
+      "appid": 1062830,
+      "name": "Embr",
+      "playtimeMinutes": 0
+    },
+    {
+      "appid": 1134700,
+      "name": "Wild Terra 2: New Lands",
+      "playtimeMinutes": 0
+    },
+    {
+      "appid": 1135230,
+      "name": "Ember Knights",
+      "playtimeMinutes": 401
+    },
+    {
+      "appid": 1144110,
+      "name": "Open World Game: the Open World Game",
+      "playtimeMinutes": 20
+    },
+    {
+      "appid": 1145360,
+      "name": "Hades",
+      "playtimeMinutes": 195
+    },
+    {
+      "appid": 1147690,
+      "name": "NGU IDLE",
+      "playtimeMinutes": 2871
+    },
+    {
+      "appid": 1151050,
+      "name": "Golf Gang",
+      "playtimeMinutes": 440
+    },
+    {
+      "appid": 1222670,
+      "name": "The Sims™ 4",
+      "playtimeMinutes": 781
+    },
+    {
+      "appid": 1238810,
+      "name": "Battlefield™ V",
+      "playtimeMinutes": 57
+    },
+    {
+      "appid": 1250790,
+      "name": "Crafting Idle Clicker",
+      "playtimeMinutes": 40
+    },
+    {
+      "appid": 1252780,
+      "name": "Bloons Monkey City",
+      "playtimeMinutes": 68
+    },
+    {
+      "appid": 1325860,
+      "name": "VTube Studio",
+      "playtimeMinutes": 39
+    },
+    {
+      "appid": 1353300,
+      "name": "Idle Slayer – Incremental RPG",
+      "playtimeMinutes": 9143
+    },
+    {
+      "appid": 1364390,
+      "name": "Animaze",
+      "playtimeMinutes": 55
+    },
+    {
+      "appid": 1371630,
+      "name": "Incremental Adventures",
+      "playtimeMinutes": 1161
+    },
+    {
+      "appid": 1399720,
+      "name": "Antimatter Dimensions",
+      "playtimeMinutes": 38564
+    },
+    {
+      "appid": 1433990,
+      "name": "NGU INDUSTRIES",
+      "playtimeMinutes": 7380
+    },
+    {
+      "appid": 1454400,
+      "name": "Cookie Clicker",
+      "playtimeMinutes": 56031
+    },
+    {
+      "appid": 1468260,
+      "name": "Leaf Blower Revolution - Idle Game",
+      "playtimeMinutes": 325348
+    },
+    {
+      "appid": 1468720,
+      "name": "Ultimate Epic Battle Simulator 2",
+      "playtimeMinutes": 96
+    },
+    {
+      "appid": 1473350,
+      "name": "(the) Gnorp Apologue",
+      "playtimeMinutes": 1395
+    },
+    {
+      "appid": 1476970,
+      "name": "IdleOn",
+      "playtimeMinutes": 301
+    },
+    {
+      "appid": 1479140,
+      "name": "AK-xolotl: Together",
+      "playtimeMinutes": 53
+    },
+    {
+      "appid": 1482860,
+      "name": "Idle Research",
+      "playtimeMinutes": 617
+    },
+    {
+      "appid": 1509960,
+      "name": "PICO PARK",
+      "playtimeMinutes": 478
+    },
+    {
+      "appid": 1540960,
+      "name": "Underworld Idle",
+      "playtimeMinutes": 10262
+    },
+    {
+      "appid": 1623730,
+      "name": "Palworld",
+      "playtimeMinutes": 600
+    },
+    {
+      "appid": 1690690,
+      "name": "Idle Monkeylogy",
+      "playtimeMinutes": 3259
+    },
+    {
+      "appid": 1690710,
+      "name": "Incremental Epic Hero 2",
+      "playtimeMinutes": 725
+    },
+    {
+      "appid": 1690730,
+      "name": "Incremental Cubes",
+      "playtimeMinutes": 22243
+    },
+    {
+      "appid": 1755300,
+      "name": "Smart Factory Tycoon",
+      "playtimeMinutes": 0
+    },
+    {
+      "appid": 1782210,
+      "name": "Crab Game",
+      "playtimeMinutes": 108
+    },
+    {
+      "appid": 1809540,
+      "name": "Nine Sols",
+      "playtimeMinutes": 176
+    },
+    {
+      "appid": 1827980,
+      "name": "Idle Spiral",
+      "playtimeMinutes": 2520
+    },
+    {
+      "appid": 1836550,
+      "name": "Tap Wizard 2",
+      "playtimeMinutes": 2776
+    },
+    {
+      "appid": 1863080,
+      "name": "Beat Invaders",
+      "playtimeMinutes": 81
+    },
+    {
+      "appid": 1891700,
+      "name": "Tap Ninja",
+      "playtimeMinutes": 45
+    },
+    {
+      "appid": 1902490,
+      "name": "Aperture Desk Job",
+      "playtimeMinutes": 100
+    },
+    {
+      "appid": 1942280,
+      "name": "Brotato",
+      "playtimeMinutes": 1350
+    },
+    {
+      "appid": 2012840,
+      "name": "Portal with RTX",
+      "playtimeMinutes": 257
+    },
+    {
+      "appid": 2149010,
+      "name": "Little Nightmares Enhanced Edition",
+      "playtimeMinutes": 0
+    },
+    {
+      "appid": 2167580,
+      "name": "Summoners War: Chronicles",
+      "playtimeMinutes": 6583
+    },
+    {
+      "appid": 2181610,
+      "name": "Heretic's Fork",
+      "playtimeMinutes": 140
+    },
+    {
+      "appid": 2181940,
+      "name": "CivIdle",
+      "playtimeMinutes": 149
+    },
+    {
+      "appid": 2276980,
+      "name": "FACEMINER",
+      "playtimeMinutes": 196
+    },
+    {
+      "appid": 2289450,
+      "name": "Idle Cave Miner",
+      "playtimeMinutes": 11
+    },
+    {
+      "appid": 2302990,
+      "name": "Vacuum Warrior",
+      "playtimeMinutes": 5928
+    },
+    {
+      "appid": 2471100,
+      "name": "Unnamed Space Idle",
+      "playtimeMinutes": 50
+    },
+    {
+      "appid": 2499470,
+      "name": "Pumping Simulator 2",
+      "playtimeMinutes": 1268
+    },
+    {
+      "appid": 2698940,
+      "name": "The Crew Motorfest",
+      "playtimeMinutes": 732
+    },
+    {
+      "appid": 2763740,
+      "name": "Revolution Idle",
+      "playtimeMinutes": 602
+    },
+    {
+      "appid": 2843640,
+      "name": "Idle Colony",
+      "playtimeMinutes": 355
+    },
+    {
+      "appid": 2849680,
+      "name": "Utopia Must Fall",
+      "playtimeMinutes": 10
+    },
+    {
+      "appid": 2881650,
+      "name": "Content Warning",
+      "playtimeMinutes": 0
+    },
+    {
+      "appid": 2904000,
+      "name": "The Spell Brigade",
+      "playtimeMinutes": 349
+    },
+    {
+      "appid": 2905170,
+      "name": "Magic Archery",
+      "playtimeMinutes": 61
+    },
+    {
+      "appid": 2962810,
+      "name": "Galaxy Idle Clicker",
+      "playtimeMinutes": 103
+    },
+    {
+      "appid": 3047370,
+      "name": "Net.Attack()",
+      "playtimeMinutes": 97
+    },
+    {
+      "appid": 3107330,
+      "name": "Nodebuster",
+      "playtimeMinutes": 111
+    },
+    {
+      "appid": 3147430,
+      "name": "Journey to Incrementalia",
+      "playtimeMinutes": 122
+    },
+    {
+      "appid": 3217600,
+      "name": "Idle Sphere",
+      "playtimeMinutes": 34
+    },
+    {
+      "appid": 3226750,
+      "name": "DEEP SPACE CACHE",
+      "playtimeMinutes": 126
+    },
+    {
+      "appid": 3312030,
+      "name": "AI Learns To Drive",
+      "playtimeMinutes": 28
+    },
+    {
+      "appid": 3354750,
+      "name": "skate.",
+      "playtimeMinutes": 229
+    },
+    {
+      "appid": 3421300,
+      "name": "Lyca",
+      "playtimeMinutes": 295
+    },
+    {
+      "appid": 3425460,
+      "name": "Console Shop Simulator",
+      "playtimeMinutes": 442
+    },
+    {
+      "appid": 3444480,
+      "name": "Nebulock",
+      "playtimeMinutes": 103
+    },
+    {
+      "appid": 3606890,
+      "name": "Upload Labs",
+      "playtimeMinutes": 235
+    },
+    {
+      "appid": 3651950,
+      "name": "Evil Egg",
+      "playtimeMinutes": 18
+    },
+    {
+      "appid": 3772240,
+      "name": "Void Miner – Asteroid Roguelite",
+      "playtimeMinutes": 139
+    },
+    {
+      "appid": 3929760,
+      "name": "Incredicer",
+      "playtimeMinutes": 238
+    },
+    {
+      "appid": 4009730,
+      "name": "Feed the Reactor",
+      "playtimeMinutes": 214
+    },
+    {
+      "appid": 4265560,
+      "name": "Starvester Playtest",
+      "playtimeMinutes": 44
+    }
+  ]
+}
